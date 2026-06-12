@@ -1,3 +1,6 @@
+using System.Reflection;
+using System.Text.Json;
+
 namespace IntelOrca.Biohazard.BioRand.RECV;
 
 public static class ReCvConfigurationDefinition
@@ -6,6 +9,7 @@ public static class ReCvConfigurationDefinition
     {
         var definition = new RandomizerConfigurationDefinition();
         var general = definition.CreatePage("General");
+
         var doors = general.CreateGroup("Doors");
         doors.Items.Add(new RandomizerConfigurationDefinition.GroupItem
         {
@@ -44,6 +48,83 @@ public static class ReCvConfigurationDefinition
             Max = 7,
             Step = 1
         });
+        items.Items.Add(new RandomizerConfigurationDefinition.GroupItem
+        {
+            Id = "items/randomize-keys",
+            Label = "Randomize Key Items",
+            Description = "Randomize locations of progression key items",
+            Type = "switch",
+            Default = true
+        });
+        items.Items.Add(new RandomizerConfigurationDefinition.GroupItem
+        {
+            Id = "items/randomize-non-key-items",
+            Label = "Randomize Other Items",
+            Description = "Randomize non-key item pickups (ammo, healing, etc.)",
+            Type = "switch",
+            Default = true
+        });
+
+        var graph = LoadGraph();
+        if (graph != null)
+        {
+            var distribution = general.CreateGroup("Distribution");
+            var ratioKinds = graph.ItemTypes
+                .Select(x => x.Value.Kind)
+                .Distinct()
+                .Where(k => !k.StartsWith("key/") && !k.StartsWith("weapon/"))
+                .OrderBy(k => k);
+
+            foreach (var kind in ratioKinds)
+            {
+                var label = FormatKindLabel(kind);
+                distribution.Items.Add(new RandomizerConfigurationDefinition.GroupItem
+                {
+                    Id = $"items/ratio/{kind}",
+                    Label = $"{label}",
+                    Description = $"Relative frequency of {label.ToLowerInvariant()} pickups",
+                    Type = "slider",
+                    Default = 5,
+                    Min = 0,
+                    Max = 10,
+                    Step = 1
+                });
+            }
+        }
+
         return definition;
+    }
+
+    private static GraphData? LoadGraph()
+    {
+        try
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+            using var stream = assembly.GetManifestResourceStream(
+                "IntelOrca.Biohazard.BioRand.RECV.data.graph.json");
+            if (stream == null)
+                return null;
+
+            return JsonSerializer.Deserialize<GraphData>(stream, new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                ReadCommentHandling = JsonCommentHandling.Skip,
+            });
+        }
+        catch
+        {
+            return null;
+        }
+    }
+
+    private static string FormatKindLabel(string kind)
+    {
+        var parts = kind.Split('/');
+        for (var i = 0; i < parts.Length; i++)
+        {
+            if (parts[i].Length > 0)
+                parts[i] = char.ToUpper(parts[i][0]) + parts[i][1..];
+        }
+        return string.Join(" / ", parts);
     }
 }

@@ -1,0 +1,43 @@
+{
+    "start": "1000",
+    "end": "4000",
+    "keys": [
+        { "id": 56, "name": "Eagle Plate",  "group": 1, "kind": "consumable" }
+    ],
+    "itemTypes": {},
+    "rooms": [
+        {
+            "id": "1000",
+            "rdts": ["1000"],
+            "edges": [
+                { "to": "2000", "requires": ["item(56)"], "kind": "locked" },
+                { "to": "3000", "requires": ["item(56)"], "kind": "locked" }
+            ],
+            "slots": [
+                { "globalId": 1, "group": 1, "type": 56, "amount": 1 },
+                { "globalId": 2, "group": 1, "type": 56, "amount": 1 }
+            ]
+        },
+        {
+            "id": "2000",
+            "rdts": ["2000"],
+            "edges": [
+                { "to": "4000" }
+            ],
+            "slots": []
+        },
+        {
+            "id": "3000",
+            "rdts": ["3000"],
+            "edges": [
+                { "to": "4000" }
+            ],
+            "slots": []
+        },
+        {
+            "id": "4000",
+            "rdts": ["4000"],
+            "slots": []
+        }
+    ]
+}

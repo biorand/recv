@@ -1,0 +1,5717 @@
+{
+    "start": "1000",
+    "end": "A090",
+    "keys": [
+        {
+            "id": 43,
+            "name": "Alexander's Pierce",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 44,
+            "name": "Alexander's Jewel",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 45,
+            "name": "Alfred's Ring",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 46,
+            "name": "Alfred's Jewel",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 50,
+            "name": "Lockpick",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 51,
+            "name": "Glass Eye",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 52,
+            "name": "Piano Roll",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 53,
+            "name": "Steering Wheel",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 54,
+            "name": "Crane Key",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 55,
+            "name": "Lighter",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 56,
+            "name": "Eagle Plate",
+            "group": 1,
+            "kind": "consumable"
+        },
+        {
+            "id": 59,
+            "name": "Hawk Emblem",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 60,
+            "name": "Queen Ant Object",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 61,
+            "name": "King Ant Object",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 62,
+            "name": "Biohazard Card",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 64,
+            "name": "Detonator",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 65,
+            "name": "Control Lever",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 66,
+            "name": "Gold Dragonfly",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 67,
+            "name": "Silver Key",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 68,
+            "name": "Gold Key",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 69,
+            "name": "Army Proof",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 70,
+            "name": "Navy Proof",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 71,
+            "name": "Air Force Proof",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 72,
+            "name": "Key With Tag",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 73,
+            "name": "ID Card",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 75,
+            "name": "Airport Key",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 76,
+            "name": "Emblem Card",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 78,
+            "name": "Music Box Plate",
+            "group": 1,
+            "kind": "consumable"
+        },
+        {
+            "id": 81,
+            "name": "Halberd",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 82,
+            "name": "Extinguisher",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 83,
+            "name": "Briefcase",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 84,
+            "name": "Padlock Key",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 85,
+            "name": "TG-01",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 86,
+            "name": "Sp. Alloy Emblem",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 87,
+            "name": "Valve Handle",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 88,
+            "name": "Octa Valve Handle",
+            "group": 1,
+            "kind": "consumable"
+        },
+        {
+            "id": 89,
+            "name": "Machine Room Key",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 90,
+            "name": "Mining Room Key",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 91,
+            "name": "Bar Code Sticker",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 92,
+            "name": "Sterile Room Key",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 93,
+            "name": "Door Knob",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 94,
+            "name": "Battery Pack",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 95,
+            "name": "Hemostatic Wire",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 96,
+            "name": "Turn Table Key",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 97,
+            "name": "Chem Storage Key",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 98,
+            "name": "Clement Alpha",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 99,
+            "name": "Clement Sigma",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 100,
+            "name": "Tank Object",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 103,
+            "name": "Rusted Sword",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 104,
+            "name": "Hemostatic",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 105,
+            "name": "Security Card",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 107,
+            "name": "Alexia's Choker",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 108,
+            "name": "Alexia's Jewel",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 109,
+            "name": "Queen Ant Relief",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 110,
+            "name": "King Ant Relief",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 111,
+            "name": "Red Jewel",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 112,
+            "name": "Blue Jewel",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 113,
+            "name": "Socket",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 114,
+            "name": "Sq Valve Handle",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 115,
+            "name": "Serum",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 116,
+            "name": "Earthenware Vase",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 117,
+            "name": "Paper Weight",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 119,
+            "name": "Silver Dragonfly",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 120,
+            "name": "Wing Object",
+            "group": 1,
+            "kind": "consumable"
+        },
+        {
+            "id": 121,
+            "name": "Crystal",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 142,
+            "name": "M1P",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 152,
+            "name": "Crest Key S",
+            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 153,
+            "name": "Crest Key G",
+            "group": 1,
+            "kind": "reusuable"
+        }
+    ],
+    "itemTypes": {
+        "1": {
+            "name": "Rocket Launcher",
+            "kind": "weapon/explosive"
+        },
+        "2": {
+            "name": "Assault Rifle",
+            "kind": "weapon/assault-rifle"
+        },
+        "3": {
+            "name": "Sniper Rifle",
+            "kind": "weapon/sniper-rifle"
+        },
+        "4": {
+            "name": "Shotgun",
+            "kind": "weapon/shotgun"
+        },
+        "5": {
+            "name": "Handgun (Glock 17)",
+            "kind": "weapon/handgun"
+        },
+        "6": {
+            "name": "Grenade Launcher",
+            "kind": "weapon/grenade-launcher"
+        },
+        "7": {
+            "name": "Bow Gun",
+            "kind": "weapon/bow-gun"
+        },
+        "8": {
+            "name": "Combat Knife",
+            "kind": "weapon/knife"
+        },
+        "9": {
+            "name": "Handgun",
+            "kind": "weapon/handgun"
+        },
+        "10": {
+            "name": "Custom Handgun",
+            "kind": "weapon/handgun"
+        },
+        "11": {
+            "name": "Linear Launcher",
+            "kind": "weapon/explosive"
+        },
+        "12": {
+            "name": "Handgun Bullets",
+            "kind": "ammo/handgun"
+        },
+        "13": {
+            "name": "Magnum Bullets",
+            "kind": "ammo/magnum"
+        },
+        "14": {
+            "name": "Shotgun Shells",
+            "kind": "ammo/shotgun"
+        },
+        "15": {
+            "name": "Grenade Rounds",
+            "kind": "ammo/grenade"
+        },
+        "16": {
+            "name": "Acid Rounds",
+            "kind": "ammo/grenade"
+        },
+        "17": {
+            "name": "Flame Rounds",
+            "kind": "ammo/grenade"
+        },
+        "18": {
+            "name": "Bow Gun Arrows",
+            "kind": "ammo/bow-gun"
+        },
+        "19": {
+            "name": "M93R Part",
+            "kind": "weapon/m93r"
+        },
+        "20": {
+            "name": "FAid Spray",
+            "kind": "heal"
+        },
+        "21": {
+            "name": "Green Herb",
+            "kind": "heal"
+        },
+        "22": {
+            "name": "Red Herb",
+            "kind": "heal"
+        },
+        "23": {
+            "name": "Blue Herb",
+            "kind": "heal"
+        },
+        "24": {
+            "name": "Mixed Herb (2 Green)",
+            "kind": "heal"
+        },
+        "25": {
+            "name": "Mixed Herb (Red+Green)",
+            "kind": "heal"
+        },
+        "26": {
+            "name": "Mixed Herb (Blue+Green)",
+            "kind": "heal"
+        },
+        "27": {
+            "name": "Mixed Herb (2 Green+Blue)",
+            "kind": "heal"
+        },
+        "28": {
+            "name": "Mixed Herb (3 Green)",
+            "kind": "heal"
+        },
+        "29": {
+            "name": "Mixed Herb (Green+Blue+Red)",
+            "kind": "heal"
+        },
+        "30": {
+            "name": "Magnum Bullets (Case)",
+            "kind": "ammo/magnum"
+        },
+        "31": {
+            "name": "Ink Ribbon",
+            "kind": "ink-ribbon"
+        },
+        "32": {
+            "name": "Magnum",
+            "kind": "weapon/magnum"
+        },
+        "33": {
+            "name": "Gold Lugers",
+            "kind": "weapon/handgun"
+        },
+        "34": {
+            "name": "Sub Machine Gun",
+            "kind": "weapon/sub-machine-gun"
+        },
+        "35": {
+            "name": "Bow Gun Powder",
+            "kind": "gunpowder"
+        },
+        "36": {
+            "name": "Gun Powder Arrow",
+            "kind": "gunpowder"
+        },
+        "37": {
+            "name": "B.O.W. Gas Rounds",
+            "kind": "ammo/grenade"
+        },
+        "38": {
+            "name": "M Gun Bullets",
+            "kind": "ammo/sub-machine-gun"
+        },
+        "40": {
+            "name": "Rifle Bullets",
+            "kind": "ammo/sniper-rifle"
+        },
+        "42": {
+            "name": "A Rifle Bullets",
+            "kind": "ammo/assault-rifle"
+        },
+        "47": {
+            "name": "Prisoner's Diary",
+            "kind": "document"
+        },
+        "48": {
+            "name": "Director's Memo",
+            "kind": "document"
+        },
+        "49": {
+            "name": "Instructions",
+            "kind": "document"
+        },
+        "57": {
+            "name": "Side Pack",
+            "kind": "special"
+        },
+        "58": {
+            "name": "Map Roll",
+            "kind": "special"
+        },
+        "63": {
+            "name": "Duralumin Case (M93R Parts)",
+            "kind": "weapon/m93r"
+        },
+        "74": {
+            "name": "Map",
+            "kind": "special"
+        },
+        "77": {
+            "name": "Skeleton Picture",
+            "kind": "quest"
+        },
+        "80": {
+            "name": "Album",
+            "kind": "document"
+        },
+        "102": {
+            "name": "Alfred's Memo",
+            "kind": "document"
+        },
+        "106": {
+            "name": "Security File",
+            "kind": "document"
+        },
+        "125": {
+            "name": "File",
+            "kind": "special"
+        },
+        "126": {
+            "name": "Plant Pot",
+            "kind": "quest"
+        },
+        "127": {
+            "name": "Picture B",
+            "kind": "quest"
+        },
+        "128": {
+            "name": "Duralumin Case (Bow Gun Powder)",
+            "kind": "gunpowder"
+        },
+        "129": {
+            "name": "Duralumin Case (Magnum Rounds)",
+            "kind": "ammo/magnum"
+        },
+        "130": {
+            "name": "Bow Gun Powder (Unused)",
+            "kind": "gunpowder"
+        },
+        "131": {
+            "name": "Enhanced Handgun",
+            "kind": "weapon/handgun"
+        },
+        "132": {
+            "name": "Memo",
+            "kind": "document"
+        },
+        "133": {
+            "name": "Board Clip",
+            "kind": "document"
+        },
+        "134": {
+            "name": "Card",
+            "kind": "document"
+        },
+        "135": {
+            "name": "Newspaper Clip",
+            "kind": "document"
+        },
+        "136": {
+            "name": "Luger Replica",
+            "kind": "weapon/handgun"
+        },
+        "138": {
+            "name": "Family Picture",
+            "kind": "quest"
+        },
+        "139": {
+            "name": "File Folders",
+            "kind": "document"
+        },
+        "140": {
+            "name": "Remote Controller",
+            "kind": "quest"
+        },
+        "141": {
+            "name": "Question A",
+            "kind": "quest"
+        },
+        "142": {
+            "name": "M1P",
+            "kind": "weapon/m1p"
+        },
+        "143": {
+            "name": "Calico Bullets",
+            "kind": "ammo/sub-machine-gun"
+        },
+        "144": {
+            "name": "Clement Mixture",
+            "kind": "gunpowder"
+        },
+        "145": {
+            "name": "Playing Manual",
+            "kind": "document"
+        },
+        "146": {
+            "name": "Question B",
+            "kind": "quest"
+        },
+        "147": {
+            "name": "Question C",
+            "kind": "quest"
+        },
+        "148": {
+            "name": "Question D",
+            "kind": "quest"
+        },
+        "149": {
+            "name": "Empty Extinguisher",
+            "kind": "quest"
+        },
+        "150": {
+            "name": "Square Socket",
+            "kind": "quest"
+        },
+        "151": {
+            "name": "Question E",
+            "kind": "quest"
+        }
+    },
+    "rooms": [
+        {
+            "id": "1000",
+            "rdts": [
+                "1000"
+            ],
+            "edges": [
+                {
+                    "to": "1010"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 1002,
+                    "type": 50,
+                    "amount": 1,
+                    "requires": [
+                        "flag(104)"
+                    ],
+                    "group": 1
+                },
+                {
+                    "globalId": 121,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 120,
+                    "type": 8,
+                    "amount": 0
+                },
+                {
+                    "globalId": 122,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "1010",
+            "rdts": [
+                "1010"
+            ],
+            "edges": [
+                {
+                    "to": "1000"
+                },
+                {
+                    "to": "1021"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 123,
+                    "type": 31,
+                    "amount": 1
+                },
+                {
+                    "globalId": 124,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "1020",
+            "rdts": [
+                "1020"
+            ],
+            "slots": [
+                {
+                    "globalId": 1,
+                    "type": 83,
+                    "amount": 1,
+                    "requires": [
+                        "flag(82)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "1021",
+            "rdts": [
+                "1021"
+            ],
+            "edges": [
+                {
+                    "to": "1010"
+                },
+                {
+                    "to": "1031"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 1,
+                    "type": 83,
+                    "amount": 1,
+                    "requires": [
+                        "flag(82)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "1030",
+            "rdts": [
+                "1030"
+            ],
+            "slots": [
+                {
+                    "globalId": 1000,
+                    "type": 9,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 127,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "1031",
+            "rdts": [
+                "1031"
+            ],
+            "edges": [
+                {
+                    "to": "1021"
+                },
+                {
+                    "to": "1050"
+                },
+                {
+                    "to": "10A0",
+                    "requires": [
+                        "flag(86)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 127,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "1040",
+            "rdts": [
+                "1040"
+            ],
+            "edges": [
+                {
+                    "to": "1090"
+                },
+                {
+                    "to": "1100",
+                    "kind": "unblock"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 3,
+                    "type": 59,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 129,
+                    "type": 31,
+                    "amount": 3
+                }
+            ]
+        },
+        {
+            "id": "1050",
+            "rdts": [
+                "1050"
+            ],
+            "edges": [
+                {
+                    "to": "1031"
+                },
+                {
+                    "to": "1060"
+                },
+                {
+                    "to": "1080"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 130,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "1060",
+            "rdts": [
+                "1060"
+            ],
+            "edges": [
+                {
+                    "to": "1050"
+                },
+                {
+                    "to": "1070"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 132,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 131,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "1070",
+            "rdts": [
+                "1070"
+            ],
+            "edges": [
+                {
+                    "to": "1060"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 134,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 135,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 136,
+                    "type": 142,
+                    "amount": 100,
+                    "group": 1
+                },
+                {
+                    "globalId": 97,
+                    "type": 48,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "1080",
+            "rdts": [
+                "1080"
+            ],
+            "edges": [
+                {
+                    "to": "1050"
+                },
+                {
+                    "to": "1100",
+                    "requires": [
+                        "flag(56)"
+                    ]
+                },
+                {
+                    "to": "1100",
+                    "requires": [
+                        "flag(56)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 4,
+                    "type": 82,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 2,
+                    "type": 84,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "1090",
+            "rdts": [
+                "1090"
+            ],
+            "edges": [
+                {
+                    "to": "1040"
+                },
+                {
+                    "to": "1080"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 98,
+                    "type": 49,
+                    "amount": 1
+                },
+                {
+                    "globalId": 5,
+                    "type": 86,
+                    "amount": 1,
+                    "requires": [
+                        "flag(59)",
+                        "flag(83)"
+                    ],
+                    "group": 1
+                },
+                {
+                    "globalId": 140,
+                    "type": 37,
+                    "amount": 3
+                },
+                {
+                    "globalId": 138,
+                    "type": 20,
+                    "amount": 1
+                },
+                {
+                    "globalId": 139,
+                    "type": 17,
+                    "amount": 6
+                }
+            ]
+        },
+        {
+            "id": "10A0",
+            "rdts": [
+                "10A0"
+            ],
+            "edges": [
+                {
+                    "to": "1031"
+                },
+                {
+                    "to": "20C0",
+                    "kind": "unblock"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 142,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 143,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 144,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "10B0",
+            "rdts": [
+                "10B0"
+            ],
+            "edges": [
+                {
+                    "to": "10C0"
+                },
+                {
+                    "to": "10D0",
+                    "requires": [
+                        "flag(51)"
+                    ]
+                },
+                {
+                    "to": "1100"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 145,
+                    "type": 47,
+                    "amount": 1
+                },
+                {
+                    "globalId": 115,
+                    "type": 20,
+                    "amount": 1
+                },
+                {
+                    "globalId": 6,
+                    "type": 51,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 6,
+                    "type": 51,
+                    "amount": 1,
+                    "priority": "low",
+                    "group": 1
+                },
+                {
+                    "globalId": 146,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "10C0",
+            "rdts": [
+                "10C0"
+            ],
+            "edges": [
+                {
+                    "to": "10B0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 147,
+                    "type": 63,
+                    "amount": 1
+                },
+                {
+                    "globalId": 148,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 149,
+                    "type": 22,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "10D0",
+            "rdts": [
+                "10D0"
+            ],
+            "edges": [
+                {
+                    "to": "10B0"
+                },
+                {
+                    "to": "10E0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 150,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "10E0",
+            "rdts": [
+                "10E0"
+            ],
+            "edges": [
+                {
+                    "to": "10D0"
+                },
+                {
+                    "to": "10F0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 152,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 153,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "10F0",
+            "rdts": [
+                "10F0"
+            ],
+            "edges": [
+                {
+                    "to": "10E0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 8,
+                    "type": 103,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 7,
+                    "type": 52,
+                    "amount": 1,
+                    "requires": [
+                        "flag(103)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "1100",
+            "rdts": [
+                "1100"
+            ],
+            "edges": [
+                {
+                    "to": "1040",
+                    "kind": "unblock"
+                },
+                {
+                    "to": "1080"
+                },
+                {
+                    "to": "10B0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 155,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 154,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "2000",
+            "rdts": [
+                "2000"
+            ],
+            "edges": [
+                {
+                    "to": "2020"
+                },
+                {
+                    "to": "20D0"
+                },
+                {
+                    "to": "20C0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 9,
+                    "type": 70,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 7,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "2001",
+            "rdts": [
+                "2001"
+            ],
+            "slots": [
+                {
+                    "globalId": 9,
+                    "type": 70,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 7,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "2002",
+            "rdts": [
+                "2002"
+            ],
+            "slots": [
+                {
+                    "globalId": 9,
+                    "type": 70,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 7,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "2020",
+            "rdts": [
+                "2020"
+            ],
+            "edges": [
+                {
+                    "to": "2000"
+                },
+                {
+                    "to": "2030"
+                },
+                {
+                    "to": "2070",
+                    "requires": [
+                        "flag(73)"
+                    ]
+                },
+                {
+                    "to": "2080"
+                },
+                {
+                    "to": "20B0",
+                    "requires": [
+                        "flag(67)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 159,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "2021",
+            "rdts": [
+                "2021"
+            ],
+            "slots": [
+                {
+                    "globalId": 159,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "2030",
+            "rdts": [
+                "2030"
+            ],
+            "edges": [
+                {
+                    "to": "2020"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 160,
+                    "type": 128,
+                    "amount": 1
+                },
+                {
+                    "globalId": 161,
+                    "type": 20,
+                    "amount": 1
+                },
+                {
+                    "globalId": 162,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "2040",
+            "rdts": [
+                "2040"
+            ],
+            "edges": [
+                {
+                    "to": "2070"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 10,
+                    "type": 116,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "2050",
+            "rdts": [
+                "2050"
+            ],
+            "edges": [
+                {
+                    "to": "2070"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 11,
+                    "type": 53,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 165,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "2060",
+            "rdts": [
+                "2060"
+            ],
+            "edges": [
+                {
+                    "to": "2070"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 12,
+                    "type": 56,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 166,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "2070",
+            "rdts": [
+                "2070"
+            ],
+            "edges": [
+                {
+                    "to": "2020"
+                },
+                {
+                    "to": "2040",
+                    "requires": [
+                        "flag(68)"
+                    ]
+                },
+                {
+                    "to": "2050"
+                },
+                {
+                    "to": "2060",
+                    "requires": [
+                        "flag(67)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 167,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 169,
+                    "type": 22,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "2080",
+            "rdts": [
+                "2080"
+            ],
+            "edges": [
+                {
+                    "to": "2020"
+                },
+                {
+                    "to": "2090",
+                    "requires": [
+                        "flag(33)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 66,
+                    "type": 73,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 171,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 172,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 173,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "2090",
+            "rdts": [
+                "2090"
+            ],
+            "edges": [
+                {
+                    "to": "2080"
+                },
+                {
+                    "to": "20A0",
+                    "kind": "unblock"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 174,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 175,
+                    "type": 23,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "20A0",
+            "rdts": [
+                "20A0"
+            ],
+            "edges": [
+                {
+                    "to": "2090"
+                },
+                {
+                    "to": "3000",
+                    "kind": "unblock"
+                }
+            ]
+        },
+        {
+            "id": "20B0",
+            "rdts": [
+                "20B0"
+            ],
+            "edges": [
+                {
+                    "to": "2020"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 177,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 13,
+                    "type": 61,
+                    "amount": 1,
+                    "requires": [
+                        "flag(52)"
+                    ],
+                    "group": 1
+                },
+                {
+                    "globalId": 176,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 179,
+                    "type": 130,
+                    "amount": 1
+                },
+                {
+                    "globalId": 178,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "20C0",
+            "rdts": [
+                "20C0"
+            ],
+            "edges": [
+                {
+                    "to": "10A0"
+                },
+                {
+                    "to": "2000"
+                },
+                {
+                    "to": "4090"
+                }
+            ]
+        },
+        {
+            "id": "20D0",
+            "rdts": [
+                "20D0"
+            ],
+            "edges": [
+                {
+                    "to": "2000"
+                },
+                {
+                    "to": "20E0",
+                    "requires": [
+                        "flag(53)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 183,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 184,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "20E0",
+            "rdts": [
+                "20E0"
+            ],
+            "edges": [
+                {
+                    "to": "20D0"
+                },
+                {
+                    "to": "5050"
+                }
+            ]
+        },
+        {
+            "id": "3000",
+            "rdts": [
+                "3000"
+            ],
+            "edges": [
+                {
+                    "to": "20A0"
+                },
+                {
+                    "to": "3010"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 188,
+                    "type": 22,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "3010",
+            "rdts": [
+                "3010"
+            ],
+            "edges": [
+                {
+                    "to": "3000"
+                },
+                {
+                    "to": "3020"
+                },
+                {
+                    "to": "3030"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 189,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 190,
+                    "type": 20,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "3011",
+            "rdts": [
+                "3011"
+            ],
+            "slots": [
+                {
+                    "globalId": 189,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 190,
+                    "type": 20,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "3020",
+            "rdts": [
+                "3020"
+            ],
+            "edges": [
+                {
+                    "to": "3010"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 191,
+                    "type": 18,
+                    "amount": 30
+                },
+                {
+                    "globalId": 192,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 193,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "3030",
+            "rdts": [
+                "3030"
+            ],
+            "edges": [
+                {
+                    "to": "3010"
+                },
+                {
+                    "to": "3040"
+                },
+                {
+                    "to": "3050"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 194,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 195,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "3031",
+            "rdts": [
+                "3031"
+            ],
+            "slots": [
+                {
+                    "globalId": 194,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 195,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "3040",
+            "rdts": [
+                "3040"
+            ],
+            "edges": [
+                {
+                    "to": "3030"
+                },
+                {
+                    "to": "3050"
+                },
+                {
+                    "to": "3060",
+                    "requires": [
+                        "flag(61)",
+                        "flag(78)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 112,
+                    "type": 134,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "3050",
+            "rdts": [
+                "3050"
+            ],
+            "edges": [
+                {
+                    "to": "3030"
+                },
+                {
+                    "to": "3040"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 15,
+                    "type": 67,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 16,
+                    "type": 78,
+                    "amount": 1,
+                    "requires": [
+                        "flag(116)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "3060",
+            "rdts": [
+                "3060"
+            ],
+            "edges": [
+                {
+                    "to": "3040"
+                },
+                {
+                    "to": "3050"
+                },
+                {
+                    "to": "3070",
+                    "requires": [
+                        "flag(119)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 196,
+                    "type": 15,
+                    "amount": 6
+                },
+                {
+                    "globalId": 197,
+                    "type": 15,
+                    "amount": 1
+                },
+                {
+                    "globalId": 17,
+                    "type": 15,
+                    "amount": 1
+                },
+                {
+                    "globalId": 1003,
+                    "type": 119,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "3070",
+            "rdts": [
+                "3070"
+            ],
+            "edges": [
+                {
+                    "to": "3060"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 198,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 101,
+                    "type": 135,
+                    "amount": 1
+                },
+                {
+                    "globalId": 199,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 1004,
+                    "type": 102,
+                    "amount": 1
+                },
+                {
+                    "globalId": 1005,
+                    "type": 71,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "4000",
+            "rdts": [
+                "4000"
+            ],
+            "edges": [
+                {
+                    "to": "4020"
+                },
+                {
+                    "to": "40C0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 200,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "4011",
+            "rdts": [
+                "4011"
+            ],
+            "edges": [
+                {
+                    "to": "4080"
+                },
+                {
+                    "to": "40F0"
+                },
+                {
+                    "to": "4110"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 201,
+                    "type": 76,
+                    "amount": 1,
+                    "requires": [
+                        "flag(56)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "4020",
+            "rdts": [
+                "4020"
+            ],
+            "edges": [
+                {
+                    "to": "4000"
+                },
+                {
+                    "to": "4090"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 202,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "4030",
+            "rdts": [
+                "4030"
+            ],
+            "edges": [
+                {
+                    "to": "4000"
+                },
+                {
+                    "to": "4040"
+                },
+                {
+                    "to": "4160"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 203,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "4040",
+            "rdts": [
+                "4040"
+            ],
+            "edges": [
+                {
+                    "to": "4030"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 20,
+                    "type": 68,
+                    "amount": 1,
+                    "requires": [
+                        "flag(77)"
+                    ],
+                    "group": 1
+                },
+                {
+                    "globalId": 204,
+                    "type": 20,
+                    "amount": 1,
+                    "requires": [
+                        "flag(50)",
+                        "flag(77)"
+                    ]
+                },
+                {
+                    "globalId": 21,
+                    "type": 56,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 205,
+                    "type": 31,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "4050",
+            "rdts": [
+                "4050"
+            ],
+            "edges": [
+                {
+                    "to": "4060"
+                },
+                {
+                    "to": "4080"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 206,
+                    "type": 18,
+                    "amount": 30
+                },
+                {
+                    "globalId": 208,
+                    "type": 18,
+                    "amount": 30
+                },
+                {
+                    "globalId": 207,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "4060",
+            "rdts": [
+                "4060"
+            ],
+            "edges": [
+                {
+                    "to": "4050"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 22,
+                    "type": 72,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "4070",
+            "rdts": [
+                "4070"
+            ],
+            "edges": [
+                {
+                    "to": "4080"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 214,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 213,
+                    "type": 12,
+                    "amount": 15,
+                    "requires": [
+                        "flag(50)"
+                    ]
+                },
+                {
+                    "globalId": 211,
+                    "type": 130,
+                    "amount": 1,
+                    "requires": [
+                        "flag(72)"
+                    ]
+                },
+                {
+                    "globalId": 212,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "4080",
+            "rdts": [
+                "4080"
+            ],
+            "edges": [
+                {
+                    "to": "4011",
+                    "requires": [
+                        "flag(62)"
+                    ]
+                },
+                {
+                    "to": "4050"
+                },
+                {
+                    "to": "4070"
+                },
+                {
+                    "to": "4090"
+                },
+                {
+                    "to": "40D0",
+                    "requires": [
+                        "flag(62)"
+                    ]
+                },
+                {
+                    "to": "4000",
+                    "requires": [
+                        "flag(62)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 217,
+                    "type": 22,
+                    "amount": 1
+                },
+                {
+                    "globalId": 218,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "4090",
+            "rdts": [
+                "4090"
+            ],
+            "edges": [
+                {
+                    "to": "20C0"
+                },
+                {
+                    "to": "4080"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 219,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "4091",
+            "rdts": [
+                "4091"
+            ],
+            "slots": [
+                {
+                    "globalId": 219,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "40A0",
+            "rdts": [
+                "40A0"
+            ],
+            "edges": [
+                {
+                    "to": "40F0"
+                },
+                {
+                    "to": "4100"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 220,
+                    "type": 33,
+                    "amount": 0,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "40B0",
+            "rdts": [
+                "40B0"
+            ],
+            "edges": [
+                {
+                    "to": "40F0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 23,
+                    "type": 104,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 225,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 227,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 224,
+                    "type": 31,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "40C0",
+            "rdts": [
+                "40C0"
+            ],
+            "edges": [
+                {
+                    "to": "4000"
+                },
+                {
+                    "to": "4011",
+                    "requires": [
+                        "flag(76)"
+                    ]
+                },
+                {
+                    "to": "4160"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 229,
+                    "type": 21,
+                    "amount": 1,
+                    "requires": [
+                        "flag(76)"
+                    ]
+                },
+                {
+                    "globalId": 230,
+                    "type": 21,
+                    "amount": 1,
+                    "requires": [
+                        "flag(76)"
+                    ]
+                },
+                {
+                    "globalId": 24,
+                    "type": 69,
+                    "amount": 1,
+                    "requires": [
+                        "flag(76)"
+                    ],
+                    "group": 1
+                },
+                {
+                    "globalId": 231,
+                    "type": 15,
+                    "amount": 6,
+                    "requires": [
+                        "flag(76)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40D0",
+            "rdts": [
+                "40D0"
+            ],
+            "edges": [
+                {
+                    "to": "4080"
+                },
+                {
+                    "to": "40E0",
+                    "kind": "unblock",
+                    "requires": [
+                        "flag(76)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 103,
+                    "type": 132,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 232,
+                    "type": 7,
+                    "amount": 30,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "40E0",
+            "rdts": [
+                "40E0"
+            ],
+            "edges": [
+                {
+                    "to": "40D0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 25,
+                    "type": 77,
+                    "amount": 1
+                },
+                {
+                    "globalId": 233,
+                    "type": 16,
+                    "amount": 6,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 233,
+                    "type": 16,
+                    "amount": 6
+                }
+            ]
+        },
+        {
+            "id": "40F0",
+            "rdts": [
+                "40F0"
+            ],
+            "edges": [
+                {
+                    "to": "4011"
+                },
+                {
+                    "to": "40A0"
+                },
+                {
+                    "to": "40B0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 235,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 236,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "4100",
+            "rdts": [
+                "4100"
+            ],
+            "edges": [
+                {
+                    "to": "4140"
+                },
+                {
+                    "to": "40A0"
+                },
+                {
+                    "to": "4110"
+                },
+                {
+                    "to": "4120",
+                    "requires": [
+                        "flag(76)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 237,
+                    "type": 6,
+                    "amount": 6,
+                    "requires": [
+                        "flag(76)"
+                    ]
+                },
+                {
+                    "globalId": 439,
+                    "type": 15,
+                    "amount": 6
+                }
+            ]
+        },
+        {
+            "id": "4110",
+            "rdts": [
+                "4110"
+            ],
+            "edges": [
+                {
+                    "to": "4011"
+                },
+                {
+                    "to": "4100"
+                },
+                {
+                    "to": "4150"
+                },
+                {
+                    "to": "4100",
+                    "requires": [
+                        "flag(76)"
+                    ]
+                },
+                {
+                    "to": "4150",
+                    "requires": [
+                        "flag(76)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4120",
+            "rdts": [
+                "4120"
+            ],
+            "edges": [
+                {
+                    "to": "4100"
+                },
+                {
+                    "to": "4100"
+                },
+                {
+                    "to": "4130"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 239,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "4130",
+            "rdts": [
+                "4130"
+            ],
+            "edges": [
+                {
+                    "to": "4120"
+                },
+                {
+                    "to": "4120"
+                }
+            ]
+        },
+        {
+            "id": "4140",
+            "rdts": [
+                "4140"
+            ],
+            "edges": [
+                {
+                    "to": "4100"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 243,
+                    "type": 16,
+                    "amount": 6,
+                    "requires": [
+                        "flag(50)"
+                    ]
+                },
+                {
+                    "globalId": 438,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "4150",
+            "rdts": [
+                "4150"
+            ],
+            "edges": [
+                {
+                    "to": "4110"
+                },
+                {
+                    "to": "4160"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 244,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "4160",
+            "rdts": [
+                "4160"
+            ],
+            "edges": [
+                {
+                    "to": "4030"
+                },
+                {
+                    "to": "40C0"
+                },
+                {
+                    "to": "4150"
+                }
+            ]
+        },
+        {
+            "id": "5000",
+            "rdts": [
+                "5000"
+            ],
+            "edges": [
+                {
+                    "to": "5010"
+                },
+                {
+                    "to": "5010"
+                },
+                {
+                    "to": "5030"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 248,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 249,
+                    "type": 31,
+                    "amount": 3
+                }
+            ]
+        },
+        {
+            "id": "5001",
+            "rdts": [
+                "5001"
+            ],
+            "edges": [
+                {
+                    "to": "5011"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 245,
+                    "type": 20,
+                    "amount": 1,
+                    "requires": [
+                        "flag(50)"
+                    ],
+                    "priority": "low"
+                },
+                {
+                    "globalId": 26,
+                    "type": 75,
+                    "amount": 1,
+                    "priority": "fixed",
+                    "group": 1
+                },
+                {
+                    "globalId": 245,
+                    "type": 20,
+                    "amount": 1,
+                    "requires": [
+                        "flag(50)"
+                    ]
+                },
+                {
+                    "globalId": 26,
+                    "type": 75,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "5010",
+            "rdts": [
+                "5010"
+            ],
+            "edges": [
+                {
+                    "to": "5001",
+                    "requires": [
+                        "flag(65)"
+                    ]
+                },
+                {
+                    "to": "5020"
+                }
+            ]
+        },
+        {
+            "id": "5011",
+            "rdts": [
+                "5011"
+            ],
+            "edges": [
+                {
+                    "to": "5000"
+                },
+                {
+                    "to": "6000",
+                    "requires": [
+                        "flag(69)",
+                        "flag(70)",
+                        "flag(71)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5020",
+            "rdts": [
+                "5020"
+            ],
+            "edges": [
+                {
+                    "to": "5010"
+                },
+                {
+                    "to": "5011"
+                },
+                {
+                    "to": "5040",
+                    "requires": [
+                        "flag(75)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 27,
+                    "type": 62,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 251,
+                    "type": 18,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "5030",
+            "rdts": [
+                "5030"
+            ],
+            "edges": [
+                {
+                    "to": "5000"
+                },
+                {
+                    "to": "5050"
+                }
+            ]
+        },
+        {
+            "id": "5040",
+            "rdts": [
+                "5040"
+            ],
+            "edges": [
+                {
+                    "to": "5020"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 253,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 254,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 255,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "5050",
+            "rdts": [
+                "5050"
+            ],
+            "edges": [
+                {
+                    "to": "20E0"
+                },
+                {
+                    "to": "5030"
+                }
+            ]
+        },
+        {
+            "id": "6000",
+            "rdts": [
+                "6000"
+            ],
+            "edges": [
+                {
+                    "to": "5010"
+                },
+                {
+                    "to": "6010"
+                },
+                {
+                    "to": "7000"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 28,
+                    "type": 65,
+                    "amount": 1,
+                    "priority": "fixed",
+                    "group": 1
+                },
+                {
+                    "globalId": 28,
+                    "type": 65,
+                    "amount": 1,
+                    "priority": "low",
+                    "group": 1
+                },
+                {
+                    "globalId": 257,
+                    "type": 31,
+                    "amount": 3,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "6001",
+            "rdts": [
+                "6001"
+            ],
+            "slots": [
+                {
+                    "globalId": 257,
+                    "type": 31,
+                    "amount": 3,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "6010",
+            "rdts": [
+                "6010"
+            ],
+            "edges": [
+                {
+                    "to": "6000"
+                }
+            ]
+        },
+        {
+            "id": "7000",
+            "rdts": [
+                "7000"
+            ],
+            "edges": [
+                {
+                    "to": "6000",
+                    "kind": "locked"
+                },
+                {
+                    "to": "7051"
+                },
+                {
+                    "to": "7010"
+                },
+                {
+                    "to": "7030"
+                }
+            ]
+        },
+        {
+            "id": "7010",
+            "rdts": [
+                "7010"
+            ],
+            "edges": [
+                {
+                    "to": "7000"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 260,
+                    "type": 130,
+                    "amount": 1
+                },
+                {
+                    "globalId": 261,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 259,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 263,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 265,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 104,
+                    "type": 48,
+                    "amount": 1
+                },
+                {
+                    "globalId": 362,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 258,
+                    "type": 20,
+                    "amount": 1
+                },
+                {
+                    "globalId": 262,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "7020",
+            "rdts": [
+                "7020"
+            ],
+            "edges": [
+                {
+                    "to": "7051"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 268,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 269,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 266,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 270,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 267,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 1006,
+                    "type": 88,
+                    "amount": 1,
+                    "requires": [
+                        "flag(87)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "7030",
+            "rdts": [
+                "7030"
+            ],
+            "edges": [
+                {
+                    "to": "7000"
+                },
+                {
+                    "to": "7040"
+                },
+                {
+                    "to": "7050"
+                }
+            ]
+        },
+        {
+            "id": "7040",
+            "rdts": [
+                "7040"
+            ],
+            "edges": [
+                {
+                    "to": "7030"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 272,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 105,
+                    "type": 48,
+                    "amount": 1
+                },
+                {
+                    "globalId": 29,
+                    "type": 126,
+                    "amount": 1
+                },
+                {
+                    "globalId": 273,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 274,
+                    "type": 18,
+                    "amount": 30
+                },
+                {
+                    "globalId": 113,
+                    "type": 132,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "7050",
+            "rdts": [
+                "7050"
+            ],
+            "edges": [
+                {
+                    "to": "7080"
+                },
+                {
+                    "to": "7030"
+                },
+                {
+                    "to": "7090"
+                },
+                {
+                    "to": "7060",
+                    "requires": [
+                        "flag(39)",
+                        "flag(90)",
+                        "flag(126)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 275,
+                    "type": 14,
+                    "amount": 6,
+                    "requires": [
+                        "flag(50)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7051",
+            "rdts": [
+                "7051"
+            ],
+            "edges": [
+                {
+                    "to": "7020"
+                },
+                {
+                    "to": "7000"
+                },
+                {
+                    "to": "7060",
+                    "requires": [
+                        "flag(39)",
+                        "flag(90)",
+                        "flag(126)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7060",
+            "rdts": [
+                "7060"
+            ],
+            "edges": [
+                {
+                    "to": "7050"
+                },
+                {
+                    "to": "7070",
+                    "requires": [
+                        "flag(39)",
+                        "flag(88)"
+                    ]
+                },
+                {
+                    "to": "7051"
+                },
+                {
+                    "to": "7070",
+                    "requires": [
+                        "flag(39)"
+                    ]
+                },
+                {
+                    "to": "70A0",
+                    "requires": [
+                        "flag(88)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 276,
+                    "type": 4,
+                    "amount": 6,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "7070",
+            "rdts": [
+                "7070"
+            ],
+            "edges": [
+                {
+                    "to": "7060"
+                },
+                {
+                    "to": "7060"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 277,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 278,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 279,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 280,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 283,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 281,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 282,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 30,
+                    "type": 87,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "7080",
+            "rdts": [
+                "7080"
+            ],
+            "edges": [
+                {
+                    "to": "7050"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 285,
+                    "type": 2,
+                    "amount": 100
+                },
+                {
+                    "globalId": 31,
+                    "type": 90,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 440,
+                    "type": 12,
+                    "amount": 15,
+                    "requires": [
+                        "flag(64)"
+                    ]
+                },
+                {
+                    "globalId": 441,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 442,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 289,
+                    "type": 64,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "7090",
+            "rdts": [
+                "7090"
+            ],
+            "edges": [
+                {
+                    "to": "7050"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 32,
+                    "type": 91,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 292,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 293,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 291,
+                    "type": 18,
+                    "amount": 30
+                },
+                {
+                    "globalId": 63,
+                    "type": 39,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 294,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 295,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "70A0",
+            "rdts": [
+                "70A0"
+            ],
+            "edges": [
+                {
+                    "to": "7060"
+                },
+                {
+                    "to": "8180"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 296,
+                    "type": 20,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 298,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "8000",
+            "rdts": [
+                "8000"
+            ],
+            "edges": [
+                {
+                    "to": "80C0"
+                },
+                {
+                    "to": "8080",
+                    "kind": "unblock"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 299,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 202,
+                    "type": 18,
+                    "amount": 30,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "8010",
+            "rdts": [
+                "8010"
+            ],
+            "edges": [
+                {
+                    "to": "8031"
+                },
+                {
+                    "to": "8130"
+                },
+                {
+                    "to": "8060"
+                }
+            ]
+        },
+        {
+            "id": "8020",
+            "rdts": [
+                "8020"
+            ],
+            "edges": [
+                {
+                    "to": "8130"
+                },
+                {
+                    "to": "8190",
+                    "requires": [
+                        "flag(69)",
+                        "flag(70)",
+                        "flag(71)",
+                        "flag(100)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 301,
+                    "type": 14,
+                    "amount": 6,
+                    "requires": [
+                        "flag(69)",
+                        "flag(70)",
+                        "flag(71)"
+                    ],
+                    "priority": "low"
+                },
+                {
+                    "globalId": 302,
+                    "type": 21,
+                    "amount": 1,
+                    "requires": [
+                        "flag(69)",
+                        "flag(70)",
+                        "flag(71)"
+                    ]
+                },
+                {
+                    "globalId": 303,
+                    "type": 31,
+                    "amount": 3,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 304,
+                    "type": 14,
+                    "amount": 6,
+                    "requires": [
+                        "flag(69)",
+                        "flag(70)",
+                        "flag(71)"
+                    ],
+                    "priority": "low"
+                },
+                {
+                    "globalId": 300,
+                    "type": 20,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 33,
+                    "type": 96,
+                    "amount": 1,
+                    "requires": [
+                        "flag(100)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "8031",
+            "rdts": [
+                "8031"
+            ],
+            "edges": [
+                {
+                    "to": "80C0"
+                },
+                {
+                    "to": "8010"
+                },
+                {
+                    "to": "80E0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 229,
+                    "type": 21,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 230,
+                    "type": 21,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 231,
+                    "type": 15,
+                    "amount": 6,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "8040",
+            "rdts": [
+                "8040"
+            ],
+            "edges": [
+                {
+                    "to": "8140"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 243,
+                    "type": 16,
+                    "amount": 6,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 438,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 34,
+                    "type": 98,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "8050",
+            "rdts": [
+                "8050"
+            ],
+            "edges": [
+                {
+                    "to": "80B0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 35,
+                    "type": 99,
+                    "amount": 1,
+                    "requires": [
+                        "flag(97)"
+                    ],
+                    "group": 1
+                },
+                {
+                    "globalId": 306,
+                    "type": 14,
+                    "amount": 6
+                },
+                {
+                    "globalId": 308,
+                    "type": 22,
+                    "amount": 1
+                },
+                {
+                    "globalId": 309,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 310,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "8060",
+            "rdts": [
+                "8060"
+            ],
+            "edges": [
+                {
+                    "to": "8070"
+                },
+                {
+                    "to": "8150",
+                    "requires": [
+                        "flag(4)"
+                    ]
+                },
+                {
+                    "to": "8010",
+                    "requires": [
+                        "flag(4)"
+                    ]
+                },
+                {
+                    "to": "8080",
+                    "kind": "unblock"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 313,
+                    "type": 22,
+                    "amount": 1
+                },
+                {
+                    "globalId": 314,
+                    "type": 22,
+                    "amount": 1
+                },
+                {
+                    "globalId": 244,
+                    "type": 12,
+                    "amount": 15,
+                    "requires": [
+                        "flag(4)"
+                    ],
+                    "priority": "low"
+                },
+                {
+                    "globalId": 312,
+                    "type": 17,
+                    "amount": 6
+                },
+                {
+                    "globalId": 316,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 317,
+                    "type": 31,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "8070",
+            "rdts": [
+                "8070"
+            ],
+            "edges": [
+                {
+                    "to": "80B0"
+                },
+                {
+                    "to": "8060"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 318,
+                    "type": 42,
+                    "amount": 50
+                },
+                {
+                    "globalId": 319,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "8071",
+            "rdts": [
+                "8071"
+            ],
+            "slots": [
+                {
+                    "globalId": 318,
+                    "type": 42,
+                    "amount": 50
+                },
+                {
+                    "globalId": 319,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "8080",
+            "rdts": [
+                "8080"
+            ],
+            "edges": [
+                {
+                    "to": "8000"
+                },
+                {
+                    "to": "8090"
+                },
+                {
+                    "to": "A090",
+                    "requires": [
+                        "flag(56)",
+                        "flag(98)",
+                        "flag(99)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 36,
+                    "type": 94,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 321,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 323,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 322,
+                    "type": 14,
+                    "amount": 6
+                }
+            ]
+        },
+        {
+            "id": "8081",
+            "rdts": [
+                "8081"
+            ],
+            "slots": [
+                {
+                    "globalId": 321,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 323,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 322,
+                    "type": 14,
+                    "amount": 6
+                }
+            ]
+        },
+        {
+            "id": "8090",
+            "rdts": [
+                "8090"
+            ],
+            "edges": [
+                {
+                    "to": "8080"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 324,
+                    "type": 16,
+                    "amount": 6
+                },
+                {
+                    "globalId": 327,
+                    "type": 14,
+                    "amount": 6
+                },
+                {
+                    "globalId": 328,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 325,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 329,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 326,
+                    "type": 136,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "80A0",
+            "rdts": [
+                "80A0"
+            ],
+            "edges": [
+                {
+                    "to": "8190"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 331,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 332,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 330,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 40,
+                    "type": 56,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 333,
+                    "type": 23,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "80B0",
+            "rdts": [
+                "80B0"
+            ],
+            "edges": [
+                {
+                    "to": "8140"
+                },
+                {
+                    "to": "8050"
+                },
+                {
+                    "to": "8070"
+                },
+                {
+                    "to": "8100",
+                    "requires": [
+                        "flag(96)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 37,
+                    "type": 93,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 239,
+                    "type": 18,
+                    "amount": 30,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "80C0",
+            "rdts": [
+                "80C0"
+            ],
+            "edges": [
+                {
+                    "to": "8000"
+                },
+                {
+                    "to": "8170"
+                },
+                {
+                    "to": "8031",
+                    "requires": [
+                        "flag(94)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 200,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 336,
+                    "type": 12,
+                    "amount": 15,
+                    "requires": [
+                        "flag(93)",
+                        "flag(94)"
+                    ]
+                },
+                {
+                    "globalId": 38,
+                    "type": 100,
+                    "amount": 1,
+                    "requires": [
+                        "flag(93)",
+                        "flag(94)"
+                    ],
+                    "group": 1
+                },
+                {
+                    "globalId": 39,
+                    "type": 97,
+                    "amount": 1,
+                    "requires": [
+                        "flag(94)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "80D0",
+            "rdts": [
+                "80D0"
+            ],
+            "edges": [
+                {
+                    "to": "9040"
+                },
+                {
+                    "to": "8100"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 219,
+                    "type": 18,
+                    "amount": 30,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 337,
+                    "type": 14,
+                    "amount": 6,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "80E0",
+            "rdts": [
+                "80E0"
+            ],
+            "edges": [
+                {
+                    "to": "8031"
+                },
+                {
+                    "to": "8120"
+                }
+            ]
+        },
+        {
+            "id": "80F0",
+            "rdts": [
+                "80F0"
+            ],
+            "edges": [
+                {
+                    "to": "8150"
+                },
+                {
+                    "to": "8100"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 339,
+                    "type": 18,
+                    "amount": 30,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 340,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 341,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 342,
+                    "type": 16,
+                    "amount": 6
+                },
+                {
+                    "globalId": 343,
+                    "type": 14,
+                    "amount": 6
+                }
+            ]
+        },
+        {
+            "id": "8100",
+            "rdts": [
+                "8100"
+            ],
+            "edges": [
+                {
+                    "to": "80F0"
+                },
+                {
+                    "to": "80D0"
+                },
+                {
+                    "to": "80B0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 344,
+                    "type": 130,
+                    "amount": 1,
+                    "requires": [
+                        "flag(96)"
+                    ]
+                },
+                {
+                    "globalId": 218,
+                    "type": 18,
+                    "amount": 30,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "8110",
+            "rdts": [
+                "8110"
+            ],
+            "edges": [
+                {
+                    "to": "8120"
+                },
+                {
+                    "to": "80C0",
+                    "requires": [
+                        "flag(93)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8120",
+            "rdts": [
+                "8120"
+            ],
+            "edges": [
+                {
+                    "to": "8110"
+                },
+                {
+                    "to": "80E0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 345,
+                    "type": 18,
+                    "amount": 30,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 232,
+                    "type": 7,
+                    "amount": 30,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "8121",
+            "rdts": [
+                "8121"
+            ],
+            "slots": [
+                {
+                    "globalId": 345,
+                    "type": 18,
+                    "amount": 30,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 232,
+                    "type": 7,
+                    "amount": 30,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "8130",
+            "rdts": [
+                "8130"
+            ],
+            "edges": [
+                {
+                    "to": "8020"
+                },
+                {
+                    "to": "8010"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 203,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "8131",
+            "rdts": [
+                "8131"
+            ],
+            "slots": [
+                {
+                    "globalId": 203,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "8140",
+            "rdts": [
+                "8140"
+            ],
+            "edges": [
+                {
+                    "to": "8040"
+                },
+                {
+                    "to": "8150"
+                },
+                {
+                    "to": "80B0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 237,
+                    "type": 6,
+                    "amount": 6,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 439,
+                    "type": 15,
+                    "amount": 6,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "8150",
+            "rdts": [
+                "8150"
+            ],
+            "edges": [
+                {
+                    "to": "8060"
+                },
+                {
+                    "to": "8140"
+                },
+                {
+                    "to": "80F0"
+                }
+            ]
+        },
+        {
+            "id": "8160",
+            "rdts": [
+                "8160"
+            ],
+            "edges": [
+                {
+                    "to": "8180",
+                    "kind": "locked"
+                },
+                {
+                    "to": "8170"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 353,
+                    "type": 34,
+                    "amount": 100
+                },
+                {
+                    "globalId": 350,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 352,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 354,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "8161",
+            "rdts": [
+                "8161"
+            ],
+            "slots": [
+                {
+                    "globalId": 353,
+                    "type": 34,
+                    "amount": 100
+                },
+                {
+                    "globalId": 350,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 352,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 354,
+                    "type": 18,
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "id": "8170",
+            "rdts": [
+                "8170"
+            ],
+            "edges": [
+                {
+                    "to": "8160"
+                },
+                {
+                    "to": "80C0",
+                    "kind": "unblock"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 355,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 356,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 357,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 358,
+                    "type": 18,
+                    "amount": 30
+                },
+                {
+                    "globalId": 1001,
+                    "type": 55,
+                    "amount": 1,
+                    "priority": "low",
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "8171",
+            "rdts": [
+                "8171"
+            ],
+            "slots": [
+                {
+                    "globalId": 355,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 356,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 357,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 358,
+                    "type": 18,
+                    "amount": 30
+                },
+                {
+                    "globalId": 1001,
+                    "type": 55,
+                    "amount": 1,
+                    "priority": "low",
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "8180",
+            "rdts": [
+                "8180"
+            ],
+            "edges": [
+                {
+                    "to": "70A0"
+                },
+                {
+                    "to": "8160"
+                }
+            ]
+        },
+        {
+            "id": "8190",
+            "rdts": [
+                "8190"
+            ],
+            "edges": [
+                {
+                    "to": "8020"
+                },
+                {
+                    "to": "80A0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 359,
+                    "type": 15,
+                    "amount": 6
+                },
+                {
+                    "globalId": 360,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "9000",
+            "rdts": [
+                "9000"
+            ],
+            "edges": [
+                {
+                    "to": "9010"
+                },
+                {
+                    "to": "9010"
+                },
+                {
+                    "to": "9050"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 247,
+                    "type": 14,
+                    "amount": 6
+                },
+                {
+                    "globalId": 248,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 249,
+                    "type": 31,
+                    "amount": 3,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "9001",
+            "rdts": [
+                "9001"
+            ],
+            "edges": [
+                {
+                    "to": "9010"
+                }
+            ]
+        },
+        {
+            "id": "9010",
+            "rdts": [
+                "9010"
+            ],
+            "edges": [
+                {
+                    "to": "9000"
+                },
+                {
+                    "to": "9000"
+                },
+                {
+                    "to": "9020"
+                },
+                {
+                    "to": "9001"
+                },
+                {
+                    "to": "9020"
+                }
+            ]
+        },
+        {
+            "id": "9020",
+            "rdts": [
+                "9020"
+            ],
+            "edges": [
+                {
+                    "to": "9010"
+                },
+                {
+                    "to": "9040"
+                },
+                {
+                    "to": "9010"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 252,
+                    "type": 14,
+                    "amount": 6
+                },
+                {
+                    "globalId": 251,
+                    "type": 18,
+                    "amount": 30,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "9040",
+            "rdts": [
+                "9040"
+            ],
+            "edges": [
+                {
+                    "to": "80D0"
+                },
+                {
+                    "to": "9020"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 253,
+                    "type": 21,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 254,
+                    "type": 21,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 255,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 256,
+                    "type": 15,
+                    "amount": 6,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 253,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 254,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 255,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 256,
+                    "type": 15,
+                    "amount": 6
+                }
+            ]
+        },
+        {
+            "id": "9050",
+            "rdts": [
+                "9050"
+            ],
+            "edges": [
+                {
+                    "to": "9000"
+                }
+            ]
+        },
+        {
+            "id": "A000",
+            "rdts": [
+                "A000"
+            ],
+            "edges": [
+                {
+                    "to": "A030"
+                },
+                {
+                    "to": "A050"
+                },
+                {
+                    "to": "A010"
+                },
+                {
+                    "to": "A090"
+                }
+            ]
+        },
+        {
+            "id": "A010",
+            "rdts": [
+                "A010"
+            ],
+            "edges": [
+                {
+                    "to": "A000"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 261,
+                    "type": 31,
+                    "amount": 3,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 259,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 263,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 265,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 362,
+                    "type": 15,
+                    "amount": 6,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 260,
+                    "type": 130,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 258,
+                    "type": 20,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 262,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "A020",
+            "rdts": [
+                "A020"
+            ],
+            "edges": [
+                {
+                    "to": "A050"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 266,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 267,
+                    "type": 31,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 364,
+                    "type": 129,
+                    "amount": 1
+                },
+                {
+                    "globalId": 363,
+                    "type": 14,
+                    "amount": 6
+                }
+            ]
+        },
+        {
+            "id": "A030",
+            "rdts": [
+                "A030"
+            ],
+            "edges": [
+                {
+                    "to": "A040"
+                },
+                {
+                    "to": "A000"
+                }
+            ]
+        },
+        {
+            "id": "A040",
+            "rdts": [
+                "A040"
+            ],
+            "edges": [
+                {
+                    "to": "A030"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 272,
+                    "type": 31,
+                    "amount": 1
+                },
+                {
+                    "globalId": 365,
+                    "type": 31,
+                    "amount": 1
+                },
+                {
+                    "globalId": 41,
+                    "type": 117,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 273,
+                    "type": 21,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 274,
+                    "type": 18,
+                    "amount": 30,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "A050",
+            "rdts": [
+                "A050"
+            ],
+            "edges": [
+                {
+                    "to": "A000"
+                },
+                {
+                    "to": "A020"
+                },
+                {
+                    "to": "A0A0"
+                },
+                {
+                    "to": "A060"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 42,
+                    "type": 107,
+                    "amount": 1,
+                    "requires": [
+                        "flag(54)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "A060",
+            "rdts": [
+                "A060"
+            ],
+            "edges": [
+                {
+                    "to": "A050"
+                },
+                {
+                    "to": "A070"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 48,
+                    "type": 88,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "A070",
+            "rdts": [
+                "A070"
+            ],
+            "edges": [
+                {
+                    "to": "A060"
+                }
+            ]
+        },
+        {
+            "id": "A080",
+            "rdts": [
+                "A080"
+            ],
+            "edges": [
+                {
+                    "to": "A0B0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 0,
+                    "type": 2,
+                    "amount": 100,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 288,
+                    "type": 32,
+                    "amount": 6,
+                    "requires": [
+                        "flag(82)"
+                    ]
+                },
+                {
+                    "globalId": 289,
+                    "type": 64,
+                    "amount": 1,
+                    "priority": "low",
+                    "group": 1
+                },
+                {
+                    "globalId": 0,
+                    "type": 115,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 440,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 441,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 442,
+                    "type": 12,
+                    "amount": 15,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "A090",
+            "rdts": [
+                "A090"
+            ],
+            "edges": [
+                {
+                    "to": "8080",
+                    "kind": "locked"
+                },
+                {
+                    "to": "A000"
+                }
+            ]
+        },
+        {
+            "id": "A0A0",
+            "rdts": [
+                "A0A0"
+            ],
+            "edges": [
+                {
+                    "to": "A0D0"
+                },
+                {
+                    "to": "A0B0"
+                },
+                {
+                    "to": "A050"
+                }
+            ]
+        },
+        {
+            "id": "A0B0",
+            "rdts": [
+                "A0B0"
+            ],
+            "edges": [
+                {
+                    "to": "A080"
+                },
+                {
+                    "to": "A0A0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 44,
+                    "type": 54,
+                    "amount": 1,
+                    "requires": [
+                        "flag(88)",
+                        "flag(113)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "A0C0",
+            "rdts": [
+                "A0C0"
+            ],
+            "edges": [
+                {
+                    "to": "A100",
+                    "requires": [
+                        "flag(88)"
+                    ]
+                },
+                {
+                    "to": "A0E0"
+                },
+                {
+                    "to": "A0D0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 368,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 370,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 371,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "A0D0",
+            "rdts": [
+                "A0D0"
+            ],
+            "edges": [
+                {
+                    "to": "A0F0"
+                },
+                {
+                    "to": "A0C0"
+                },
+                {
+                    "to": "A0A0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 373,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 372,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 45,
+                    "type": 120,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 46,
+                    "type": 120,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "A0E0",
+            "rdts": [
+                "A0E0"
+            ],
+            "edges": [
+                {
+                    "to": "A0C0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 375,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 376,
+                    "type": 14,
+                    "amount": 6
+                },
+                {
+                    "globalId": 377,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 380,
+                    "type": 14,
+                    "amount": 6
+                },
+                {
+                    "globalId": 381,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 378,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 379,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 449,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 450,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 451,
+                    "type": 23,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "A0F0",
+            "rdts": [
+                "A0F0"
+            ],
+            "edges": [
+                {
+                    "to": "A0D0"
+                },
+                {
+                    "to": "A1A0",
+                    "requires": [
+                        "flag(115)"
+                    ]
+                },
+                {
+                    "to": "A200"
+                }
+            ]
+        },
+        {
+            "id": "A100",
+            "rdts": [
+                "A100"
+            ],
+            "edges": [
+                {
+                    "to": "A0C0",
+                    "requires": [
+                        "flag(88)"
+                    ]
+                },
+                {
+                    "to": "A0F0"
+                },
+                {
+                    "to": "A110",
+                    "requires": [
+                        "flag(88)"
+                    ]
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 386,
+                    "type": 14,
+                    "amount": 6
+                },
+                {
+                    "globalId": 387,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 49,
+                    "type": 112,
+                    "amount": 1,
+                    "priority": "fixed",
+                    "group": 1
+                },
+                {
+                    "globalId": 50,
+                    "type": 111,
+                    "amount": 1,
+                    "priority": "fixed",
+                    "group": 1
+                },
+                {
+                    "globalId": 384,
+                    "type": 12,
+                    "amount": 15,
+                    "requires": [
+                        "flag(80)",
+                        "flag(111)"
+                    ]
+                },
+                {
+                    "globalId": 64,
+                    "type": 12,
+                    "amount": 15,
+                    "requires": [
+                        "flag(88)",
+                        "flag(112)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "A110",
+            "rdts": [
+                "A110"
+            ],
+            "edges": [
+                {
+                    "to": "A100"
+                },
+                {
+                    "to": "A120"
+                },
+                {
+                    "to": "A130"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 51,
+                    "type": 120,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 388,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 390,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "A120",
+            "rdts": [
+                "A120"
+            ],
+            "edges": [
+                {
+                    "to": "A110"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 52,
+                    "type": 45,
+                    "amount": 1,
+                    "requires": [
+                        "flag(117)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "A130",
+            "rdts": [
+                "A130"
+            ],
+            "edges": [
+                {
+                    "to": "A110"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 400,
+                    "type": 23,
+                    "amount": 1
+                },
+                {
+                    "globalId": 401,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 397,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 398,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "A140",
+            "rdts": [
+                "A140"
+            ],
+            "edges": [
+                {
+                    "to": "A200"
+                },
+                {
+                    "to": "A170"
+                },
+                {
+                    "to": "A150"
+                },
+                {
+                    "to": "A160"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 402,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 403,
+                    "type": 21,
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": "A150",
+            "rdts": [
+                "A150"
+            ],
+            "edges": [
+                {
+                    "to": "A140"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 53,
+                    "type": 92,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 404,
+                    "type": 20,
+                    "amount": 1
+                },
+                {
+                    "globalId": 407,
+                    "type": 14,
+                    "amount": 7
+                },
+                {
+                    "globalId": 405,
+                    "type": 31,
+                    "amount": 3
+                }
+            ]
+        },
+        {
+            "id": "A160",
+            "rdts": [
+                "A160"
+            ],
+            "edges": [
+                {
+                    "to": "A1B0"
+                },
+                {
+                    "to": "A140"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 408,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 409,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 410,
+                    "type": 14,
+                    "amount": 7
+                },
+                {
+                    "globalId": 411,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 54,
+                    "type": 120,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "A170",
+            "rdts": [
+                "A170"
+            ],
+            "edges": [
+                {
+                    "to": "A180"
+                },
+                {
+                    "to": "A140"
+                },
+                {
+                    "to": "A190",
+                    "requires": [
+                        "flag(78)",
+                        "flag(112)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "A180",
+            "rdts": [
+                "A180"
+            ],
+            "edges": [
+                {
+                    "to": "A140"
+                },
+                {
+                    "to": "A170"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 65,
+                    "type": 78,
+                    "amount": 1,
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "A190",
+            "rdts": [
+                "A190"
+            ],
+            "edges": [
+                {
+                    "to": "A170"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 55,
+                    "type": 79,
+                    "amount": 1
+                },
+                {
+                    "globalId": 415,
+                    "type": 31,
+                    "amount": 3
+                },
+                {
+                    "globalId": 417,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 418,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 416,
+                    "type": 12,
+                    "amount": 15
+                }
+            ]
+        },
+        {
+            "id": "A1A0",
+            "rdts": [
+                "A1A0"
+            ],
+            "edges": [
+                {
+                    "to": "A0F0"
+                },
+                {
+                    "to": "A1B0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 423,
+                    "type": 22,
+                    "amount": 1
+                },
+                {
+                    "globalId": 424,
+                    "type": 21,
+                    "amount": 1
+                },
+                {
+                    "globalId": 422,
+                    "type": 12,
+                    "amount": 15
+                },
+                {
+                    "globalId": 425,
+                    "type": 14,
+                    "amount": 6
+                },
+                {
+                    "globalId": 420,
+                    "type": 15,
+                    "amount": 15,
+                    "requires": [
+                        "flag(4)"
+                    ]
+                },
+                {
+                    "globalId": 419,
+                    "type": 17,
+                    "amount": 6,
+                    "requires": [
+                        "flag(4)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "A1B0",
+            "rdts": [
+                "A1B0"
+            ],
+            "edges": [
+                {
+                    "to": "A1A0"
+                },
+                {
+                    "to": "A1D0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 426,
+                    "type": 18,
+                    "amount": 30
+                },
+                {
+                    "globalId": 429,
+                    "type": 15,
+                    "amount": 6
+                }
+            ]
+        },
+        {
+            "id": "A1C0",
+            "rdts": [
+                "A1C0"
+            ],
+            "edges": [
+                {
+                    "to": "A1D0"
+                }
+            ]
+        },
+        {
+            "id": "A1D0",
+            "rdts": [
+                "A1D0"
+            ],
+            "edges": [
+                {
+                    "to": "A1C0"
+                },
+                {
+                    "to": "A1B0"
+                },
+                {
+                    "to": "A1E0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 431,
+                    "type": 128,
+                    "amount": 1
+                },
+                {
+                    "globalId": 432,
+                    "type": 18,
+                    "amount": 30
+                },
+                {
+                    "globalId": 433,
+                    "type": 18,
+                    "amount": 30
+                },
+                {
+                    "globalId": 57,
+                    "type": 121,
+                    "amount": 1,
+                    "group": 1
+                },
+                {
+                    "globalId": 56,
+                    "type": 105,
+                    "amount": 1,
+                    "requires": [
+                        "flag(121)"
+                    ],
+                    "group": 1
+                }
+            ]
+        },
+        {
+            "id": "A1E0",
+            "rdts": [
+                "A1E0"
+            ],
+            "edges": [
+                {
+                    "to": "A1F0",
+                    "requires": [
+                        "flag(79)",
+                        "flag(105)",
+                        "flag(120)"
+                    ]
+                },
+                {
+                    "to": "A1D0"
+                }
+            ]
+        },
+        {
+            "id": "A1F0",
+            "rdts": [
+                "A1F0"
+            ],
+            "edges": [
+                {
+                    "to": "A1E0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 435,
+                    "type": 21,
+                    "amount": 1,
+                    "priority": "low"
+                },
+                {
+                    "globalId": 436,
+                    "type": 21,
+                    "amount": 1,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "A200",
+            "rdts": [
+                "A200"
+            ],
+            "edges": [
+                {
+                    "to": "A140",
+                    "requires": [
+                        "flag(43)",
+                        "flag(45)",
+                        "flag(107)"
+                    ]
+                },
+                {
+                    "to": "A0D0"
+                },
+                {
+                    "to": "A100",
+                    "requires": [
+                        "flag(92)"
+                    ]
+                },
+                {
+                    "to": "A0F0"
+                }
+            ],
+            "slots": [
+                {
+                    "globalId": 47,
+                    "type": 107,
+                    "amount": 1,
+                    "priority": "low",
+                    "group": 1
+                },
+                {
+                    "globalId": 382,
+                    "type": 8,
+                    "amount": 1,
+                    "priority": "low"
+                }
+            ]
+        },
+        {
+            "id": "A201",
+            "rdts": [
+                "A201"
+            ],
+            "slots": [
+                {
+                    "globalId": 47,
+                    "type": 107,
+                    "amount": 1,
+                    "priority": "low",
+                    "group": 1
+                },
+                {
+                    "globalId": 382,
+                    "type": 8,
+                    "amount": 1,
+                    "priority": "low"
+                }
+            ]
+        }
+    ],
+    "startDoorRando": "1000",
+    "endDoorRando": "A1E0"
+}

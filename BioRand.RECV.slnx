@@ -3,4 +3,7 @@
     <Project Path="src/biorand-recv/biorand-recv.csproj" />
     <Project Path="src/BioRand.RECV/BioRand.RECV.csproj" />
   </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/BioRand.RECV.Tests/BioRand.RECV.Tests.csproj" />
+  </Folder>
 </Solution>

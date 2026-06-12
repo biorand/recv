@@ -6,6 +6,9 @@
     <RootNamespace>IntelOrca.Biohazard.BioRand.RECV</RootNamespace>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="BioRand.RECV.Tests" />
+  </ItemGroup>
   <Target Name="SetInformationalVersion" BeforeTargets="CoreGenerateAssemblyInfo">
     <Exec Command="git rev-parse --short HEAD" ConsoleToMSBuild="true" WorkingDirectory="$(MSBuildProjectDirectory)/../..">
       <Output TaskParameter="ConsoleOutput" PropertyName="GitCommitHash" />
@@ -16,6 +19,9 @@
   </Target>
   <ItemGroup>
     <PackageReference Include="IntelOrca.Biohazard.BioRand.Common" Version="1.6.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="data\graph.json" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\lib\biohazard-utils\src\IntelOrca.Biohazard\IntelOrca.Biohazard.csproj" />

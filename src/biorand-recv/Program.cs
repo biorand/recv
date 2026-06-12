@@ -60,11 +60,24 @@ generateCommand.SetAction(parseResult =>
         randoInput,
         progress);
 
-    generator.OnLog += msg => Console.WriteLine(msg);
+    var logOutput = "";
+    generator.OnLog += msg =>
+    {
+        Console.WriteLine(msg);
+        logOutput = msg;
+    };
 
     var result = generator.GenerateAsync().GetAwaiter().GetResult();
 
     Console.WriteLine();
+
+    if (logOutput.Length > 0)
+    {
+        var logPath = Path.ChangeExtension(output!.FullName, ".log");
+        File.WriteAllText(logPath, logOutput);
+        Console.WriteLine($"Log: {logPath}");
+    }
+
     Console.WriteLine($"Generated: {output.FullName}");
     return 0;
 });
