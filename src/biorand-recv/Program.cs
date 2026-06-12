@@ -69,13 +69,12 @@ generateCommand.SetAction(parseResult =>
     return 0;
 });
 
-var baseUriOption = new Option<string>("--base-uri", [])
+var urlArgument = new Argument<string>("url")
 {
-    Description = "BioRand API base URI",
-    Required = true
+    Description = "BioRand API base URI"
 };
 
-var apiKeyOption = new Option<string>("--api-key", [])
+var apiKeyOption = new Option<string>("-k", ["--api-key"])
 {
     Description = "API key",
     Required = true
@@ -89,14 +88,14 @@ var isoDirOption = new Option<DirectoryInfo>("-d", ["--iso-dir"])
 
 var agentCommand = new Command("agent", "Run as a cloud agent")
 {
-    baseUriOption,
+    urlArgument,
     apiKeyOption,
     isoDirOption
 };
 
 agentCommand.SetAction(parseResult =>
 {
-    var baseUri = parseResult.GetValue(baseUriOption);
+    var baseUri = parseResult.GetValue(urlArgument);
     var apiKey = parseResult.GetValue(apiKeyOption);
     var isoDir = parseResult.GetValue(isoDirOption);
 

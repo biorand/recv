@@ -21,5 +21,5 @@ dotnet build
 dotnet run --project src/biorand-recv -- generate -i recvx.iso -o recvx_biorand.iso --seed 0
 
 # Cloud agent mode
-dotnet run --project src/biorand-recv -- agent --base-uri https://api.example.com --api-key KEY
+dotnet run --project src/biorand-recv -- agent https://api.example.com -k APIKEY
 ```
