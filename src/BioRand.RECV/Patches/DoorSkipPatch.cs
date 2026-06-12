@@ -8,8 +8,8 @@ public sealed class DoorSkipPatch : ICvPatch
             return;
 
         context.Logger.LogLine("Patching door skip...");
-        context.Elf.Nop(ElfAddresses.DoorSkip1);
-        context.Elf.Nop(ElfAddresses.DoorSkip2);
-        context.Logger.LogLine($"Door skip patched at 0x{ElfAddresses.DoorSkip1:X} and 0x{ElfAddresses.DoorSkip2:X}");
+        context.Elf.Nop(0x133D4C);
+        context.Elf.Nop(0x133D54);
+        context.Logger.LogLine("Door skip patched at 0x133D4C and 0x133D54");
     }
 }
