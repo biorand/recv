@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>IntelOrca.Biohazard.BioRand.RECV</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="IntelOrca.Biohazard.BioRand.Common" Version="1.5.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\biohazard-utils\src\IntelOrca.Biohazard\IntelOrca.Biohazard.csproj" />
+    <ProjectReference Include="..\..\lib\Ps2IsoTools\Ps2IsoTools\Ps2IsoTools.csproj" />
+  </ItemGroup>
+</Project>

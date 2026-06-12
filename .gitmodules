@@ -1,0 +1,7 @@
+[submodule "lib/biohazard-utils"]
+	path = lib/biohazard-utils
+	url = https://github.com/biorand/biohazard-utils
+[submodule "lib/Ps2IsoTools"]
+	path = lib/Ps2IsoTools
+	url = https://github.com/IntelOrca/Ps2IsoTools
+	branch = netstandard2
