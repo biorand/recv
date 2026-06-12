@@ -74,15 +74,15 @@ var urlArgument = new Argument<string>("url")
     Description = "BioRand API base URI"
 };
 
-var apiKeyOption = new Option<string>("-k", ["--api-key"])
+var apiKeyOption = new Option<string>("-k", [])
 {
     Description = "API key",
     Required = true
 };
 
-var isoDirOption = new Option<DirectoryInfo>("-d", ["--iso-dir"])
+var isoFileOption = new Option<FileInfo>("-i", [])
 {
-    Description = "Directory containing vanilla ISO files",
+    Description = "Input vanilla ISO file",
     Required = true
 };
 
@@ -90,17 +90,26 @@ var agentCommand = new Command("agent", "Run as a cloud agent")
 {
     urlArgument,
     apiKeyOption,
-    isoDirOption
+    isoFileOption
 };
 
 agentCommand.SetAction(parseResult =>
 {
     var baseUri = parseResult.GetValue(urlArgument);
     var apiKey = parseResult.GetValue(apiKeyOption);
-    var isoDir = parseResult.GetValue(isoDirOption);
+    var isoFile = parseResult.GetValue(isoFileOption);
 
-    var handler = new ReCvRandomizer(isoDir!.FullName);
-    var agent = new RandomizerAgent(baseUri!, apiKey!, 0, handler);
+    var client = new RandomizerClient(baseUri!);
+    var games = client.GetGamesAsync().GetAwaiter().GetResult();
+    var game = games.FirstOrDefault(g => g.Moniker == "recv");
+    if (game == null)
+    {
+        Console.Error.WriteLine("Game 'recv' not found on server");
+        return 1;
+    }
+
+    var handler = new ReCvRandomizer(isoFile!.FullName);
+    var agent = new RandomizerAgent(baseUri!, apiKey!, game.Id, handler);
     agent.RunAsync().GetAwaiter().GetResult();
     return 0;
 });

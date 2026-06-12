@@ -4,11 +4,11 @@ namespace IntelOrca.Biohazard.BioRand.RECV;
 
 public sealed class ReCvRandomizer : IRandomizerAgentHandler
 {
-    private readonly string _isoDirectory;
+    private readonly string _isoPath;
 
-    public ReCvRandomizer(string isoDirectory)
+    public ReCvRandomizer(string isoPath)
     {
-        _isoDirectory = isoDirectory;
+        _isoPath = isoPath;
     }
 
     public string BuildVersion =>
@@ -32,7 +32,7 @@ public sealed class ReCvRandomizer : IRandomizerAgentHandler
         RandomizerAgent.QueueResponseItem queueItem,
         RandomizerInput input)
     {
-        var inputPath = Path.Combine(_isoDirectory, "recvx.iso");
+        var inputPath = _isoPath;
         var outputPath = Path.GetTempFileName();
 
         try
