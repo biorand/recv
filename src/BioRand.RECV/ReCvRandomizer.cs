@@ -58,6 +58,6 @@ public sealed class ReCvRandomizer : IRandomizerAgentHandler
 
     public void LogError(Exception ex, string message)
     {
-        Console.Error.WriteLine($"{message}: {ex.Message}");
+        Console.Error.WriteLine($"{message}: {ex}");
     }
 }
