@@ -13,7 +13,6 @@ public sealed class GraphDataKey
 {
     public int Id { get; init; }
     public string Name { get; init; } = "";
-    public int Group { get; init; }
     public string Kind { get; init; } = "";
 }
 
@@ -29,22 +28,28 @@ public sealed class GraphDataRoom
     public string Name { get; init; } = "";
     public string[] Rdts { get; init; } = [];
     public GraphDataEdge[] Edges { get; init; } = [];
-    public GraphDataSlot[] Slots { get; init; } = [];
+    public GraphDataItem[] Items { get; init; } = [];
 }
 
 public sealed class GraphDataEdge
 {
-    public string To { get; init; } = "";
+    public string Target { get; init; } = "";
+    public int Id { get; init; }
+    public int EntranceId { get; init; }
     public string[] Requires { get; init; } = [];
     public string Kind { get; init; } = "";
+    public string Condition { get; init; } = "";
+    public string[] Tags { get; init; } = [];
+    public string[] Offsets { get; init; } = [];
 }
 
-public sealed class GraphDataSlot
+public sealed class GraphDataItem
 {
     public int GlobalId { get; init; }
-    public int Group { get; init; }
     public int Type { get; init; }
     public int Amount { get; init; }
     public string[] Requires { get; init; } = [];
-    public string Priority { get; init; } = "";
+    public string Condition { get; init; } = "";
+    public string[] Tags { get; init; } = [];
+    public string[] Offsets { get; init; } = [];
 }

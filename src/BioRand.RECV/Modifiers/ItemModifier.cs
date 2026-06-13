@@ -23,6 +23,8 @@ public sealed class ItemModifier : ICvModifier
             var keyRandomizer = new ReCvKeyRandomizer();
             var result = keyRandomizer.Randomize(graph, rng);
             keyPlacements = new Dictionary<int, ItemPlacement>(result.Placements);
+            context.MermaidGraph = result.Route.Graph.ToMermaid(useLabels: true, includeItems: false);
+
             logger.LogLine($"Key route found: {result.Route.AllNodesVisited}, {keyPlacements.Count} placements");
 
             if (!result.Route.AllNodesVisited)
@@ -37,7 +39,7 @@ public sealed class ItemModifier : ICvModifier
                     continue;
 
                 var slotRoom = graph.Rooms.FirstOrDefault(r =>
-                    r.Slots.Any(s => s.GlobalId == globalId));
+                    r.Items.Any(s => s.GlobalId == globalId));
                 if (slotRoom == null)
                     continue;
 
@@ -45,7 +47,7 @@ public sealed class ItemModifier : ICvModifier
                 if (slotRoom.Rdts.Length > 0)
                     roomLabel += $", {string.Join(", ", slotRoom.Rdts)}";
 
-                logger.LogLine($"Placing {keyName} at #{globalId} [{roomLabel}]");
+                logger.LogLine($"Placing {keyName} at #{globalId} [{roomLabel}] {slotRoom.Name ?? ""}");
             }
         }
         else
@@ -72,31 +74,31 @@ public sealed class ItemModifier : ICvModifier
                 var builder = rdt.ToBuilder();
                 var modified = false;
 
-                foreach (var slot in room.Slots)
+                foreach (var item in room.Items)
                 {
-                    var itemIndex = slot.GlobalId & 0xFF;
+                    var itemIndex = item.GlobalId & 0xFF;
                     if (itemIndex >= builder.Items.Count)
                         continue;
 
-                    if (keyPlacements.TryGetValue(slot.GlobalId, out var placement))
+                    if (keyPlacements.TryGetValue(item.GlobalId, out var placement))
                     {
-                        var item = builder.Items[itemIndex];
-                        item.Type = placement.Type;
-                        builder.Items[itemIndex] = item;
+                        var rdtItem = builder.Items[itemIndex];
+                        rdtItem.Type = placement.Type;
+                        builder.Items[itemIndex] = rdtItem;
                         modified = true;
-                        keyPlacements.Remove(slot.GlobalId);
+                        keyPlacements.Remove(item.GlobalId);
                     }
-                    else if (nonKeyRandoEnabled && slot.Group == 0)
+                    else if (nonKeyRandoEnabled && item.Requires.Length == 0)
                     {
-                        if (slot.Type == 0)
+                        if (item.Type == 0)
                             continue;
 
                         var newType = PickNonKeyItem(nonKeyItems, itemRng);
                         if (newType != null)
                         {
-                            var item = builder.Items[itemIndex];
-                            item.Type = newType.Value;
-                            builder.Items[itemIndex] = item;
+                            var rdtItem = builder.Items[itemIndex];
+                            rdtItem.Type = newType.Value;
+                            builder.Items[itemIndex] = rdtItem;
                             modified = true;
                         }
                     }

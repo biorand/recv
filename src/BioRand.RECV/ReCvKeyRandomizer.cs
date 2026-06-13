@@ -19,7 +19,7 @@ internal sealed class ReCvKeyRandomizer
         foreach (var k in graphData.Keys)
         {
             var keyKind = (KeyKind)Enum.Parse(typeof(KeyKind), k.Kind, true);
-            var key = builder.Key(k.Name, k.Group, keyKind);
+            var key = builder.Key(k.Name, 1, keyKind);
             keyToItemId[key] = k.Id;
             itemIdToKey[k.Id] = key;
         }
@@ -27,8 +27,7 @@ internal sealed class ReCvKeyRandomizer
         var startNode = builder.Room("START");
         foreach (var r in graphData.Rooms)
         {
-            var label = r.Name != null ? $"{r.Id}|{r.Name}" : r.Id;
-            roomNodes[r.Id] = builder.Room(label);
+            roomNodes[r.Id] = builder.Room(r.Name != null ? $"{r.Id}|{r.Name}" : r.Id);
         }
         builder.Door(startNode, roomNodes[graphData.Start]);
 
@@ -40,10 +39,10 @@ internal sealed class ReCvKeyRandomizer
             var seenTargets = new HashSet<string>();
             foreach (var e in r.Edges)
             {
-                if (!roomNodes.TryGetValue(e.To, out var target))
+                if (!roomNodes.TryGetValue(e.Target, out var target))
                     continue;
 
-                if (!seenTargets.Add(e.To))
+                if (!seenTargets.Add(e.Target))
                     continue;
 
                 var requirements = ParseRequirements(
@@ -80,15 +79,12 @@ internal sealed class ReCvKeyRandomizer
             if (!roomNodes.TryGetValue(r.Id, out var roomNode))
                 continue;
 
-            foreach (var s in r.Slots)
+            foreach (var s in r.Items)
             {
-                if (s.Group == 0)
-                    continue;
-
                 var requirements = ParseRequirements(
                     s.Requires, itemIdToKey, roomNodes, flagNodes, builder);
-                var label = $"{r.Id}|slot({s.GlobalId})";
-                var itemNode = builder.Item(label, s.Group, roomNode, requirements);
+                var label = $"{r.Id}|item({s.GlobalId})";
+                var itemNode = builder.Item(label, 1, roomNode, requirements);
                 itemNodeToGlobalId[itemNode] = s.GlobalId;
             }
         }
@@ -105,7 +101,7 @@ internal sealed class ReCvKeyRandomizer
 
             if (key == null)
             {
-                var slotData = FindSlot(graphData, globalId);
+                var slotData = FindItem(graphData, globalId);
                 if (slotData != null)
                 {
                     placements[globalId] = new ItemPlacement(
@@ -127,11 +123,11 @@ internal sealed class ReCvKeyRandomizer
         };
     }
 
-    private static GraphDataSlot? FindSlot(GraphData graphData, int globalId)
+    private static GraphDataItem? FindItem(GraphData graphData, int globalId)
     {
         foreach (var r in graphData.Rooms)
         {
-            foreach (var s in r.Slots)
+            foreach (var s in r.Items)
             {
                 if (s.GlobalId == globalId)
                     return s;
@@ -175,6 +171,7 @@ internal sealed class ReCvKeyRandomizer
                     result.Add(new Requirement(flagNode));
                     break;
                 case "room":
+                case "node":
                     if (roomNodes.TryGetValue(value, out var roomNode))
                         result.Add(new Requirement(roomNode));
                     break;

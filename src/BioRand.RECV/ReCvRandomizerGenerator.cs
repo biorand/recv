@@ -16,6 +16,7 @@ public sealed class ReCvRandomizerGenerator
     private readonly IRandomizerProgress _progress;
 
     public Action<string>? OnLog { get; set; }
+    public Action<string>? OnMermaid { get; set; }
 
     private UdfEditor? _udfEditor;
     private ElfRegion? _elf;
@@ -76,6 +77,9 @@ public sealed class ReCvRandomizerGenerator
         logger.LogLine(_outputPath);
 
         OnLog?.Invoke(logger.Output);
+
+        if (context.MermaidGraph != null)
+            OnMermaid?.Invoke(context.MermaidGraph);
 
         return new RandomizerOutput(ImmutableArray.Create(asset), instructions);
     }

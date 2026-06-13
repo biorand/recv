@@ -108,9 +108,12 @@ public class TestKeyRandomizer
     }
 
     [Fact]
-    public void FullRecvMap_GeneratesRoute()
+    public void FullRecvMap_SolvesAll()
     {
         var graph = LoadGraphFromResource();
+        var slotCount = graph.Rooms.Sum(r => r.Items.Count(s => s.Requires.Length > 0));
+        var failures = new List<string>();
+
         for (var i = 0; i < 10; i++)
         {
             var rng = new Rng(i);
@@ -118,8 +121,8 @@ public class TestKeyRandomizer
             var result = randomizer.Randomize(graph, rng);
 
             Assert.NotNull(result.Route);
-            Assert.NotEmpty(result.Placements);
-            Assert.Equal(RouteSolverResult.Ok, result.Route.Solve());
+            Assert.True(result.Route.AllNodesVisited,
+                $"Seed {i}: {result.Placements.Count}/{slotCount} placements, not all nodes visited\n{result.Route.Log}");
         }
     }
 

@@ -3,411 +3,378 @@
     "end": "A090",
     "keys": [
         {
+            "id": 4,
+            "name": "Shotgun",
+            "kind": "reusuable"
+        },
+        {
+            "id": 33,
+            "name": "Gold Lugers",
+            "kind": "reusuable"
+        },
+        {
+            "id": 39,
+            "name": "Gas Mask",
+            "kind": "reusuable"
+        },
+        {
             "id": 43,
             "name": "Alexander's Pierce",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 44,
             "name": "Alexander's Jewel",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 45,
             "name": "Alfred's Ring",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 46,
             "name": "Alfred's Jewel",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 50,
             "name": "Lockpick",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 51,
             "name": "Glass Eye",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 52,
             "name": "Piano Roll",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 53,
             "name": "Steering Wheel",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 54,
             "name": "Crane Key",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 55,
             "name": "Lighter",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 56,
             "name": "Eagle Plate",
-            "group": 1,
             "kind": "consumable"
         },
         {
             "id": 59,
             "name": "Hawk Emblem",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 60,
             "name": "Queen Ant Object",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 61,
             "name": "King Ant Object",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 62,
             "name": "Biohazard Card",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 64,
             "name": "Detonator",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 65,
             "name": "Control Lever",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 66,
             "name": "Gold Dragonfly",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 67,
             "name": "Silver Key",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 68,
             "name": "Gold Key",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 69,
             "name": "Army Proof",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 70,
             "name": "Navy Proof",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 71,
             "name": "Air Force Proof",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 72,
             "name": "Key With Tag",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 73,
             "name": "ID Card",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 75,
             "name": "Airport Key",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 76,
             "name": "Emblem Card",
-            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 77,
+            "name": "Skeleton Picture",
             "kind": "reusuable"
         },
         {
             "id": 78,
             "name": "Music Box Plate",
-            "group": 1,
             "kind": "consumable"
+        },
+        {
+            "id": 79,
+            "name": "Gold Dragonfly (No Wings)",
+            "kind": "reusuable"
+        },
+        {
+            "id": 80,
+            "name": "Album",
+            "kind": "reusuable"
         },
         {
             "id": 81,
             "name": "Halberd",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 82,
             "name": "Extinguisher",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 83,
             "name": "Briefcase",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 84,
             "name": "Padlock Key",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 85,
             "name": "TG-01",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 86,
             "name": "Sp. Alloy Emblem",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 87,
             "name": "Valve Handle",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 88,
             "name": "Octa Valve Handle",
-            "group": 1,
             "kind": "consumable"
         },
         {
             "id": 89,
             "name": "Machine Room Key",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 90,
             "name": "Mining Room Key",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 91,
             "name": "Bar Code Sticker",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 92,
             "name": "Sterile Room Key",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 93,
             "name": "Door Knob",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 94,
             "name": "Battery Pack",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 95,
             "name": "Hemostatic Wire",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 96,
             "name": "Turn Table Key",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 97,
             "name": "Chem Storage Key",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 98,
             "name": "Clement Alpha",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 99,
             "name": "Clement Sigma",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 100,
             "name": "Tank Object",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 103,
             "name": "Rusted Sword",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 104,
             "name": "Hemostatic",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 105,
             "name": "Security Card",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 107,
             "name": "Alexia's Choker",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 108,
             "name": "Alexia's Jewel",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 109,
             "name": "Queen Ant Relief",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 110,
             "name": "King Ant Relief",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 111,
             "name": "Red Jewel",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 112,
             "name": "Blue Jewel",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 113,
             "name": "Socket",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 114,
             "name": "Sq Valve Handle",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 115,
             "name": "Serum",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 116,
             "name": "Earthenware Vase",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 117,
             "name": "Paper Weight",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 119,
             "name": "Silver Dragonfly",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 120,
             "name": "Wing Object",
-            "group": 1,
             "kind": "consumable"
         },
         {
             "id": 121,
             "name": "Crystal",
-            "group": 1,
+            "kind": "reusuable"
+        },
+        {
+            "id": 126,
+            "name": "Plant Pot",
             "kind": "reusuable"
         },
         {
             "id": 142,
             "name": "M1P",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 152,
             "name": "Crest Key S",
-            "group": 1,
             "kind": "reusuable"
         },
         {
             "id": 153,
             "name": "Crest Key G",
-            "group": 1,
             "kind": "reusuable"
         }
     ],
@@ -564,6 +531,10 @@
             "name": "M Gun Bullets",
             "kind": "ammo/sub-machine-gun"
         },
+        "39": {
+            "name": "Gas Mask",
+            "kind": "key/reusuable"
+        },
         "40": {
             "name": "Rifle Bullets",
             "kind": "ammo/sniper-rifle"
@@ -602,6 +573,10 @@
         },
         "77": {
             "name": "Skeleton Picture",
+            "kind": "quest"
+        },
+        "79": {
+            "name": "Gold Dragonfly (No Wings)",
             "kind": "quest"
         },
         "80": {
@@ -724,23 +699,29 @@
     "rooms": [
         {
             "id": "1000",
+            "name": "START",
             "rdts": [
                 "1000"
             ],
             "edges": [
                 {
-                    "to": "1010"
+                    "target": "1010",
+                    "id": 0,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 1002,
                     "type": 50,
                     "amount": 1,
                     "requires": [
-                        "flag(104)"
+                        "item(104)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "1625480",
+                        "1629070"
+                    ]
                 },
                 {
                     "globalId": 121,
@@ -761,18 +742,23 @@
         },
         {
             "id": "1010",
+            "name": "START SAVE",
             "rdts": [
                 "1010"
             ],
             "edges": [
                 {
-                    "to": "1000"
+                    "target": "1000",
+                    "id": 4,
+                    "entranceId": 0
                 },
                 {
-                    "to": "1021"
+                    "target": "1021",
+                    "id": 0,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 123,
                     "type": 31,
@@ -787,112 +773,142 @@
         },
         {
             "id": "1020",
+            "name": "GRAVEYARD",
             "rdts": [
                 "1020"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 1,
                     "type": 83,
-                    "amount": 1,
-                    "requires": [
-                        "flag(82)"
-                    ],
-                    "group": 1
+                    "amount": 1
                 }
             ]
         },
         {
             "id": "1021",
+            "name": "GRAVEYARD",
             "rdts": [
                 "1021"
             ],
             "edges": [
                 {
-                    "to": "1010"
+                    "target": "1010",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "1031"
+                    "target": "1031",
+                    "id": 0,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 1,
                     "type": 83,
                     "amount": 1,
                     "requires": [
-                        "flag(82)"
-                    ],
-                    "group": 1
+                        "item(82)"
+                    ]
                 }
             ]
         },
         {
             "id": "1030",
+            "name": "FIRST STEVE",
             "rdts": [
                 "1030"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 1000,
                     "type": 9,
                     "amount": 15,
-                    "priority": "low"
+                    "offsets": [
+                        "2603334",
+                        "2607638"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 127,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "2607986"
+                    ]
                 }
             ]
         },
         {
             "id": "1031",
+            "name": "FIRST STEVE",
             "rdts": [
                 "1031"
             ],
             "edges": [
                 {
-                    "to": "1021"
+                    "target": "1021",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "1050"
+                    "target": "1050",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "10A0",
+                    "target": "10A0",
+                    "id": 2,
+                    "entranceId": 2,
                     "requires": [
-                        "flag(86)"
-                    ]
+                        "item(86)"
+                    ],
+                    "condition": "!1:106"
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 127,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "1846542"
+                    ]
                 }
             ]
         },
         {
             "id": "1040",
+            "name": "EMAIL",
             "rdts": [
                 "1040"
             ],
             "edges": [
                 {
-                    "to": "1090"
+                    "target": "1090",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "1100",
+                    "target": "1100",
+                    "id": 1,
+                    "entranceId": 1,
                     "kind": "unblock"
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 3,
                     "type": 59,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "1070594"
+                    ]
                 },
                 {
                     "globalId": 129,
@@ -903,21 +919,28 @@
         },
         {
             "id": "1050",
+            "name": "BARRACKS YARD",
             "rdts": [
                 "1050"
             ],
             "edges": [
                 {
-                    "to": "1031"
+                    "target": "1031",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "1060"
+                    "target": "1060",
+                    "id": 2,
+                    "entranceId": 2
                 },
                 {
-                    "to": "1080"
+                    "target": "1080",
+                    "id": 1,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 130,
                     "type": 21,
@@ -927,22 +950,30 @@
         },
         {
             "id": "1060",
+            "name": "BARRACKS",
             "rdts": [
                 "1060"
             ],
             "edges": [
                 {
-                    "to": "1050"
+                    "target": "1050",
+                    "id": 9,
+                    "entranceId": 1
                 },
                 {
-                    "to": "1070"
+                    "target": "1070",
+                    "id": 8,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 132,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "1635340"
+                    ]
                 },
                 {
                     "globalId": 131,
@@ -953,15 +984,18 @@
         },
         {
             "id": "1070",
+            "name": "BUNKHOUSE",
             "rdts": [
                 "1070"
             ],
             "edges": [
                 {
-                    "to": "1060"
+                    "target": "1060",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 134,
                     "type": 12,
@@ -975,8 +1009,7 @@
                 {
                     "globalId": 136,
                     "type": 142,
-                    "amount": 100,
-                    "group": 1
+                    "amount": 100
                 },
                 {
                     "globalId": 97,
@@ -987,55 +1020,72 @@
         },
         {
             "id": "1080",
+            "name": "EXECUTION YARD",
             "rdts": [
                 "1080"
             ],
             "edges": [
                 {
-                    "to": "1050"
+                    "target": "1050",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "1100",
+                    "target": "1100",
+                    "id": 3,
+                    "entranceId": 2,
                     "requires": [
-                        "flag(56)"
+                        "item(56)"
                     ]
                 },
                 {
-                    "to": "1100",
+                    "target": "1100",
+                    "id": 3,
+                    "entranceId": 2,
                     "requires": [
-                        "flag(56)"
+                        "item(56)",
+                        "node(1040)"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 4,
                     "type": 82,
                     "amount": 1,
-                    "group": 1
+                    "requires": [
+                        "node(1040)"
+                    ]
                 },
                 {
                     "globalId": 2,
                     "type": 84,
                     "amount": 1,
-                    "group": 1
+                    "requires": [
+                        "node(1040)"
+                    ],
+                    "offsets": [
+                        "1782756",
+                        "1782782"
+                    ]
                 }
             ]
         },
         {
             "id": "1090",
+            "name": "SECURITY",
             "rdts": [
                 "1090"
             ],
             "edges": [
                 {
-                    "to": "1040"
+                    "target": "1040"
                 },
                 {
-                    "to": "1080"
+                    "target": "1080"
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 98,
                     "type": 49,
@@ -1046,10 +1096,13 @@
                     "type": 86,
                     "amount": 1,
                     "requires": [
-                        "flag(59)",
-                        "flag(83)"
+                        "item(59)",
+                        "item(83)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "1911478",
+                        "1911592"
+                    ]
                 },
                 {
                     "globalId": 140,
@@ -1070,23 +1123,43 @@
         },
         {
             "id": "10A0",
+            "name": "PRISON BRIDGE",
             "rdts": [
                 "10A0"
             ],
             "edges": [
                 {
-                    "to": "1031"
+                    "target": "1031",
+                    "id": 4,
+                    "entranceId": 0,
+                    "offsets": [
+                        "641148",
+                        "641150",
+                        "641164"
+                    ]
                 },
                 {
-                    "to": "20C0",
-                    "kind": "unblock"
+                    "target": "20C0",
+                    "id": 7,
+                    "entranceId": 1,
+                    "kind": "unblock",
+                    "offsets": [
+                        "641216",
+                        "641210",
+                        "641212",
+                        "641218",
+                        "641220"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 142,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "640998"
+                    ]
                 },
                 {
                     "globalId": 143,
@@ -1102,24 +1175,31 @@
         },
         {
             "id": "10B0",
+            "name": "CLINIC",
             "rdts": [
                 "10B0"
             ],
             "edges": [
                 {
-                    "to": "10C0"
+                    "target": "10C0",
+                    "id": 11,
+                    "entranceId": 1
                 },
                 {
-                    "to": "10D0",
+                    "target": "10D0",
+                    "id": 0,
+                    "entranceId": 2,
                     "requires": [
-                        "flag(51)"
+                        "item(51)"
                     ]
                 },
                 {
-                    "to": "1100"
+                    "target": "1100",
+                    "id": 10,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 145,
                     "type": 47,
@@ -1128,20 +1208,24 @@
                 {
                     "globalId": 115,
                     "type": 20,
+                    "amount": 1,
+                    "offsets": [
+                        "2133888"
+                    ]
+                },
+                {
+                    "globalId": 6,
+                    "type": 51,
                     "amount": 1
                 },
                 {
                     "globalId": 6,
                     "type": 51,
                     "amount": 1,
-                    "group": 1
-                },
-                {
-                    "globalId": 6,
-                    "type": 51,
-                    "amount": 1,
-                    "priority": "low",
-                    "group": 1
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 146,
@@ -1152,24 +1236,33 @@
         },
         {
             "id": "10C0",
+            "name": "CREMETORIUM",
             "rdts": [
                 "10C0"
             ],
             "edges": [
                 {
-                    "to": "10B0"
+                    "target": "10B0",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 147,
                     "type": 63,
-                    "amount": 1
+                    "amount": 1,
+                    "offsets": [
+                        "1526878"
+                    ]
                 },
                 {
                     "globalId": 148,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "1526934"
+                    ]
                 },
                 {
                     "globalId": 149,
@@ -1180,18 +1273,23 @@
         },
         {
             "id": "10D0",
+            "name": "CLINIC PASSAGE",
             "rdts": [
                 "10D0"
             ],
             "edges": [
                 {
-                    "to": "10B0"
+                    "target": "10B0",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "10E0"
+                    "target": "10E0",
+                    "id": 1,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 150,
                     "type": 21,
@@ -1201,22 +1299,30 @@
         },
         {
             "id": "10E0",
+            "name": "TORTURE CHAMBER",
             "rdts": [
                 "10E0"
             ],
             "edges": [
                 {
-                    "to": "10D0"
+                    "target": "10D0",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "10F0"
+                    "target": "10F0",
+                    "id": 8,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 152,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "1706630"
+                    ]
                 },
                 {
                     "globalId": 153,
@@ -1227,50 +1333,62 @@
         },
         {
             "id": "10F0",
+            "name": "STATUE",
             "rdts": [
                 "10F0"
             ],
             "edges": [
                 {
-                    "to": "10E0"
+                    "target": "10E0",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 8,
                     "type": 103,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "1191434"
+                    ]
                 },
                 {
                     "globalId": 7,
                     "type": 52,
                     "amount": 1,
                     "requires": [
-                        "flag(103)"
-                    ],
-                    "group": 1
+                        "item(103)"
+                    ]
                 }
             ]
         },
         {
             "id": "1100",
+            "name": "BOX YARD",
             "rdts": [
                 "1100"
             ],
             "edges": [
                 {
-                    "to": "1040",
-                    "kind": "unblock"
+                    "target": "1040",
+                    "id": 3,
+                    "entranceId": 0,
+                    "kind": "unblock",
+                    "condition": "!1:137"
                 },
                 {
-                    "to": "1080"
+                    "target": "1080",
+                    "id": 0,
+                    "entranceId": 2
                 },
                 {
-                    "to": "10B0"
+                    "target": "10B0",
+                    "id": 1,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 155,
                     "type": 12,
@@ -1285,26 +1403,32 @@
         },
         {
             "id": "2000",
+            "name": "PALACE COURTYARD",
             "rdts": [
                 "2000"
             ],
             "edges": [
                 {
-                    "to": "2020"
+                    "target": "2020",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "20D0"
+                    "target": "20D0",
+                    "id": 2,
+                    "entranceId": 1
                 },
                 {
-                    "to": "20C0"
+                    "target": "20C0",
+                    "id": 1,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 9,
                     "type": 70,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 7,
@@ -1315,15 +1439,15 @@
         },
         {
             "id": "2001",
+            "name": "PALACE COURTYARD",
             "rdts": [
                 "2001"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 9,
                     "type": 70,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 7,
@@ -1334,15 +1458,15 @@
         },
         {
             "id": "2002",
+            "name": "PALACE COURTYARD",
             "rdts": [
                 "2002"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 9,
                     "type": 70,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 7,
@@ -1353,33 +1477,46 @@
         },
         {
             "id": "2020",
+            "name": "PALACE HALL",
             "rdts": [
                 "2020"
             ],
             "edges": [
                 {
-                    "to": "2000"
+                    "target": "2000",
+                    "id": 10,
+                    "entranceId": 0
                 },
                 {
-                    "to": "2030"
+                    "target": "2030",
+                    "id": 11,
+                    "entranceId": 2
                 },
                 {
-                    "to": "2070",
+                    "target": "2070",
+                    "id": 12,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(73)"
-                    ]
+                        "item(73)"
+                    ],
+                    "condition": "!1:4"
                 },
                 {
-                    "to": "2080"
+                    "target": "2080",
+                    "id": 8,
+                    "entranceId": 4
                 },
                 {
-                    "to": "20B0",
+                    "target": "20B0",
+                    "id": 9,
+                    "entranceId": 3,
                     "requires": [
-                        "flag(67)"
-                    ]
+                        "item(67)"
+                    ],
+                    "condition": "!1:147"
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 159,
                     "type": 12,
@@ -1389,10 +1526,11 @@
         },
         {
             "id": "2021",
+            "name": "PALACE HALL",
             "rdts": [
                 "2021"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 159,
                     "type": 12,
@@ -1402,15 +1540,18 @@
         },
         {
             "id": "2030",
+            "name": "PALACE BATHROOM",
             "rdts": [
                 "2030"
             ],
             "edges": [
                 {
-                    "to": "2020"
+                    "target": "2020",
+                    "id": 2,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 160,
                     "type": 128,
@@ -1430,39 +1571,46 @@
         },
         {
             "id": "2040",
+            "name": "PALACE PORTRAITS",
             "rdts": [
                 "2040"
             ],
             "edges": [
                 {
-                    "to": "2070"
+                    "target": "2070",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 10,
                     "type": 116,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "269770"
+                    ]
                 }
             ]
         },
         {
             "id": "2050",
+            "name": "PALACE GUNS",
             "rdts": [
                 "2050"
             ],
             "edges": [
                 {
-                    "to": "2070"
+                    "target": "2070",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 11,
                     "type": 53,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 165,
@@ -1473,20 +1621,22 @@
         },
         {
             "id": "2060",
+            "name": "PALACE MEETING",
             "rdts": [
                 "2060"
             ],
             "edges": [
                 {
-                    "to": "2070"
+                    "target": "2070",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 12,
                     "type": 56,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 166,
@@ -1497,34 +1647,46 @@
         },
         {
             "id": "2070",
+            "name": "PALACE CORRIDOR",
             "rdts": [
                 "2070"
             ],
             "edges": [
                 {
-                    "to": "2020"
+                    "target": "2020",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "2040",
+                    "target": "2040",
+                    "id": 3,
+                    "entranceId": 3,
                     "requires": [
-                        "flag(68)"
+                        "item(68)"
                     ]
                 },
                 {
-                    "to": "2050"
+                    "target": "2050",
+                    "id": 2,
+                    "entranceId": 2
                 },
                 {
-                    "to": "2060",
+                    "target": "2060",
+                    "id": 1,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(67)"
+                        "item(67)"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 167,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "1356926"
+                    ]
                 },
                 {
                     "globalId": 169,
@@ -1535,26 +1697,38 @@
         },
         {
             "id": "2080",
+            "name": "PALACE SECRETARY",
             "rdts": [
                 "2080"
             ],
             "edges": [
                 {
-                    "to": "2020"
+                    "target": "2020",
+                    "id": 0,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x46ECA",
+                        "0x46EDC",
+                        "0x46EE6"
+                    ]
                 },
                 {
-                    "to": "2090",
+                    "target": "2090",
+                    "id": 1,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(33)"
+                        "item(33)"
+                    ],
+                    "offsets": [
+                        "0x46E66-0x46E6A"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 66,
                     "type": 73,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 171,
@@ -1564,7 +1738,10 @@
                 {
                     "globalId": 172,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "289872"
+                    ]
                 },
                 {
                     "globalId": 173,
@@ -1575,19 +1752,24 @@
         },
         {
             "id": "2090",
+            "name": "PALACE OFFICE",
             "rdts": [
                 "2090"
             ],
             "edges": [
                 {
-                    "to": "2080"
+                    "target": "2080",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "20A0",
+                    "target": "20A0",
+                    "id": 1,
+                    "entranceId": 1,
                     "kind": "unblock"
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 174,
                     "type": 12,
@@ -1602,30 +1784,38 @@
         },
         {
             "id": "20A0",
+            "name": "PALACE BRIDGE",
             "rdts": [
                 "20A0"
             ],
             "edges": [
                 {
-                    "to": "2090"
+                    "target": "2090",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "3000",
+                    "target": "3000",
+                    "id": 1,
+                    "entranceId": 1,
                     "kind": "unblock"
                 }
             ]
         },
         {
             "id": "20B0",
+            "name": "PALACE CASINO",
             "rdts": [
                 "20B0"
             ],
             "edges": [
                 {
-                    "to": "2020"
+                    "target": "2020",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 177,
                     "type": 21,
@@ -1636,9 +1826,11 @@
                     "type": 61,
                     "amount": 1,
                     "requires": [
-                        "flag(52)"
+                        "item(52)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "542440"
+                    ]
                 },
                 {
                     "globalId": 176,
@@ -1659,38 +1851,50 @@
         },
         {
             "id": "20C0",
+            "name": "PALACE PASSAGE",
             "rdts": [
                 "20C0"
             ],
             "edges": [
                 {
-                    "to": "10A0"
+                    "target": "10A0",
+                    "id": 3,
+                    "entranceId": 2
                 },
                 {
-                    "to": "2000"
+                    "target": "2000",
+                    "id": 2,
+                    "entranceId": 0
                 },
                 {
-                    "to": "4090"
+                    "target": "4090",
+                    "id": 1,
+                    "entranceId": 1
                 }
             ]
         },
         {
             "id": "20D0",
+            "name": "PALACE DOCK",
             "rdts": [
                 "20D0"
             ],
             "edges": [
                 {
-                    "to": "2000"
+                    "target": "2000",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "20E0",
+                    "target": "20E0",
+                    "id": 4,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(53)"
+                        "item(53)"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 183,
                     "type": 12,
@@ -1705,32 +1909,53 @@
         },
         {
             "id": "20E0",
+            "name": "PALACE SUBMARINE",
             "rdts": [
                 "20E0"
             ],
             "edges": [
                 {
-                    "to": "20D0"
+                    "target": "20D0",
+                    "id": 0,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x5276E",
+                        "0x52778",
+                        "0x52782",
+                        "0x5278E",
+                        "0x52798",
+                        "0x527A2"
+                    ]
                 },
                 {
-                    "to": "5050"
+                    "target": "5050",
+                    "id": 1,
+                    "entranceId": 1,
+                    "tags": [
+                        "preserve"
+                    ]
                 }
             ]
         },
         {
             "id": "3000",
+            "name": "RESIDENCE COURTYARD",
             "rdts": [
                 "3000"
             ],
             "edges": [
                 {
-                    "to": "20A0"
+                    "target": "20A0",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "3010"
+                    "target": "3010",
+                    "id": 3,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 188,
                     "type": 22,
@@ -1740,21 +1965,28 @@
         },
         {
             "id": "3010",
+            "name": "RESIDENCE ENTRANCE HALL",
             "rdts": [
                 "3010"
             ],
             "edges": [
                 {
-                    "to": "3000"
+                    "target": "3000",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "3020"
+                    "target": "3020",
+                    "id": 2,
+                    "entranceId": 1
                 },
                 {
-                    "to": "3030"
+                    "target": "3030",
+                    "id": 6,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 189,
                     "type": 12,
@@ -1769,10 +2001,11 @@
         },
         {
             "id": "3011",
+            "name": "RESIDENCE ENTRANCE HALL",
             "rdts": [
                 "3011"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 189,
                     "type": 12,
@@ -1787,19 +2020,25 @@
         },
         {
             "id": "3020",
+            "name": "RESIDENCE 1F DINING ROOM",
             "rdts": [
                 "3020"
             ],
             "edges": [
                 {
-                    "to": "3010"
+                    "target": "3010",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 191,
                     "type": 18,
-                    "amount": 30
+                    "amount": 30,
+                    "offsets": [
+                        "1216490"
+                    ]
                 },
                 {
                     "globalId": 192,
@@ -1815,21 +2054,28 @@
         },
         {
             "id": "3030",
+            "name": "RESIDENCE 2F BEDROOM CORRIDOR",
             "rdts": [
                 "3030"
             ],
             "edges": [
                 {
-                    "to": "3010"
+                    "target": "3010",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "3040"
+                    "target": "3040",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "3050"
+                    "target": "3050",
+                    "id": 2,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 194,
                     "type": 21,
@@ -1844,10 +2090,11 @@
         },
         {
             "id": "3031",
+            "name": "RESIDENCE 2F BEDROOM CORRIDOR",
             "rdts": [
                 "3031"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 194,
                     "type": 21,
@@ -1862,25 +2109,32 @@
         },
         {
             "id": "3040",
+            "name": "RESIDENCE 2F ALFREDS BEDROOM",
             "rdts": [
                 "3040"
             ],
             "edges": [
                 {
-                    "to": "3030"
+                    "target": "3030",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "3050"
+                    "target": "3050",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "3060",
+                    "target": "3060",
+                    "id": 2,
+                    "entranceId": 2,
                     "requires": [
-                        "flag(61)",
-                        "flag(78)"
+                        "item(61)",
+                        "item(78)"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 112,
                     "type": 134,
@@ -1890,55 +2144,72 @@
         },
         {
             "id": "3050",
+            "name": "RESIDENCE 2F ALEXIAS BEDROOM",
             "rdts": [
                 "3050"
             ],
             "edges": [
                 {
-                    "to": "3030"
+                    "target": "3030",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "3040"
+                    "target": "3040",
+                    "id": 1,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 15,
                     "type": 67,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "1438214"
+                    ]
                 },
                 {
                     "globalId": 16,
                     "type": 78,
                     "amount": 1,
                     "requires": [
-                        "flag(116)"
+                        "item(116)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "1438270",
+                        "1442476"
+                    ]
                 }
             ]
         },
         {
             "id": "3060",
+            "name": "RESIDENCE 3F PLAY ROOM",
             "rdts": [
                 "3060"
             ],
             "edges": [
                 {
-                    "to": "3040"
+                    "target": "3040",
+                    "id": 8,
+                    "entranceId": 0
                 },
                 {
-                    "to": "3050"
+                    "target": "3050",
+                    "id": 9,
+                    "entranceId": 2
                 },
                 {
-                    "to": "3070",
+                    "target": "3070",
+                    "id": 10,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(119)"
+                        "item(119)"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 196,
                     "type": 15,
@@ -1958,21 +2229,26 @@
                     "globalId": 1003,
                     "type": 119,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "464256"
+                    ]
                 }
             ]
         },
         {
             "id": "3070",
+            "name": "RESIDENCE 4F PRIVATE STUDY",
             "rdts": [
                 "3070"
             ],
             "edges": [
                 {
-                    "to": "3060"
+                    "target": "3060",
+                    "id": 5,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 198,
                     "type": 12,
@@ -1981,7 +2257,10 @@
                 {
                     "globalId": 101,
                     "type": 135,
-                    "amount": 1
+                    "amount": 1,
+                    "offsets": [
+                        "537360"
+                    ]
                 },
                 {
                     "globalId": 199,
@@ -1991,30 +2270,40 @@
                 {
                     "globalId": 1004,
                     "type": 102,
-                    "amount": 1
+                    "amount": 1,
+                    "offsets": [
+                        "537690"
+                    ]
                 },
                 {
                     "globalId": 1005,
                     "type": 71,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "537734"
+                    ]
                 }
             ]
         },
         {
             "id": "4000",
+            "name": "MILITARY GARAGE",
             "rdts": [
                 "4000"
             ],
             "edges": [
                 {
-                    "to": "4020"
+                    "target": "4020",
+                    "id": 0,
+                    "entranceId": 2
                 },
                 {
-                    "to": "40C0"
+                    "target": "40C0",
+                    "id": 2,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 200,
                     "type": 12,
@@ -2024,46 +2313,61 @@
         },
         {
             "id": "4011",
+            "name": "MILITARY BACK COURTYARD",
             "rdts": [
                 "4011"
             ],
             "edges": [
                 {
-                    "to": "4080"
+                    "target": "4080",
+                    "id": 1,
+                    "entranceId": 2
                 },
                 {
-                    "to": "40F0"
+                    "target": "40F0",
+                    "id": 3,
+                    "entranceId": 1
                 },
                 {
-                    "to": "4110"
+                    "target": "4110",
+                    "id": 7,
+                    "entranceId": 3
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 201,
                     "type": 76,
                     "amount": 1,
                     "requires": [
-                        "flag(56)"
+                        "item(56)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "601266",
+                        "601348"
+                    ]
                 }
             ]
         },
         {
             "id": "4020",
+            "name": "MILITARY TANK",
             "rdts": [
                 "4020"
             ],
             "edges": [
                 {
-                    "to": "4000"
+                    "target": "4000",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "4090"
+                    "target": "4090",
+                    "id": 1,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 202,
                     "type": 18,
@@ -2073,21 +2377,28 @@
         },
         {
             "id": "4030",
+            "name": "MILITARY 1F ELEVATOR CORRIDOR",
             "rdts": [
                 "4030"
             ],
             "edges": [
                 {
-                    "to": "4000"
+                    "target": "4000",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "4040"
+                    "target": "4040",
+                    "id": 1,
+                    "entranceId": 2
                 },
                 {
-                    "to": "4160"
+                    "target": "4160",
+                    "id": 2,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 203,
                     "type": 12,
@@ -2097,38 +2408,44 @@
         },
         {
             "id": "4040",
+            "name": "MILITARY DIORAMA",
             "rdts": [
                 "4040"
             ],
             "edges": [
                 {
-                    "to": "4030"
+                    "target": "4030",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 20,
                     "type": 68,
                     "amount": 1,
                     "requires": [
-                        "flag(77)"
+                        "item(77)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "221966"
+                    ]
                 },
                 {
                     "globalId": 204,
                     "type": 20,
                     "amount": 1,
-                    "requires": [
-                        "flag(50)",
-                        "flag(77)"
+                    "offsets": [
+                        "222708"
                     ]
                 },
                 {
                     "globalId": 21,
                     "type": 56,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "222920"
+                    ]
                 },
                 {
                     "globalId": 205,
@@ -2139,27 +2456,38 @@
         },
         {
             "id": "4050",
+            "name": "MILITARY LOCKERS",
             "rdts": [
                 "4050"
             ],
             "edges": [
                 {
-                    "to": "4060"
+                    "target": "4060",
+                    "id": 4,
+                    "entranceId": 0
                 },
                 {
-                    "to": "4080"
+                    "target": "4080",
+                    "id": 3,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 206,
                     "type": 18,
-                    "amount": 30
+                    "amount": 30,
+                    "offsets": [
+                        "1695576"
+                    ]
                 },
                 {
                     "globalId": 208,
                     "type": 18,
-                    "amount": 30
+                    "amount": 30,
+                    "offsets": [
+                        "1695756"
+                    ]
                 },
                 {
                     "globalId": 207,
@@ -2170,34 +2498,39 @@
         },
         {
             "id": "4060",
+            "name": "MILITARY SWIMMING",
             "rdts": [
                 "4060"
             ],
             "edges": [
                 {
-                    "to": "4050"
+                    "target": "4050",
+                    "id": 1,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 22,
                     "type": 72,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 }
             ]
         },
         {
             "id": "4070",
+            "name": "MILITARY FRONT OFFICE",
             "rdts": [
                 "4070"
             ],
             "edges": [
                 {
-                    "to": "4080"
+                    "target": "4080",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 214,
                     "type": 21,
@@ -2207,16 +2540,16 @@
                     "globalId": 213,
                     "type": 12,
                     "amount": 15,
-                    "requires": [
-                        "flag(50)"
+                    "offsets": [
+                        "0x16CADA"
                     ]
                 },
                 {
                     "globalId": 211,
                     "type": 130,
                     "amount": 1,
-                    "requires": [
-                        "flag(72)"
+                    "offsets": [
+                        "0x16CC64"
                     ]
                 },
                 {
@@ -2228,39 +2561,54 @@
         },
         {
             "id": "4080",
+            "name": "MILITARY LOBBY",
             "rdts": [
                 "4080"
             ],
             "edges": [
                 {
-                    "to": "4011",
+                    "target": "4011",
+                    "id": 2,
+                    "entranceId": 0,
                     "requires": [
-                        "flag(62)"
+                        "item(62)"
                     ]
                 },
                 {
-                    "to": "4050"
+                    "target": "4050",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "4070"
+                    "target": "4070",
+                    "id": 1,
+                    "entranceId": 2
                 },
                 {
-                    "to": "4090"
+                    "target": "4090",
+                    "id": 3,
+                    "entranceId": 3
                 },
                 {
-                    "to": "40D0",
+                    "target": "40D0",
+                    "id": 6,
+                    "entranceId": 5,
                     "requires": [
-                        "flag(62)"
+                        "item(62)",
+                        "node(40C0)"
                     ]
                 },
                 {
-                    "to": "4000",
+                    "target": "4000",
+                    "id": 5,
+                    "entranceId": 4,
                     "requires": [
-                        "flag(62)"
+                        "item(62)",
+                        "node(40C0)"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 217,
                     "type": 22,
@@ -2275,18 +2623,23 @@
         },
         {
             "id": "4090",
+            "name": "MILITARY EXERCISE YARD",
             "rdts": [
                 "4090"
             ],
             "edges": [
                 {
-                    "to": "20C0"
+                    "target": "20C0",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "4080"
+                    "target": "4080",
+                    "id": 3,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 219,
                     "type": 18,
@@ -2296,10 +2649,11 @@
         },
         {
             "id": "4091",
+            "name": "MILITARY EXERCISE YARD",
             "rdts": [
                 "4091"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 219,
                     "type": 18,
@@ -2309,42 +2663,52 @@
         },
         {
             "id": "40A0",
+            "name": "MILITARY FIRST BANDERSNATCH",
             "rdts": [
                 "40A0"
             ],
             "edges": [
                 {
-                    "to": "40F0"
+                    "target": "40F0"
                 },
                 {
-                    "to": "4100"
+                    "target": "4100"
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 220,
                     "type": 33,
                     "amount": 0,
-                    "priority": "low"
+                    "offsets": [
+                        "2850448",
+                        "2855848"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "40B0",
+            "name": "MILITARY WAREHOUSE SAVE",
             "rdts": [
                 "40B0"
             ],
             "edges": [
                 {
-                    "to": "40F0"
+                    "target": "40F0",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 23,
                     "type": 104,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 225,
@@ -2365,102 +2729,117 @@
         },
         {
             "id": "40C0",
+            "name": "MILITARY COMMAND CENTER",
             "rdts": [
                 "40C0"
             ],
             "edges": [
                 {
-                    "to": "4000"
+                    "target": "4000",
+                    "id": 2,
+                    "entranceId": 2
                 },
                 {
-                    "to": "4011",
+                    "target": "4011",
+                    "id": 1,
+                    "entranceId": 0,
                     "requires": [
-                        "flag(76)"
+                        "item(76)"
                     ]
                 },
                 {
-                    "to": "4160"
+                    "target": "4160",
+                    "id": 4,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 229,
                     "type": 21,
-                    "amount": 1,
-                    "requires": [
-                        "flag(76)"
-                    ]
+                    "amount": 1
                 },
                 {
                     "globalId": 230,
                     "type": 21,
-                    "amount": 1,
-                    "requires": [
-                        "flag(76)"
-                    ]
+                    "amount": 1
                 },
                 {
                     "globalId": 24,
                     "type": 69,
                     "amount": 1,
                     "requires": [
-                        "flag(76)"
-                    ],
-                    "group": 1
+                        "item(76)"
+                    ]
                 },
                 {
                     "globalId": 231,
                     "type": 15,
-                    "amount": 6,
-                    "requires": [
-                        "flag(76)"
-                    ]
+                    "amount": 6
                 }
             ]
         },
         {
             "id": "40D0",
+            "name": "MILITARY EMERGENCY DOOR",
             "rdts": [
                 "40D0"
             ],
             "edges": [
                 {
-                    "to": "4080"
+                    "target": "4080",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "40E0",
+                    "target": "40E0",
+                    "id": 1,
+                    "entranceId": 1,
                     "kind": "unblock",
                     "requires": [
-                        "flag(76)"
+                        "item(76)",
+                        "node(40C0)"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 103,
                     "type": 132,
                     "amount": 1,
-                    "priority": "low"
+                    "offsets": [
+                        "2113382"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 232,
                     "type": 7,
                     "amount": 30,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "40E0",
+            "name": "MILITARY SKELETON",
             "rdts": [
                 "40E0"
             ],
             "edges": [
                 {
-                    "to": "40D0"
+                    "target": "40D0",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 25,
                     "type": 77,
@@ -2470,7 +2849,10 @@
                     "globalId": 233,
                     "type": 16,
                     "amount": 6,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 233,
@@ -2481,21 +2863,28 @@
         },
         {
             "id": "40F0",
+            "name": "MILITARY 2F WAREHOUSE CORRIDOR",
             "rdts": [
                 "40F0"
             ],
             "edges": [
                 {
-                    "to": "4011"
+                    "target": "4011",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "40A0"
+                    "target": "40A0",
+                    "id": 2,
+                    "entranceId": 2
                 },
                 {
-                    "to": "40B0"
+                    "target": "40B0",
+                    "id": 0,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 235,
                     "type": 12,
@@ -2510,34 +2899,40 @@
         },
         {
             "id": "4100",
+            "name": "MILITARY B1 BASEMENT STOREHOUSE",
             "rdts": [
                 "4100"
             ],
             "edges": [
                 {
-                    "to": "4140"
+                    "target": "4140",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "40A0"
+                    "target": "40A0",
+                    "id": 1,
+                    "entranceId": 2
                 },
                 {
-                    "to": "4110"
+                    "target": "4110",
+                    "id": 2,
+                    "entranceId": 1
                 },
                 {
-                    "to": "4120",
+                    "target": "4120",
+                    "id": 3,
+                    "entranceId": 3,
                     "requires": [
-                        "flag(76)"
+                        "item(76)"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 237,
                     "type": 6,
-                    "amount": 6,
-                    "requires": [
-                        "flag(76)"
-                    ]
+                    "amount": 6
                 },
                 {
                     "globalId": 439,
@@ -2548,50 +2943,68 @@
         },
         {
             "id": "4110",
+            "name": "MILITARY BOILER ROOM",
             "rdts": [
                 "4110"
             ],
             "edges": [
                 {
-                    "to": "4011"
+                    "target": "4011",
+                    "id": 16,
+                    "entranceId": 2
                 },
                 {
-                    "to": "4100"
+                    "target": "4100",
+                    "id": 1,
+                    "entranceId": 1
                 },
                 {
-                    "to": "4150"
+                    "target": "4150",
+                    "id": 3,
+                    "entranceId": 0
                 },
                 {
-                    "to": "4100",
+                    "target": "4100",
+                    "id": 1,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(76)"
+                        "item(76)"
                     ]
                 },
                 {
-                    "to": "4150",
+                    "target": "4150",
+                    "id": 3,
+                    "entranceId": 0,
                     "requires": [
-                        "flag(76)"
+                        "item(76)"
                     ]
                 }
             ]
         },
         {
             "id": "4120",
+            "name": "MILITARY B1 TURN TABLE ROOM",
             "rdts": [
                 "4120"
             ],
             "edges": [
                 {
-                    "to": "4100"
+                    "target": "4100",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "4100"
+                    "target": "4100",
+                    "id": 1,
+                    "entranceId": 1
                 },
                 {
-                    "to": "4130"
+                    "target": "4130",
+                    "id": 2,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 239,
                     "type": 18,
@@ -2601,35 +3014,39 @@
         },
         {
             "id": "4130",
+            "name": "MILITARY B1 CHEMICAL STORAGE",
             "rdts": [
                 "4130"
             ],
             "edges": [
                 {
-                    "to": "4120"
+                    "target": "4120"
                 },
                 {
-                    "to": "4120"
+                    "target": "4120"
                 }
             ]
         },
         {
             "id": "4140",
+            "name": "MILITARY B1 WEAPON REPAIR",
             "rdts": [
                 "4140"
             ],
             "edges": [
                 {
-                    "to": "4100"
+                    "target": "4100",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 243,
                     "type": 16,
                     "amount": 6,
-                    "requires": [
-                        "flag(50)"
+                    "offsets": [
+                        "1393580"
                     ]
                 },
                 {
@@ -2641,18 +3058,23 @@
         },
         {
             "id": "4150",
+            "name": "MILITARY B1 IRON WALKWAY",
             "rdts": [
                 "4150"
             ],
             "edges": [
                 {
-                    "to": "4110"
+                    "target": "4110",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "4160"
+                    "target": "4160",
+                    "id": 1,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 244,
                     "type": 12,
@@ -2662,38 +3084,46 @@
         },
         {
             "id": "4160",
+            "name": "MILITARY ELEVATOR",
             "rdts": [
                 "4160"
             ],
             "edges": [
                 {
-                    "to": "4030"
+                    "target": "4030"
                 },
                 {
-                    "to": "40C0"
+                    "target": "40C0"
                 },
                 {
-                    "to": "4150"
+                    "target": "4150"
                 }
             ]
         },
         {
             "id": "5000",
+            "name": "AIRPORT CHECK-IN",
             "rdts": [
                 "5000"
             ],
             "edges": [
                 {
-                    "to": "5010"
+                    "target": "5010",
+                    "id": 0,
+                    "entranceId": 2
                 },
                 {
-                    "to": "5010"
+                    "target": "5010",
+                    "id": 1,
+                    "entranceId": 1
                 },
                 {
-                    "to": "5030"
+                    "target": "5030",
+                    "id": 3,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 248,
                     "type": 12,
@@ -2708,108 +3138,143 @@
         },
         {
             "id": "5001",
+            "name": "AIRPORT CHECK-IN",
             "rdts": [
                 "5001"
             ],
             "edges": [
                 {
-                    "to": "5011"
+                    "target": "5011",
+                    "id": 2,
+                    "entranceId": 3
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 245,
                     "type": 20,
                     "amount": 1,
-                    "requires": [
-                        "flag(50)"
+                    "offsets": [
+                        "1543102",
+                        "1543744"
                     ],
-                    "priority": "low"
-                },
-                {
-                    "globalId": 26,
-                    "type": 75,
-                    "amount": 1,
-                    "priority": "fixed",
-                    "group": 1
-                },
-                {
-                    "globalId": 245,
-                    "type": 20,
-                    "amount": 1,
-                    "requires": [
-                        "flag(50)"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
                     ]
                 },
                 {
                     "globalId": 26,
                     "type": 75,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "1543856"
+                    ],
+                    "tags": [
+                        "preserve"
+                    ]
+                },
+                {
+                    "globalId": 245,
+                    "type": 20,
+                    "amount": 1,
+                    "offsets": [
+                        "1543102",
+                        "1543744"
+                    ]
+                },
+                {
+                    "globalId": 26,
+                    "type": 75,
+                    "amount": 1,
+                    "offsets": [
+                        "1543856"
+                    ]
                 }
             ]
         },
         {
             "id": "5010",
+            "name": "AIRPORT BRIDGE",
             "rdts": [
                 "5010"
             ],
             "edges": [
                 {
-                    "to": "5001",
+                    "target": "5001",
+                    "id": 2,
+                    "entranceId": 3,
                     "requires": [
-                        "flag(65)"
+                        "item(65)"
                     ]
                 },
                 {
-                    "to": "5020"
+                    "target": "5020",
+                    "id": 4,
+                    "entranceId": 4
                 }
             ]
         },
         {
             "id": "5011",
+            "name": "AIRPORT BRIDGE",
             "rdts": [
                 "5011"
             ],
             "edges": [
                 {
-                    "to": "5000"
+                    "target": "5000",
+                    "id": 1,
+                    "entranceId": 1
                 },
                 {
-                    "to": "6000",
+                    "target": "6000",
+                    "id": 5,
+                    "entranceId": 5,
                     "requires": [
-                        "flag(69)",
-                        "flag(70)",
-                        "flag(71)"
+                        "item(69)",
+                        "item(70)",
+                        "item(71)"
+                    ],
+                    "offsets": [
+                        "0xA4848",
+                        "0xA4852",
+                        "0xA485C"
                     ]
                 }
             ]
         },
         {
             "id": "5020",
+            "name": "AIRPORT CARGO BAY",
             "rdts": [
                 "5020"
             ],
             "edges": [
                 {
-                    "to": "5010"
+                    "target": "5010",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "5011"
+                    "target": "5011",
+                    "id": 2,
+                    "entranceId": 2
                 },
                 {
-                    "to": "5040",
+                    "target": "5040",
+                    "id": 0,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(75)"
+                        "item(75)"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 27,
                     "type": 62,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 251,
@@ -2820,29 +3285,37 @@
         },
         {
             "id": "5030",
+            "name": "AIRPORT ENTRY",
             "rdts": [
                 "5030"
             ],
             "edges": [
                 {
-                    "to": "5000"
+                    "target": "5000",
+                    "id": 5,
+                    "entranceId": 0
                 },
                 {
-                    "to": "5050"
+                    "target": "5050",
+                    "id": 4,
+                    "entranceId": 1
                 }
             ]
         },
         {
             "id": "5040",
+            "name": "AIRPORT CARGO TRANSPORT",
             "rdts": [
                 "5040"
             ],
             "edges": [
                 {
-                    "to": "5020"
+                    "target": "5020",
+                    "id": 0,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 253,
                     "type": 21,
@@ -2862,114 +3335,167 @@
         },
         {
             "id": "5050",
+            "name": "AIRPORT SUBMARINE",
             "rdts": [
                 "5050"
             ],
             "edges": [
                 {
-                    "to": "20E0"
+                    "target": "20E0",
+                    "id": 1,
+                    "entranceId": 1,
+                    "tags": [
+                        "preserve"
+                    ]
                 },
                 {
-                    "to": "5030"
+                    "target": "5030",
+                    "id": 0,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x5276E",
+                        "0x52778",
+                        "0x52782",
+                        "0x5278E",
+                        "0x52798",
+                        "0x527A2"
+                    ]
                 }
             ]
         },
         {
             "id": "6000",
+            "name": "TRANSPORT PLANE COCKPIT",
             "rdts": [
                 "6000"
             ],
             "edges": [
                 {
-                    "to": "5010"
+                    "target": "5010",
+                    "id": 5,
+                    "entranceId": 0
                 },
                 {
-                    "to": "6010"
+                    "target": "6010",
+                    "id": 2,
+                    "entranceId": 1,
+                    "tags": [
+                        "preserve"
+                    ]
                 },
                 {
-                    "to": "7000"
+                    "target": "7000",
+                    "id": 255,
+                    "entranceId": 2,
+                    "kind": "noReturn",
+                    "tags": [
+                        "preserve",
+                        "bridge"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 28,
                     "type": 65,
                     "amount": 1,
-                    "priority": "fixed",
-                    "group": 1
+                    "tags": [
+                        "preserve"
+                    ]
                 },
                 {
                     "globalId": 28,
                     "type": 65,
                     "amount": 1,
-                    "priority": "low",
-                    "group": 1
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 257,
                     "type": 31,
                     "amount": 3,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "6001",
+            "name": "TRANSPORT PLANE COCKPIT",
             "rdts": [
                 "6001"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 257,
                     "type": 31,
                     "amount": 3,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "6010",
+            "name": "TRANSPORT PLANE CARGO HOLD",
             "rdts": [
                 "6010"
             ],
             "edges": [
                 {
-                    "to": "6000"
+                    "target": "6000",
+                    "id": 0,
+                    "entranceId": 0,
+                    "tags": [
+                        "preserve"
+                    ]
                 }
             ]
         },
         {
             "id": "7000",
+            "name": "ANTARTIC B1 SILO",
             "rdts": [
                 "7000"
             ],
             "edges": [
                 {
-                    "to": "6000",
-                    "kind": "locked"
+                    "target": "7051",
+                    "id": 2,
+                    "entranceId": 2
                 },
                 {
-                    "to": "7051"
+                    "target": "7010",
+                    "id": 3,
+                    "entranceId": 0
                 },
                 {
-                    "to": "7010"
-                },
-                {
-                    "to": "7030"
+                    "target": "7030",
+                    "id": 0,
+                    "entranceId": 1
                 }
             ]
         },
         {
             "id": "7010",
+            "name": "ANTARTIC B1 WORKMANS BUNKHOUSE",
             "rdts": [
                 "7010"
             ],
             "edges": [
                 {
-                    "to": "7000"
+                    "target": "7000",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 260,
                     "type": 130,
@@ -3008,26 +3534,35 @@
                 {
                     "globalId": 258,
                     "type": 20,
-                    "amount": 1
+                    "amount": 1,
+                    "offsets": [
+                        "0x1A5E02"
+                    ]
                 },
                 {
                     "globalId": 262,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "0x1A5EA6"
+                    ]
                 }
             ]
         },
         {
             "id": "7020",
+            "name": "ANTARTIC B1 TOOL STOREROOM",
             "rdts": [
                 "7020"
             ],
             "edges": [
                 {
-                    "to": "7051"
+                    "target": "7051",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 268,
                     "type": 23,
@@ -3058,40 +3593,53 @@
                     "type": 88,
                     "amount": 1,
                     "requires": [
-                        "flag(87)"
+                        "item(87)",
+                        "node(7070)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "0x14B600"
+                    ]
                 }
             ]
         },
         {
             "id": "7030",
+            "name": "ANTARTIC B2 FROZEN CORRIDOR",
             "rdts": [
                 "7030"
             ],
             "edges": [
                 {
-                    "to": "7000"
+                    "target": "7000",
+                    "id": 2,
+                    "entranceId": 1
                 },
                 {
-                    "to": "7040"
+                    "target": "7040",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "7050"
+                    "target": "7050",
+                    "id": 1,
+                    "entranceId": 2
                 }
             ]
         },
         {
             "id": "7040",
+            "name": "ANTARTIC B2 OFFICE",
             "rdts": [
                 "7040"
             ],
             "edges": [
                 {
-                    "to": "7030"
+                    "target": "7030",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 272,
                     "type": 31,
@@ -3126,116 +3674,156 @@
         },
         {
             "id": "7050",
+            "name": "ANTARTIC SORTING ROOM",
             "rdts": [
                 "7050"
             ],
             "edges": [
                 {
-                    "to": "7080"
+                    "target": "7080",
+                    "id": 3,
+                    "entranceId": 0
                 },
                 {
-                    "to": "7030"
+                    "target": "7030",
+                    "id": 4,
+                    "entranceId": 1
                 },
                 {
-                    "to": "7090"
+                    "target": "7090",
+                    "id": 5,
+                    "entranceId": 2
                 },
                 {
-                    "to": "7060",
+                    "target": "7060",
+                    "id": 2,
+                    "entranceId": 3,
                     "requires": [
-                        "flag(39)",
-                        "flag(90)",
-                        "flag(126)"
+                        "item(39)",
+                        "item(90)",
+                        "item(126)"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 275,
                     "type": 14,
                     "amount": 6,
-                    "requires": [
-                        "flag(50)"
+                    "offsets": [
+                        "0x198F32",
+                        "0x199412"
                     ]
                 }
             ]
         },
         {
             "id": "7051",
+            "name": "ANTARTIC SORTING ROOM",
             "rdts": [
                 "7051"
             ],
             "edges": [
                 {
-                    "to": "7020"
+                    "target": "7020",
+                    "id": 8,
+                    "entranceId": 4
                 },
                 {
-                    "to": "7000"
+                    "target": "7000",
+                    "id": 7,
+                    "entranceId": 5
                 },
                 {
-                    "to": "7060",
+                    "target": "7060",
+                    "id": 6,
+                    "entranceId": 6,
                     "requires": [
-                        "flag(39)",
-                        "flag(90)",
-                        "flag(126)"
+                        "item(39)",
+                        "item(90)",
+                        "item(126)"
                     ]
                 }
             ]
         },
         {
             "id": "7060",
+            "name": "ANTARTIC MINING ROOM",
             "rdts": [
                 "7060"
             ],
             "edges": [
                 {
-                    "to": "7050"
+                    "target": "7050",
+                    "id": 3,
+                    "entranceId": 0
                 },
                 {
-                    "to": "7070",
+                    "target": "7070",
+                    "id": 0,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(39)",
-                        "flag(88)"
+                        "item(39)",
+                        "item(88)"
                     ]
                 },
                 {
-                    "to": "7051"
+                    "target": "7051",
+                    "id": 1,
+                    "entranceId": 3
                 },
                 {
-                    "to": "7070",
+                    "target": "7070",
+                    "id": 2,
+                    "entranceId": 4,
                     "requires": [
-                        "flag(39)"
+                        "item(39)"
                     ]
                 },
                 {
-                    "to": "70A0",
+                    "target": "70A0",
+                    "id": 255,
+                    "kind": "noReturn",
                     "requires": [
-                        "flag(88)"
+                        "item(88)"
+                    ],
+                    "tags": [
+                        "preserve",
+                        "bridge"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 276,
                     "type": 4,
                     "amount": 6,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "7070",
+            "name": "ANTARTIC POWER ROOM",
             "rdts": [
                 "7070"
             ],
             "edges": [
                 {
-                    "to": "7060"
+                    "target": "7060",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "7060"
+                    "target": "7060",
+                    "id": 0,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 277,
                     "type": 21,
@@ -3274,75 +3862,89 @@
                 {
                     "globalId": 30,
                     "type": 87,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 }
             ]
         },
         {
             "id": "7080",
+            "name": "ANTARTIC B2 WEAPON ROOM",
             "rdts": [
                 "7080"
             ],
             "edges": [
                 {
-                    "to": "7050"
+                    "target": "7050",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 285,
                     "type": 2,
-                    "amount": 100
+                    "amount": 100,
+                    "offsets": [
+                        "0x1BF210"
+                    ]
                 },
                 {
                     "globalId": 31,
                     "type": 90,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "0x1BF3BE"
+                    ]
                 },
                 {
                     "globalId": 440,
                     "type": 12,
                     "amount": 15,
-                    "requires": [
-                        "flag(64)"
+                    "offsets": [
+                        "0x1BFE66"
                     ]
                 },
                 {
                     "globalId": 441,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "0x1BFF1A"
+                    ]
                 },
                 {
                     "globalId": 442,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "0x1BFFBA"
+                    ]
                 },
                 {
                     "globalId": 289,
                     "type": 64,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 }
             ]
         },
         {
             "id": "7090",
+            "name": "ANTARTIC B2 B.O.W. ROOM",
             "rdts": [
                 "7090"
             ],
             "edges": [
                 {
-                    "to": "7050"
+                    "target": "7050",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 32,
                     "type": 91,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 292,
@@ -3363,63 +3965,97 @@
                     "globalId": 63,
                     "type": 39,
                     "amount": 1,
-                    "priority": "low"
+                    "offsets": [
+                        "0x1396A6"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 294,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "0x1398C8"
+                    ]
                 },
                 {
                     "globalId": 295,
                     "type": 12,
-                    "amount": 15
+                    "amount": 15,
+                    "offsets": [
+                        "0x139972"
+                    ]
                 }
             ]
         },
         {
             "id": "70A0",
+            "name": "ANTARTIC 1F HELIPAD",
             "rdts": [
                 "70A0"
             ],
             "edges": [
                 {
-                    "to": "7060"
-                },
-                {
-                    "to": "8180"
+                    "target": "8180",
+                    "id": 255,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x1F3142"
+                    ],
+                    "tags": [
+                        "preserve"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 296,
                     "type": 20,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 298,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8000",
+            "name": "MILITARY 1F TANK YARD",
             "rdts": [
                 "8000"
             ],
             "edges": [
                 {
-                    "to": "80C0"
+                    "target": "80C0",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "8080",
-                    "kind": "unblock"
+                    "target": "8080",
+                    "id": 1,
+                    "entranceId": 1,
+                    "kind": "unblock",
+                    "offsets": [
+                        "0xD9CCC",
+                        "0xD9CCE",
+                        "0xD9CD4"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 299,
                     "type": 12,
@@ -3429,189 +4065,292 @@
                     "globalId": 202,
                     "type": 18,
                     "amount": 30,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8010",
+            "name": "MILITARY ELEVATOR",
             "rdts": [
                 "8010"
             ],
             "edges": [
                 {
-                    "to": "8031"
+                    "target": "8031",
+                    "id": 0,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x3EB88",
+                        "0x3EB94",
+                        "0x3F19A",
+                        "0x3F1A4",
+                        "0x3F1AC"
+                    ]
                 },
                 {
-                    "to": "8130"
+                    "target": "8130",
+                    "id": 1,
+                    "entranceId": 1,
+                    "offsets": [
+                        "0x3E8AC",
+                        "0x3E8BE",
+                        "0x3E8C6",
+                        "0x3E8C8",
+                        "0x3E8CC",
+                        "0x3E8D4",
+                        "0x3E8D6",
+                        "0x3EED8",
+                        "0x3EEEA",
+                        "0x3EEF2",
+                        "0x3EEF4",
+                        "0x3EEF8",
+                        "0x3EF00",
+                        "0x3EF02"
+                    ]
                 },
                 {
-                    "to": "8060"
+                    "target": "8060",
+                    "id": 2,
+                    "entranceId": 2,
+                    "offsets": [
+                        "0x3E602",
+                        "0x3E60C",
+                        "0x3EE84",
+                        "0x3EE8E"
+                    ]
                 }
             ]
         },
         {
             "id": "8020",
+            "name": "MILITARY 1F DIORAMA",
             "rdts": [
                 "8020"
             ],
             "edges": [
                 {
-                    "to": "8130"
+                    "target": "8130",
+                    "id": 0,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x3C77C",
+                        "0x3C77E",
+                        "0x3C780",
+                        "0x3C78A",
+                        "0x3C78C",
+                        "0x3C78E"
+                    ]
                 },
                 {
-                    "to": "8190",
+                    "target": "8190",
+                    "id": 9,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(69)",
-                        "flag(70)",
-                        "flag(71)",
-                        "flag(100)"
+                        "item(69)",
+                        "item(70)",
+                        "item(71)",
+                        "item(100)"
+                    ],
+                    "offsets": [
+                        "0x3C7BE",
+                        "0x3C7C8",
+                        "0x3C7D2"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 301,
                     "type": 14,
                     "amount": 6,
-                    "requires": [
-                        "flag(69)",
-                        "flag(70)",
-                        "flag(71)"
-                    ],
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 302,
                     "type": 21,
-                    "amount": 1,
-                    "requires": [
-                        "flag(69)",
-                        "flag(70)",
-                        "flag(71)"
-                    ]
+                    "amount": 1
                 },
                 {
                     "globalId": 303,
                     "type": 31,
                     "amount": 3,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 304,
                     "type": 14,
                     "amount": 6,
-                    "requires": [
-                        "flag(69)",
-                        "flag(70)",
-                        "flag(71)"
-                    ],
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 300,
                     "type": 20,
                     "amount": 1,
-                    "priority": "low"
+                    "offsets": [
+                        "0x3C8DC"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 33,
                     "type": 96,
                     "amount": 1,
                     "requires": [
-                        "flag(100)"
+                        "item(100)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "0x3C932"
+                    ]
                 }
             ]
         },
         {
             "id": "8031",
+            "name": "MILITARY 2F CONTROL",
             "rdts": [
                 "8031"
             ],
             "edges": [
                 {
-                    "to": "80C0"
+                    "target": "80C0",
+                    "id": 2,
+                    "entranceId": 2,
+                    "offsets": [
+                        "0x186118",
+                        "0x18611A"
+                    ]
                 },
                 {
-                    "to": "8010"
+                    "target": "8010",
+                    "id": 4,
+                    "entranceId": 1,
+                    "offsets": [
+                        "0x18613E",
+                        "0x186140"
+                    ]
                 },
                 {
-                    "to": "80E0"
+                    "target": "80E0",
+                    "id": 1,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x186182",
+                        "0x186184"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 229,
                     "type": 21,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 230,
                     "type": 21,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 231,
                     "type": 15,
                     "amount": 6,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8040",
+            "name": "MILITARY B1 WEAPON REPAIR",
             "rdts": [
                 "8040"
             ],
             "edges": [
                 {
-                    "to": "8140"
+                    "target": "8140",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 243,
                     "type": 16,
                     "amount": 6,
-                    "priority": "low"
+                    "offsets": [
+                        "0x3EDE0"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 438,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 34,
                     "type": 98,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 }
             ]
         },
         {
             "id": "8050",
+            "name": "MILITARY B1 CHEMICAL STORAGE ROOM",
             "rdts": [
                 "8050"
             ],
             "edges": [
                 {
-                    "to": "80B0"
+                    "target": "80B0",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 35,
                     "type": 99,
                     "amount": 1,
                     "requires": [
-                        "flag(97)"
+                        "item(97)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "0xDACBA"
+                    ]
                 },
                 {
                     "globalId": 306,
@@ -3637,31 +4376,57 @@
         },
         {
             "id": "8060",
+            "name": "MILITARY IRON WALKWAY",
             "rdts": [
                 "8060"
             ],
             "edges": [
                 {
-                    "to": "8070"
-                },
-                {
-                    "to": "8150",
-                    "requires": [
-                        "flag(4)"
+                    "target": "8070",
+                    "id": 2,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x193F12",
+                        "0x193F14",
+                        "0x193F18",
+                        "0x193F1A",
+                        "0x193F1C"
                     ]
                 },
                 {
-                    "to": "8010",
+                    "target": "8150",
+                    "id": 0,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(4)"
+                        "item(4)"
                     ]
                 },
                 {
-                    "to": "8080",
-                    "kind": "unblock"
+                    "target": "8010",
+                    "id": 11,
+                    "entranceId": 2,
+                    "requires": [
+                        "item(4)"
+                    ],
+                    "offsets": [
+                        "0x193F36"
+                    ]
+                },
+                {
+                    "target": "8080",
+                    "id": 3,
+                    "entranceId": 3,
+                    "kind": "unblock",
+                    "offsets": [
+                        "0x193ECC",
+                        "0x193ECE",
+                        "0x193ED2",
+                        "0x193ED4",
+                        "0x193EE2"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 313,
                     "type": 22,
@@ -3676,10 +4441,10 @@
                     "globalId": 244,
                     "type": 12,
                     "amount": 15,
-                    "requires": [
-                        "flag(4)"
-                    ],
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 312,
@@ -3700,18 +4465,23 @@
         },
         {
             "id": "8070",
+            "name": "MILITARY SPECIMEN LAB",
             "rdts": [
                 "8070"
             ],
             "edges": [
                 {
-                    "to": "80B0"
+                    "target": "80B0",
+                    "id": 2,
+                    "entranceId": 0
                 },
                 {
-                    "to": "8060"
+                    "target": "8060",
+                    "id": 3,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 318,
                     "type": 42,
@@ -3726,10 +4496,11 @@
         },
         {
             "id": "8071",
+            "name": "MILITARY SPECIMEN LAB",
             "rdts": [
                 "8071"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 318,
                     "type": 42,
@@ -3744,31 +4515,52 @@
         },
         {
             "id": "8080",
+            "name": "MILITARY B2 JET HANGAR CORRIDOR",
             "rdts": [
                 "8080"
             ],
             "edges": [
                 {
-                    "to": "8000"
+                    "target": "8000",
+                    "id": 1,
+                    "entranceId": 3,
+                    "offsets": [
+                        "0xF98D6",
+                        "0xF98D8",
+                        "0xF98DA"
+                    ]
                 },
                 {
-                    "to": "8090"
+                    "target": "8090",
+                    "id": 9,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A090",
+                    "target": "A090",
+                    "id": 0,
+                    "entranceId": 0,
+                    "kind": "noReturn",
                     "requires": [
-                        "flag(56)",
-                        "flag(98)",
-                        "flag(99)"
+                        "item(56)",
+                        "item(98)",
+                        "item(99)"
+                    ],
+                    "offsets": [
+                        "0xF987E",
+                        "0xF9880",
+                        "0xF9882"
+                    ],
+                    "tags": [
+                        "preserve",
+                        "bridge"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 36,
                     "type": 94,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 321,
@@ -3789,10 +4581,11 @@
         },
         {
             "id": "8081",
+            "name": "MILITARY B2 JET HANGAR CORRIDOR",
             "rdts": [
                 "8081"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 321,
                     "type": 23,
@@ -3812,15 +4605,18 @@
         },
         {
             "id": "8090",
+            "name": "MILITARY B2 CAPTINS ROOM",
             "rdts": [
                 "8090"
             ],
             "edges": [
                 {
-                    "to": "8080"
+                    "target": "8080",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 324,
                     "type": 16,
@@ -3849,21 +4645,30 @@
                 {
                     "globalId": 326,
                     "type": 136,
-                    "amount": 1
+                    "amount": 1,
+                    "offsets": [
+                        "0x4E186"
+                    ]
                 }
             ]
         },
         {
             "id": "80A0",
+            "name": "MILITARY B2 WATER POOL",
             "rdts": [
                 "80A0"
             ],
             "edges": [
                 {
-                    "to": "8190"
+                    "target": "8190",
+                    "id": 13,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x15D52A"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 331,
                     "type": 21,
@@ -3882,8 +4687,7 @@
                 {
                     "globalId": 40,
                     "type": 56,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 333,
@@ -3894,164 +4698,245 @@
         },
         {
             "id": "80B0",
+            "name": "MILITARY B1 TURN TABLE ROOM",
             "rdts": [
                 "80B0"
             ],
             "edges": [
                 {
-                    "to": "8140"
+                    "target": "8140",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "8050"
+                    "target": "8050",
+                    "id": 1,
+                    "entranceId": 2
                 },
                 {
-                    "to": "8070"
+                    "target": "8070",
+                    "id": 2,
+                    "entranceId": 1,
+                    "offsets": [
+                        "0x14607E"
+                    ]
                 },
                 {
-                    "to": "8100",
+                    "target": "8100",
+                    "id": 3,
+                    "entranceId": 3,
                     "requires": [
-                        "flag(96)"
+                        "item(96)"
+                    ],
+                    "offsets": [
+                        "0x146554"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 37,
                     "type": 93,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 239,
                     "type": 18,
                     "amount": 30,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "80C0",
+            "name": "MILITARY GARAGE",
             "rdts": [
                 "80C0"
             ],
             "edges": [
                 {
-                    "to": "8000"
+                    "target": "8000",
+                    "id": 0,
+                    "entranceId": 2
                 },
                 {
-                    "to": "8170"
+                    "target": "8170",
+                    "id": 3,
+                    "entranceId": 4,
+                    "offsets": [
+                        "0x18696C",
+                        "0x186970",
+                        "0x186972"
+                    ]
                 },
                 {
-                    "to": "8031",
+                    "target": "8031",
+                    "id": 2,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(94)"
+                        "item(94)"
+                    ],
+                    "offsets": [
+                        "0x18693E",
+                        "0x186940",
+                        "0x18694A",
+                        "0x18694C"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 200,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 336,
                     "type": 12,
-                    "amount": 15,
-                    "requires": [
-                        "flag(93)",
-                        "flag(94)"
-                    ]
+                    "amount": 15
                 },
                 {
                     "globalId": 38,
                     "type": 100,
                     "amount": 1,
                     "requires": [
-                        "flag(93)",
-                        "flag(94)"
+                        "item(93)",
+                        "item(94)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "0x1868F0",
+                        "0x1869D8"
+                    ]
                 },
                 {
                     "globalId": 39,
                     "type": 97,
                     "amount": 1,
                     "requires": [
-                        "flag(94)"
+                        "item(94)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "0x18690C",
+                        "0x1869FC"
+                    ]
                 }
             ]
         },
         {
             "id": "80D0",
+            "name": "MILITARY 1F EXCERCISE YARD",
             "rdts": [
                 "80D0"
             ],
             "edges": [
                 {
-                    "to": "9040"
+                    "target": "9040",
+                    "id": 2,
+                    "entranceId": 1
                 },
                 {
-                    "to": "8100"
+                    "target": "8100",
+                    "id": 3,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 219,
                     "type": 18,
                     "amount": 30,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 337,
                     "type": 14,
                     "amount": 6,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "80E0",
+            "name": "MILITARY BACK COURTYARD",
             "rdts": [
                 "80E0"
             ],
             "edges": [
                 {
-                    "to": "8031"
+                    "target": "8031",
+                    "id": 2,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x152C6A",
+                        "0x152C6C"
+                    ]
                 },
                 {
-                    "to": "8120"
+                    "target": "8120",
+                    "id": 3,
+                    "entranceId": 1,
+                    "offsets": [
+                        "0x152C38",
+                        "0x152C3A",
+                        "0x152C3E",
+                        "0x152C40",
+                        "0x152C42"
+                    ]
                 }
             ]
         },
         {
             "id": "80F0",
+            "name": "MILITARY 1F FRONT OFFICE",
             "rdts": [
                 "80F0"
             ],
             "edges": [
                 {
-                    "to": "8150"
+                    "target": "8150",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "8100"
+                    "target": "8100",
+                    "id": 1,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 339,
                     "type": 18,
                     "amount": 30,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 340,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "offsets": [
+                        "0x1831CA"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 341,
@@ -4061,7 +4946,10 @@
                 {
                     "globalId": 342,
                     "type": 16,
-                    "amount": 6
+                    "amount": 6,
+                    "offsets": [
+                        "0x18311A"
+                    ]
                 },
                 {
                     "globalId": 343,
@@ -4072,205 +4960,305 @@
         },
         {
             "id": "8100",
+            "name": "MILITARY 1F LOBBY",
             "rdts": [
                 "8100"
             ],
             "edges": [
                 {
-                    "to": "80F0"
+                    "target": "80F0",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "80D0"
+                    "target": "80D0",
+                    "id": 1,
+                    "entranceId": 1
                 },
                 {
-                    "to": "80B0"
+                    "target": "80B0",
+                    "id": 0,
+                    "entranceId": 2,
+                    "offsets": [
+                        "0x8C13E",
+                        "0x8C64E",
+                        "0x8C698"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 344,
                     "type": 130,
-                    "amount": 1,
-                    "requires": [
-                        "flag(96)"
-                    ]
+                    "amount": 1
                 },
                 {
                     "globalId": 218,
                     "type": 18,
                     "amount": 30,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8110",
+            "name": "MILITARY 2F LOBBY",
             "rdts": [
                 "8110"
             ],
             "edges": [
                 {
-                    "to": "8120"
+                    "target": "8120",
+                    "id": 1,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x21E22",
+                        "0x21E24",
+                        "0x21E28",
+                        "0x21E2A",
+                        "0x21E2C"
+                    ]
                 },
                 {
-                    "to": "80C0",
+                    "target": "80C0",
+                    "id": 5,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(93)"
+                        "item(93)"
                     ]
                 }
             ]
         },
         {
             "id": "8120",
+            "name": "MILITARY 2F WAREHOUSE CORRIDOR",
             "rdts": [
                 "8120"
             ],
             "edges": [
                 {
-                    "to": "8110"
+                    "target": "8110",
+                    "id": 1,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x1642E8",
+                        "0x1642EA",
+                        "0x1642EC"
+                    ]
                 },
                 {
-                    "to": "80E0"
+                    "target": "80E0",
+                    "id": 0,
+                    "entranceId": 1,
+                    "offsets": [
+                        "0x1642CC",
+                        "0x1642CE",
+                        "0x1642D0"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 345,
                     "type": 18,
                     "amount": 30,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 232,
                     "type": 7,
                     "amount": 30,
-                    "priority": "low"
+                    "offsets": [
+                        "0x164246",
+                        "0x164364",
+                        "0x1643DA"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8121",
+            "name": "MILITARY 2F WAREHOUSE CORRIDOR",
             "rdts": [
                 "8121"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 345,
                     "type": 18,
                     "amount": 30,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 232,
                     "type": 7,
                     "amount": 30,
-                    "priority": "low"
+                    "offsets": [
+                        "0xBE8E0",
+                        "0xBE956"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8130",
+            "name": "MILITARY 1F ELEVATOR CORRIDOR",
             "rdts": [
                 "8130"
             ],
             "edges": [
                 {
-                    "to": "8020"
+                    "target": "8020",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "8010"
+                    "target": "8010",
+                    "id": 2,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 203,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8131",
+            "name": "MILITARY 1F ELEVATOR CORRIDOR",
             "rdts": [
                 "8131"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 203,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8140",
+            "name": "MILITARY B1 BASEMENT STOREHOUSE",
             "rdts": [
                 "8140"
             ],
             "edges": [
                 {
-                    "to": "8040"
+                    "target": "8040",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "8150"
+                    "target": "8150",
+                    "id": 2,
+                    "entranceId": 1
                 },
                 {
-                    "to": "80B0"
+                    "target": "80B0",
+                    "id": 1,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 237,
                     "type": 6,
                     "amount": 6,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 439,
                     "type": 15,
                     "amount": 6,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8150",
+            "name": "MILITARY B1 BOILER ROOM",
             "rdts": [
                 "8150"
             ],
             "edges": [
                 {
-                    "to": "8060"
+                    "target": "8060",
+                    "id": 3,
+                    "entranceId": 0
                 },
                 {
-                    "to": "8140"
+                    "target": "8140",
+                    "id": 1,
+                    "entranceId": 1
                 },
                 {
-                    "to": "80F0"
+                    "target": "80F0",
+                    "id": 16,
+                    "entranceId": 2,
+                    "offsets": [
+                        "0x180C0E"
+                    ]
                 }
             ]
         },
         {
             "id": "8160",
+            "name": "MILITARY B3 TOMB",
             "rdts": [
                 "8160"
             ],
             "edges": [
                 {
-                    "to": "8180",
-                    "kind": "locked"
-                },
-                {
-                    "to": "8170"
+                    "target": "8170",
+                    "id": 0,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 353,
                     "type": 34,
-                    "amount": 100
+                    "amount": 100,
+                    "offsets": [
+                        "0x1E08CA",
+                        "0x1E1D74",
+                        "0x1E1DBE"
+                    ]
                 },
                 {
                     "globalId": 350,
@@ -4291,14 +5279,19 @@
         },
         {
             "id": "8161",
+            "name": "MILITARY B3 TOMB",
             "rdts": [
                 "8161"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 353,
                     "type": 34,
-                    "amount": 100
+                    "amount": 100,
+                    "offsets": [
+                        "0x1E1274",
+                        "0x1E12BE"
+                    ]
                 },
                 {
                     "globalId": 350,
@@ -4319,19 +5312,29 @@
         },
         {
             "id": "8170",
+            "name": "MILITARY B3 WORM",
             "rdts": [
                 "8170"
             ],
             "edges": [
                 {
-                    "to": "8160"
+                    "target": "8160",
+                    "id": 2,
+                    "entranceId": 0
                 },
                 {
-                    "to": "80C0",
-                    "kind": "unblock"
+                    "target": "80C0",
+                    "id": 1,
+                    "entranceId": 1,
+                    "kind": "unblock",
+                    "offsets": [
+                        "0x14E270",
+                        "0x14E272",
+                        "0x14E274"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 355,
                     "type": 21,
@@ -4356,17 +5359,24 @@
                     "globalId": 1001,
                     "type": 55,
                     "amount": 1,
-                    "priority": "low",
-                    "group": 1
+                    "offsets": [
+                        "0x14D27A",
+                        "0x14EB74"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8171",
+            "name": "MILITARY B3 WORM",
             "rdts": [
                 "8171"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 355,
                     "type": 21,
@@ -4391,39 +5401,67 @@
                     "globalId": 1001,
                     "type": 55,
                     "amount": 1,
-                    "priority": "low",
-                    "group": 1
+                    "offsets": [
+                        "0x14D252",
+                        "0x14EB3C"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "8180",
+            "name": "MILITARY B3 CAVE CINEMATIC",
             "rdts": [
                 "8180"
             ],
             "edges": [
                 {
-                    "to": "70A0"
+                    "target": "70A0",
+                    "id": 0,
+                    "entranceId": 0,
+                    "tags": [
+                        "preserve"
+                    ]
                 },
                 {
-                    "to": "8160"
+                    "target": "8160",
+                    "id": 1,
+                    "entranceId": 0,
+                    "tags": [
+                        "preserve"
+                    ]
                 }
             ]
         },
         {
             "id": "8190",
+            "name": "MILITARY B1 UNDERGROUND PASSAGE",
             "rdts": [
                 "8190"
             ],
             "edges": [
                 {
-                    "to": "8020"
+                    "target": "8020",
+                    "id": 1,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0xDBA50"
+                    ]
                 },
                 {
-                    "to": "80A0"
+                    "target": "80A0",
+                    "id": 0,
+                    "entranceId": 1,
+                    "offsets": [
+                        "0xDBA18"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 359,
                     "type": 15,
@@ -4438,21 +5476,28 @@
         },
         {
             "id": "9000",
+            "name": "AIRPORT CHECK-IN",
             "rdts": [
                 "9000"
             ],
             "edges": [
                 {
-                    "to": "9010"
+                    "target": "9010",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "9010"
+                    "target": "9010",
+                    "id": 1,
+                    "entranceId": 2
                 },
                 {
-                    "to": "9050"
+                    "target": "9050",
+                    "id": 10,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 247,
                     "type": 14,
@@ -4462,67 +5507,112 @@
                     "globalId": 248,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 249,
                     "type": 31,
                     "amount": 3,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "9001",
+            "name": "AIRPORT CHECK-IN",
             "rdts": [
                 "9001"
             ],
             "edges": [
                 {
-                    "to": "9010"
+                    "target": "9010",
+                    "id": 2,
+                    "entranceId": 3
                 }
             ]
         },
         {
             "id": "9010",
+            "name": "AIRPORT BRIDGE",
             "rdts": [
                 "9010"
             ],
             "edges": [
                 {
-                    "to": "9000"
+                    "target": "9000",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "9000"
+                    "target": "9000",
+                    "id": 1,
+                    "entranceId": 1,
+                    "offsets": [
+                        "0xF5A82",
+                        "0xF5A84"
+                    ]
                 },
                 {
-                    "to": "9020"
+                    "target": "9020",
+                    "id": 3,
+                    "entranceId": 2,
+                    "offsets": [
+                        "0xF5A9C",
+                        "0xF5A9E"
+                    ]
                 },
                 {
-                    "to": "9001"
+                    "target": "9001",
+                    "id": 2,
+                    "entranceId": 3,
+                    "offsets": [
+                        "0xF5AB6",
+                        "0xF5AB8"
+                    ]
                 },
                 {
-                    "to": "9020"
+                    "target": "9020",
+                    "id": 4,
+                    "entranceId": 4
                 }
             ]
         },
         {
             "id": "9020",
+            "name": "AIRPORT CARGO BAY",
             "rdts": [
                 "9020"
             ],
             "edges": [
                 {
-                    "to": "9010"
+                    "target": "9010",
+                    "entranceId": 0,
+                    "offsets": [
+                        "0xAEF8E"
+                    ]
                 },
                 {
-                    "to": "9040"
+                    "target": "9040",
+                    "entranceId": 1,
+                    "offsets": [
+                        "0xAEF76"
+                    ]
                 },
                 {
-                    "to": "9010"
+                    "target": "9010",
+                    "entranceId": 2,
+                    "offsets": [
+                        "0xAEFA8"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 252,
                     "type": 14,
@@ -4532,47 +5622,75 @@
                     "globalId": 251,
                     "type": 18,
                     "amount": 30,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "9040",
+            "name": "AIRPORT CARGO TRANSPORT",
             "rdts": [
                 "9040"
             ],
             "edges": [
                 {
-                    "to": "80D0"
+                    "target": "80D0",
+                    "id": 1,
+                    "entranceId": 3,
+                    "offsets": [
+                        "0x46C54",
+                        "0x46C56",
+                        "0x46C58",
+                        "0x46DA2",
+                        "0x46DA4",
+                        "0x46DAC"
+                    ]
                 },
                 {
-                    "to": "9020"
+                    "target": "9020",
+                    "id": 0,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 253,
                     "type": 21,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 254,
                     "type": 21,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 255,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 256,
                     "type": 15,
                     "amount": 6,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 253,
@@ -4598,156 +5716,227 @@
         },
         {
             "id": "9050",
+            "name": "AIRPORT ENTRY",
             "rdts": [
                 "9050"
             ],
             "edges": [
                 {
-                    "to": "9000"
+                    "target": "9000",
+                    "id": 5,
+                    "entranceId": 0
                 }
             ]
         },
         {
             "id": "A000",
+            "name": "ANTARTIC B1 SILO",
             "rdts": [
                 "A000"
             ],
             "edges": [
                 {
-                    "to": "A030"
+                    "target": "A030",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "A050"
+                    "target": "A050",
+                    "id": 2,
+                    "entranceId": 2
                 },
                 {
-                    "to": "A010"
+                    "target": "A010",
+                    "id": 3,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A090"
+                    "target": "A090",
+                    "id": 8,
+                    "entranceId": 5
                 }
             ]
         },
         {
             "id": "A010",
+            "name": "ANTARTIC B1 WORKMANS BUNKHOUSE",
             "rdts": [
                 "A010"
             ],
             "edges": [
                 {
-                    "to": "A000"
+                    "target": "A000",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 261,
                     "type": 31,
                     "amount": 3,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 259,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 263,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 265,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 362,
                     "type": 15,
                     "amount": 6,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 260,
                     "type": 130,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 258,
                     "type": 20,
                     "amount": 1,
-                    "priority": "low"
+                    "offsets": [
+                        "0x1A5002"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 262,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "offsets": [
+                        "0x1A5094",
+                        "0x1A50A6"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "A020",
+            "name": "ANTARTIC B1 TOOL STOREROOM",
             "rdts": [
                 "A020"
             ],
             "edges": [
                 {
-                    "to": "A050"
+                    "target": "A050",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 266,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 267,
                     "type": 31,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 364,
                     "type": 129,
-                    "amount": 1
+                    "amount": 1,
+                    "offsets": [
+                        "0x168B04",
+                        "0x168B16"
+                    ]
                 },
                 {
                     "globalId": 363,
                     "type": 14,
-                    "amount": 6
+                    "amount": 6,
+                    "offsets": [
+                        "0x168BAE",
+                        "0x168BC0"
+                    ]
                 }
             ]
         },
         {
             "id": "A030",
+            "name": "ANTARTIC B2 FROZEN CORRIDOR",
             "rdts": [
                 "A030"
             ],
             "edges": [
                 {
-                    "to": "A040"
+                    "target": "A040",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A000"
+                    "target": "A000",
+                    "id": 2,
+                    "entranceId": 1
                 }
             ]
         },
         {
             "id": "A040",
+            "name": "ANTARTIC B2 OFFICE",
             "rdts": [
                 "A040"
             ],
             "edges": [
                 {
-                    "to": "A030"
+                    "target": "A030",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 272,
                     "type": 31,
@@ -4756,228 +5945,313 @@
                 {
                     "globalId": 365,
                     "type": 31,
-                    "amount": 1
+                    "amount": 1,
+                    "offsets": [
+                        "0x53046"
+                    ]
                 },
                 {
                     "globalId": 41,
                     "type": 117,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "0x52E04"
+                    ]
                 },
                 {
                     "globalId": 273,
                     "type": 21,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 274,
                     "type": 18,
                     "amount": 30,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "A050",
+            "name": "ANTARTIC B1 SORTING ROOM",
             "rdts": [
                 "A050"
             ],
             "edges": [
                 {
-                    "to": "A000"
+                    "target": "A000",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A020"
+                    "target": "A020",
+                    "id": 1,
+                    "entranceId": 1
                 },
                 {
-                    "to": "A0A0"
+                    "target": "A0A0",
+                    "id": 2,
+                    "entranceId": 2
                 },
                 {
-                    "to": "A060"
+                    "target": "A060",
+                    "id": 3,
+                    "entranceId": 3
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 42,
                     "type": 107,
                     "amount": 1,
                     "requires": [
-                        "flag(54)"
+                        "item(54)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "0x19B192",
+                        "0x19B1AC"
+                    ]
                 }
             ]
         },
         {
             "id": "A060",
+            "name": "ANTARTIC B1 MINING ROOM",
             "rdts": [
                 "A060"
             ],
             "edges": [
                 {
-                    "to": "A050"
+                    "target": "A050",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A070"
+                    "target": "A070",
+                    "id": 0,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 48,
                     "type": 88,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 }
             ]
         },
         {
             "id": "A070",
+            "name": "ANTARTIC B1 POWER ROOM",
             "rdts": [
                 "A070"
             ],
             "edges": [
                 {
-                    "to": "A060"
+                    "target": "A060",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ]
         },
         {
             "id": "A080",
+            "name": "ANTARTIC B2 WEAPON ROOM",
             "rdts": [
                 "A080"
             ],
             "edges": [
                 {
-                    "to": "A0B0"
+                    "target": "A0B0",
+                    "id": 15,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x1BEFC8"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 0,
                     "type": 2,
                     "amount": 100,
-                    "priority": "low"
+                    "offsets": [
+                        "0x1BF2CC"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 288,
                     "type": 32,
-                    "amount": 6,
-                    "requires": [
-                        "flag(82)"
-                    ]
+                    "amount": 6
                 },
                 {
                     "globalId": 289,
                     "type": 64,
                     "amount": 1,
-                    "priority": "low",
-                    "group": 1
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 0,
                     "type": 115,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 440,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "offsets": [
+                        "0x1BFF10",
+                        "0x1BFF22"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 441,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "offsets": [
+                        "0x1BFFC4",
+                        "0x1BFFD6"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 442,
                     "type": 12,
                     "amount": 15,
-                    "priority": "low"
+                    "offsets": [
+                        "0x1C0064",
+                        "0x1C0076"
+                    ],
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "A090",
+            "name": "ANTARTIC B1 JET HANGER",
             "rdts": [
                 "A090"
             ],
             "edges": [
                 {
-                    "to": "8080",
-                    "kind": "locked"
-                },
-                {
-                    "to": "A000"
+                    "target": "A000",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ]
         },
         {
             "id": "A0A0",
+            "name": "ANTARTIC B1 CORRIDOR",
             "rdts": [
                 "A0A0"
             ],
             "edges": [
                 {
-                    "to": "A0D0"
+                    "target": "A0D0",
+                    "id": 0,
+                    "entranceId": 3,
+                    "offsets": [
+                        "0xE9244"
+                    ]
                 },
                 {
-                    "to": "A0B0"
+                    "target": "A0B0",
+                    "id": 1,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A050"
+                    "target": "A050",
+                    "id": 2,
+                    "entranceId": 1
                 }
             ]
         },
         {
             "id": "A0B0",
+            "name": "ANTARTIC B1 WATER TANK ROOM",
             "rdts": [
                 "A0B0"
             ],
             "edges": [
                 {
-                    "to": "A080"
+                    "target": "A080",
+                    "id": 12,
+                    "entranceId": 1,
+                    "offsets": [
+                        "0xCD94E"
+                    ]
                 },
                 {
-                    "to": "A0A0"
+                    "target": "A0A0",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 44,
                     "type": 54,
                     "amount": 1,
                     "requires": [
-                        "flag(88)",
-                        "flag(113)"
-                    ],
-                    "group": 1
+                        "item(88)",
+                        "item(113)"
+                    ]
                 }
             ]
         },
         {
             "id": "A0C0",
+            "name": "ANTARTIC B5 ICY CORRIDOR",
             "rdts": [
                 "A0C0"
             ],
             "edges": [
                 {
-                    "to": "A100",
+                    "target": "A100",
+                    "id": 0,
+                    "entranceId": 0,
                     "requires": [
-                        "flag(88)"
+                        "item(88)",
+                        "node(A0E0)"
                     ]
                 },
                 {
-                    "to": "A0E0"
+                    "target": "A0E0",
+                    "id": 1,
+                    "entranceId": 1
                 },
                 {
-                    "to": "A0D0"
+                    "target": "A0D0",
+                    "id": 2,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 368,
                     "type": 23,
@@ -4997,21 +6271,28 @@
         },
         {
             "id": "A0D0",
+            "name": "ANTARTIC B5 MANSION COURTYARD",
             "rdts": [
                 "A0D0"
             ],
             "edges": [
                 {
-                    "to": "A0F0"
+                    "target": "A0F0",
+                    "id": 19,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A0C0"
+                    "target": "A0C0",
+                    "id": 17,
+                    "entranceId": 1
                 },
                 {
-                    "to": "A0A0"
+                    "target": "A0A0",
+                    "id": 18,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 373,
                     "type": 21,
@@ -5025,28 +6306,29 @@
                 {
                     "globalId": 45,
                     "type": 120,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 46,
                     "type": 120,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 }
             ]
         },
         {
             "id": "A0E0",
+            "name": "ANTARTIC B5 HIGH VOLTAGE ROOM",
             "rdts": [
                 "A0E0"
             ],
             "edges": [
                 {
-                    "to": "A0C0"
+                    "target": "A0C0",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 375,
                     "type": 31,
@@ -5101,47 +6383,67 @@
         },
         {
             "id": "A0F0",
+            "name": "ANTARTIC B5 MAIN HALL",
             "rdts": [
                 "A0F0"
             ],
             "edges": [
                 {
-                    "to": "A0D0"
+                    "target": "A0D0",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A1A0",
+                    "target": "A1A0",
+                    "id": 1,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(115)"
+                        "item(115)"
                     ]
                 },
                 {
-                    "to": "A200"
+                    "target": "A200",
+                    "id": 255,
+                    "entranceId": 2
                 }
             ]
         },
         {
             "id": "A100",
+            "name": "ANTARTIC B5 ART ROOM",
             "rdts": [
                 "A100"
             ],
             "edges": [
                 {
-                    "to": "A0C0",
+                    "target": "A0C0",
+                    "id": 1,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(88)"
+                        "item(88)",
+                        "node(A0E0)"
                     ]
                 },
                 {
-                    "to": "A0F0"
+                    "target": "A0F0",
+                    "id": 2,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A110",
+                    "target": "A110",
+                    "id": 3,
+                    "entranceId": 4,
                     "requires": [
-                        "flag(88)"
+                        "item(88)",
+                        "node(A0E0)"
+                    ],
+                    "offsets": [
+                        "0x5403E",
+                        "0x540E4"
                     ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 386,
                     "type": 14,
@@ -5156,58 +6458,76 @@
                     "globalId": 49,
                     "type": 112,
                     "amount": 1,
-                    "priority": "fixed",
-                    "group": 1
+                    "offsets": [
+                        "0x534EC",
+                        "0x53702"
+                    ],
+                    "tags": [
+                        "preserve"
+                    ]
                 },
                 {
                     "globalId": 50,
                     "type": 111,
                     "amount": 1,
-                    "priority": "fixed",
-                    "group": 1
+                    "offsets": [
+                        "0x53504",
+                        "0x5372A"
+                    ],
+                    "tags": [
+                        "preserve"
+                    ]
                 },
                 {
                     "globalId": 384,
                     "type": 12,
                     "amount": 15,
-                    "requires": [
-                        "flag(80)",
-                        "flag(111)"
+                    "offsets": [
+                        "0x538FA",
+                        "0x545BA",
+                        "0x545CC"
                     ]
                 },
                 {
                     "globalId": 64,
                     "type": 12,
                     "amount": 15,
-                    "requires": [
-                        "flag(88)",
-                        "flag(112)"
+                    "offsets": [
+                        "0x53A0A",
+                        "0x54668",
+                        "0x5467A"
                     ]
                 }
             ]
         },
         {
             "id": "A110",
+            "name": "ANTARTIC B6 ANT FARM",
             "rdts": [
                 "A110"
             ],
             "edges": [
                 {
-                    "to": "A100"
+                    "target": "A100",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A120"
+                    "target": "A120",
+                    "id": 1,
+                    "entranceId": 1
                 },
                 {
-                    "to": "A130"
+                    "target": "A130",
+                    "id": 2,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 51,
                     "type": 120,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 },
                 {
                     "globalId": 388,
@@ -5223,37 +6543,42 @@
         },
         {
             "id": "A120",
+            "name": "ANTARTIC B6 ALEXIAS LAB",
             "rdts": [
                 "A120"
             ],
             "edges": [
                 {
-                    "to": "A110"
+                    "target": "A110",
+                    "id": 2,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 52,
                     "type": 45,
                     "amount": 1,
                     "requires": [
-                        "flag(117)"
-                    ],
-                    "group": 1
+                        "item(117)"
+                    ]
                 }
             ]
         },
         {
             "id": "A130",
+            "name": "ANTARTIC B6 ALEXIAS STUDY",
             "rdts": [
                 "A130"
             ],
             "edges": [
                 {
-                    "to": "A110"
+                    "target": "A110",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 400,
                     "type": 23,
@@ -5278,24 +6603,33 @@
         },
         {
             "id": "A140",
+            "name": "ANTARTIC B4 BEDROOM CORRIDOR",
             "rdts": [
                 "A140"
             ],
             "edges": [
                 {
-                    "to": "A200"
+                    "target": "A200",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A170"
+                    "target": "A170",
+                    "id": 2,
+                    "entranceId": 3
                 },
                 {
-                    "to": "A150"
+                    "target": "A150",
+                    "id": 3,
+                    "entranceId": 2
                 },
                 {
-                    "to": "A160"
+                    "target": "A160",
+                    "id": 4,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 402,
                     "type": 21,
@@ -5310,20 +6644,25 @@
         },
         {
             "id": "A150",
+            "name": "ANTARTIC B4 STUDY",
             "rdts": [
                 "A150"
             ],
             "edges": [
                 {
-                    "to": "A140"
+                    "target": "A140",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 53,
                     "type": 92,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "0x416F8"
+                    ]
                 },
                 {
                     "globalId": 404,
@@ -5344,18 +6683,23 @@
         },
         {
             "id": "A160",
+            "name": "ANTARTIC B4 T-VERONICA LAB",
             "rdts": [
                 "A160"
             ],
             "edges": [
                 {
-                    "to": "A1B0"
+                    "target": "A1B0",
+                    "id": 2,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A140"
+                    "target": "A140",
+                    "id": 3,
+                    "entranceId": 1
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 408,
                     "type": 21,
@@ -5379,69 +6723,102 @@
                 {
                     "globalId": 54,
                     "type": 120,
-                    "amount": 1,
-                    "group": 1
+                    "amount": 1
                 }
             ]
         },
         {
             "id": "A170",
+            "name": "ANTARTIC B4 ALFREDS BEDROOM",
             "rdts": [
                 "A170"
             ],
             "edges": [
                 {
-                    "to": "A180"
+                    "target": "A180",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A140"
+                    "target": "A140",
+                    "id": 1,
+                    "entranceId": 1
                 },
                 {
-                    "to": "A190",
+                    "target": "A190",
+                    "id": 2,
+                    "entranceId": 2,
                     "requires": [
-                        "flag(78)",
-                        "flag(112)"
+                        "item(78)",
+                        "item(112)"
+                    ],
+                    "offsets": [
+                        "0x4E454",
+                        "0x4E45E"
                     ]
                 }
             ]
         },
         {
             "id": "A180",
+            "name": "ANTARTIC B4 ALEXIAS BEDROOM",
             "rdts": [
                 "A180"
             ],
             "edges": [
                 {
-                    "to": "A140"
+                    "target": "A140",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A170"
+                    "target": "A170",
+                    "id": 1,
+                    "entranceId": 1,
+                    "offsets": [
+                        "0x6231E",
+                        "0x62328",
+                        "0x6233E",
+                        "0x62348"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 65,
                     "type": 78,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "0x62778",
+                        "0x6229C"
+                    ]
                 }
             ]
         },
         {
             "id": "A190",
+            "name": "ANTARTIC B3 CONFERENCE ROOM",
             "rdts": [
                 "A190"
             ],
             "edges": [
                 {
-                    "to": "A170"
+                    "target": "A170",
+                    "id": 0,
+                    "entranceId": 0,
+                    "offsets": [
+                        "0x533FA"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 55,
                     "type": 79,
-                    "amount": 1
+                    "amount": 1,
+                    "offsets": [
+                        "0x53548"
+                    ]
                 },
                 {
                     "globalId": 415,
@@ -5467,18 +6844,23 @@
         },
         {
             "id": "A1A0",
+            "name": "ANTARTIC B4 SITTING ROOM",
             "rdts": [
                 "A1A0"
             ],
             "edges": [
                 {
-                    "to": "A0F0"
+                    "target": "A0F0",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "A1B0"
+                    "target": "A1B0",
+                    "id": 1,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 423,
                     "type": 22,
@@ -5503,34 +6885,41 @@
                     "globalId": 420,
                     "type": 15,
                     "amount": 15,
-                    "requires": [
-                        "flag(4)"
+                    "offsets": [
+                        "0x464E6",
+                        "0x464F8"
                     ]
                 },
                 {
                     "globalId": 419,
                     "type": 17,
                     "amount": 6,
-                    "requires": [
-                        "flag(4)"
+                    "offsets": [
+                        "0x46438",
+                        "0x4644A"
                     ]
                 }
             ]
         },
         {
             "id": "A1B0",
+            "name": "ANTARTIC B4 L CORRIDOR",
             "rdts": [
                 "A1B0"
             ],
             "edges": [
                 {
-                    "to": "A1A0"
+                    "target": "A1A0",
+                    "id": 0,
+                    "entranceId": 1
                 },
                 {
-                    "to": "A1D0"
+                    "target": "A1D0",
+                    "id": 2,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 426,
                     "type": 18,
@@ -5545,32 +6934,42 @@
         },
         {
             "id": "A1C0",
+            "name": "ANTARTIC B4 HALL OF ARMORS",
             "rdts": [
                 "A1C0"
             ],
             "edges": [
                 {
-                    "to": "A1D0"
+                    "target": "A1D0",
+                    "id": 0,
+                    "entranceId": 0
                 }
             ]
         },
         {
             "id": "A1D0",
+            "name": "ANTARTIC B4 DETENTION CENTER",
             "rdts": [
                 "A1D0"
             ],
             "edges": [
                 {
-                    "to": "A1C0"
+                    "target": "A1C0",
+                    "id": 0,
+                    "entranceId": 0
                 },
                 {
-                    "to": "A1B0"
+                    "target": "A1B0",
+                    "id": 2,
+                    "entranceId": 1
                 },
                 {
-                    "to": "A1E0"
+                    "target": "A1E0",
+                    "id": 1,
+                    "entranceId": 2
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 431,
                     "type": 128,
@@ -5590,124 +6989,168 @@
                     "globalId": 57,
                     "type": 121,
                     "amount": 1,
-                    "group": 1
+                    "offsets": [
+                        "0x1D280A"
+                    ]
                 },
                 {
                     "globalId": 56,
                     "type": 105,
                     "amount": 1,
                     "requires": [
-                        "flag(121)"
+                        "item(121)"
                     ],
-                    "group": 1
+                    "offsets": [
+                        "0x1D27E6"
+                    ]
                 }
             ]
         },
         {
             "id": "A1E0",
+            "name": "ANTARTIC B4 UPPER ANT FARM",
             "rdts": [
                 "A1E0"
             ],
             "edges": [
                 {
-                    "to": "A1F0",
+                    "target": "A1F0",
+                    "id": 0,
+                    "entranceId": 0,
                     "requires": [
-                        "flag(79)",
-                        "flag(105)",
-                        "flag(120)"
+                        "item(79)",
+                        "item(105)",
+                        "item(120)"
+                    ],
+                    "tags": [
+                        "preserve"
                     ]
                 },
                 {
-                    "to": "A1D0"
+                    "target": "A1D0",
+                    "id": 1,
+                    "entranceId": 1
                 }
             ]
         },
         {
             "id": "A1F0",
+            "name": "ANTARTIC B4 REACTOR CORE",
             "rdts": [
                 "A1F0"
             ],
             "edges": [
                 {
-                    "to": "A1E0"
+                    "target": "A1E0",
+                    "id": 0,
+                    "entranceId": 0,
+                    "tags": [
+                        "preserve"
+                    ]
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 435,
                     "type": 21,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 436,
                     "type": 21,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "A200",
+            "name": "ANTARTIC B5 MAIN HALL DESTROYED",
             "rdts": [
                 "A200"
             ],
             "edges": [
                 {
-                    "to": "A140",
+                    "target": "A140",
+                    "id": 7,
+                    "entranceId": 1,
                     "requires": [
-                        "flag(43)",
-                        "flag(45)",
-                        "flag(107)"
+                        "item(43)",
+                        "item(45)",
+                        "item(107)"
                     ]
                 },
                 {
-                    "to": "A0D0"
+                    "target": "A0D0",
+                    "id": 2,
+                    "entranceId": 3
                 },
                 {
-                    "to": "A100",
+                    "target": "A100",
+                    "id": 1,
+                    "entranceId": 2,
                     "requires": [
-                        "flag(92)"
+                        "item(92)"
                     ]
                 },
                 {
-                    "to": "A0F0"
+                    "target": "A0F0",
+                    "id": 255,
+                    "entranceId": 0
                 }
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 47,
                     "type": 107,
                     "amount": 1,
-                    "priority": "low",
-                    "group": 1
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 382,
                     "type": 8,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         },
         {
             "id": "A201",
+            "name": "ANTARTIC B5 MAIN HALL DESTROYED",
             "rdts": [
                 "A201"
             ],
-            "slots": [
+            "items": [
                 {
                     "globalId": 47,
                     "type": 107,
                     "amount": 1,
-                    "priority": "low",
-                    "group": 1
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 },
                 {
                     "globalId": 382,
                     "type": 8,
                     "amount": 1,
-                    "priority": "low"
+                    "tags": [
+                        "nokey",
+                        "nospecial"
+                    ]
                 }
             ]
         }

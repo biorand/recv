@@ -2,7 +2,7 @@
     "start": "1000",
     "end": "4000",
     "keys": [
-        { "id": 56, "name": "Eagle Plate",  "group": 1, "kind": "consumable" }
+        { "id": 56, "name": "Eagle Plate",  "kind": "consumable" }
     ],
     "itemTypes": {},
     "rooms": [
@@ -10,34 +10,34 @@
             "id": "1000",
             "rdts": ["1000"],
             "edges": [
-                { "to": "2000", "requires": ["item(56)"], "kind": "locked" },
-                { "to": "3000", "requires": ["item(56)"], "kind": "locked" }
+                { "target": "2000", "requires": ["item(56)"] },
+                { "target": "3000", "requires": ["item(56)"] }
             ],
-            "slots": [
-                { "globalId": 1, "group": 1, "type": 56, "amount": 1 },
-                { "globalId": 2, "group": 1, "type": 56, "amount": 1 }
+            "items": [
+                { "globalId": 1, "type": 56, "amount": 1, "requires": ["room(1000)"] },
+                { "globalId": 2, "type": 56, "amount": 1, "requires": ["room(1000)"] }
             ]
         },
         {
             "id": "2000",
             "rdts": ["2000"],
             "edges": [
-                { "to": "4000" }
+                { "target": "4000" }
             ],
-            "slots": []
+            "items": []
         },
         {
             "id": "3000",
             "rdts": ["3000"],
             "edges": [
-                { "to": "4000" }
+                { "target": "4000" }
             ],
-            "slots": []
+            "items": []
         },
         {
             "id": "4000",
             "rdts": ["4000"],
-            "slots": []
+            "items": []
         }
     ]
 }

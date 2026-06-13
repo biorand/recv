@@ -61,11 +61,13 @@ generateCommand.SetAction(parseResult =>
         progress);
 
     var logOutput = "";
+    var mermaidOutput = "";
     generator.OnLog += msg =>
     {
         Console.WriteLine(msg);
         logOutput = msg;
     };
+    generator.OnMermaid += msg => mermaidOutput = msg;
 
     var result = generator.GenerateAsync().GetAwaiter().GetResult();
 
@@ -76,6 +78,13 @@ generateCommand.SetAction(parseResult =>
         var logPath = Path.ChangeExtension(output!.FullName, ".log");
         File.WriteAllText(logPath, logOutput);
         Console.WriteLine($"Log: {logPath}");
+    }
+
+    if (mermaidOutput.Length > 0)
+    {
+        var mmdPath = Path.ChangeExtension(output!.FullName, ".mmd");
+        File.WriteAllText(mmdPath, mermaidOutput);
+        Console.WriteLine($"Graph: {mmdPath}");
     }
 
     Console.WriteLine($"Generated: {output.FullName}");

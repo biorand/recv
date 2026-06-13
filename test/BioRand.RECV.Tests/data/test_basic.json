@@ -2,8 +2,8 @@
     "start": "1000",
     "end": "3000",
     "keys": [
-        { "id": 67, "name": "Silver Key",  "group": 1, "kind": "reusuable" },
-        { "id": 68, "name": "Gold Key",    "group": 1, "kind": "reusuable" }
+        { "id": 67, "name": "Silver Key",  "kind": "reusuable" },
+        { "id": 68, "name": "Gold Key",    "kind": "reusuable" }
     ],
     "itemTypes": {},
     "rooms": [
@@ -11,35 +11,35 @@
             "id": "1000",
             "rdts": ["1000"],
             "edges": [
-                { "to": "2000" }
+                { "target": "2000" }
             ],
-            "slots": [
-                { "globalId": 1, "group": 1, "type": 67, "amount": 1 },
-                { "globalId": 2, "group": 1, "type": 68, "amount": 1 }
+            "items": [
+                { "globalId": 1, "type": 67, "amount": 1, "requires": ["room(1000)"] },
+                { "globalId": 2, "type": 68, "amount": 1, "requires": ["room(1000)"] }
             ]
         },
         {
             "id": "2000",
             "rdts": ["2000"],
             "edges": [
-                { "to": "3000", "requires": ["item(67)"], "kind": "locked" }
+                { "target": "3000", "requires": ["item(67)"] }
             ],
-            "slots": [
-                { "globalId": 3, "group": 0, "type": 14, "amount": 1 }
+            "items": [
+                { "globalId": 3, "type": 14, "amount": 1 }
             ]
         },
         {
             "id": "3000",
             "rdts": ["3000"],
             "edges": [
-                { "to": "4000", "requires": ["item(68)"], "kind": "locked" }
+                { "target": "4000", "requires": ["item(68)"] }
             ],
-            "slots": []
+            "items": []
         },
         {
             "id": "4000",
             "rdts": ["4000"],
-            "slots": []
+            "items": []
         }
     ]
 }

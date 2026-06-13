@@ -81,6 +81,7 @@ public sealed class ReCvRandomizerContext
     public int Seed { get; }
     public RandomizerConfiguration Config { get; }
     public RandomizerLogger Logger { get; }
+    public string? MermaidGraph { get; set; }
 
     public ReCvRandomizerContext(
         ElfRegion elf,
