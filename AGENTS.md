@@ -30,6 +30,7 @@ dotnet run --project src/biorand-recv -- agent <url> -k <apikey> -i <input.iso>
 
 - DO: set working directory to `generated_seeds/seed_<n>` **IMPORTANT!**
 - DO: set `-o` to `generated_seeds/seed_<n>` to keep output organized.
+- Use `src\BioRand.RECV\data\default-config.json` as base config example.
 
 ## Tests
 

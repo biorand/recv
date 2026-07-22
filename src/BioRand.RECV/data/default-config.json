@@ -1,0 +1,22 @@
+{
+  "doors/skip": true,
+  "doors/random": false,
+  "items/randomize-quantity": true,
+  "items/quantity-multiplier": 4,
+  "items/randomize-keys": true,
+  "items/randomize-non-key-items": true,
+  "items/ratio/heal": 0.8,
+  "items/ratio/ink-ribbon": 0.3,
+  "items/ratio/ammo/handgun": 0.7,
+  "items/ratio/ammo/shotgun": 0.5,
+  "items/ratio/ammo/magnum": 0.3,
+  "items/ratio/ammo/grenade": 0.4,
+  "items/ratio/ammo/bow-gun": 0.4,
+  "items/ratio/ammo/sub-machine-gun": 0.3,
+  "items/ratio/ammo/sniper-rifle": 0.2,
+  "items/ratio/ammo/assault-rifle": 0.2,
+  "items/ratio/gunpowder": 0.5,
+  "items/ratio/special": 0.3,
+  "items/ratio/document": 0.5,
+  "items/ratio/quest": 0.1
+}
