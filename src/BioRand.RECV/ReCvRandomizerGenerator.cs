@@ -188,6 +188,8 @@ public sealed class ReCvRandomizerGenerator
         _udfEditor.ReplaceFileStream(_advAfsFileId!, new MemoryStream(_advAfs!.Data.ToArray()));
         _udfEditor.ReplaceFileStream(_systemAfsFileId!, new MemoryStream(_systemAfs!.Data.ToArray()));
         _udfEditor.Rebuild(_outputPath);
+        _udfEditor.Dispose();
+        _udfEditor = null;
     }
 
     private AfsFile ReadAfs(FileIdentifier fileId)
