@@ -100,15 +100,7 @@ internal sealed class ReCvKeyRandomizer
             var key = route.GetItemContents(itemNode);
 
             if (key == null)
-            {
-                var slotData = FindItem(graphData, globalId);
-                if (slotData != null)
-                {
-                    placements[globalId] = new ItemPlacement(
-                        globalId, (byte)slotData.Type, (ushort)slotData.Amount);
-                }
                 continue;
-            }
 
             var gameItemId = keyToItemId[key.Value];
 
@@ -121,19 +113,6 @@ internal sealed class ReCvKeyRandomizer
             Placements = placements,
             Route = route,
         };
-    }
-
-    private static GraphDataItem? FindItem(GraphData graphData, int globalId)
-    {
-        foreach (var r in graphData.Rooms)
-        {
-            foreach (var s in r.Items)
-            {
-                if (s.GlobalId == globalId)
-                    return s;
-            }
-        }
-        return null;
     }
 
     private static Requirement[] ParseRequirements(

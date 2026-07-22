@@ -113,10 +113,7 @@ public sealed class ReCvRandomizerContext
         var name = RdxFileNames[fileIndex];
         if (name.Length < 10 || !name.StartsWith("RM_"))
             return null;
-        var stage = name.Substring(3, 2);
-        var room = name.Substring(5, 2);
-        var variant = name[7];
-        return $"{stage}{room}{variant}";
+        return name.Substring(3, 4);
     }
 
     public Rng GetRng(params string[] keys)

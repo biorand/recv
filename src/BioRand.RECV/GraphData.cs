@@ -45,6 +45,7 @@ public sealed class GraphDataEdge
 
 public sealed class GraphDataItem
 {
+    public int Id { get; init; }
     public int GlobalId { get; init; }
     public int Type { get; init; }
     public int Amount { get; init; }

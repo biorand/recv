@@ -28,8 +28,10 @@ public static class ReCvConfigurationDefinition
             Default = false
         });
 
-        var items = general.CreateGroup("Items");
-        items.Items.Add(new RandomizerConfigurationDefinition.GroupItem
+        var itemsPage = definition.CreatePage("Items");
+
+        var itemSettings = itemsPage.CreateGroup("Items");
+        itemSettings.Items.Add(new RandomizerConfigurationDefinition.GroupItem
         {
             Id = "items/randomize-quantity",
             Label = "Randomize Item Quantities",
@@ -37,7 +39,7 @@ public static class ReCvConfigurationDefinition
             Type = "switch",
             Default = true
         });
-        items.Items.Add(new RandomizerConfigurationDefinition.GroupItem
+        itemSettings.Items.Add(new RandomizerConfigurationDefinition.GroupItem
         {
             Id = "items/quantity-multiplier",
             Label = "Ammo Quantity",
@@ -48,7 +50,7 @@ public static class ReCvConfigurationDefinition
             Max = 7,
             Step = 1
         });
-        items.Items.Add(new RandomizerConfigurationDefinition.GroupItem
+        itemSettings.Items.Add(new RandomizerConfigurationDefinition.GroupItem
         {
             Id = "items/randomize-keys",
             Label = "Randomize Key Items",
@@ -56,7 +58,7 @@ public static class ReCvConfigurationDefinition
             Type = "switch",
             Default = true
         });
-        items.Items.Add(new RandomizerConfigurationDefinition.GroupItem
+        itemSettings.Items.Add(new RandomizerConfigurationDefinition.GroupItem
         {
             Id = "items/randomize-non-key-items",
             Label = "Randomize Other Items",
@@ -68,7 +70,7 @@ public static class ReCvConfigurationDefinition
         var graph = LoadGraph();
         if (graph != null)
         {
-            var distribution = general.CreateGroup("Distribution");
+            var distribution = itemsPage.CreateGroup("Distribution");
             var ratioKinds = graph.ItemTypes
                 .Select(x => x.Value.Kind)
                 .Distinct()
@@ -77,17 +79,17 @@ public static class ReCvConfigurationDefinition
 
             foreach (var kind in ratioKinds)
             {
-                var label = FormatKindLabel(kind);
+                var label = FormatKindLabel(graph, kind);
                 distribution.Items.Add(new RandomizerConfigurationDefinition.GroupItem
                 {
                     Id = $"items/ratio/{kind}",
-                    Label = $"{label}",
+                    Label = label,
                     Description = $"Relative frequency of {label.ToLowerInvariant()} pickups",
                     Type = "slider",
-                    Default = 5,
+                    Default = 0.5,
                     Min = 0,
-                    Max = 10,
-                    Step = 1
+                    Max = 1,
+                    Step = 0.01
                 });
             }
         }
@@ -117,14 +119,11 @@ public static class ReCvConfigurationDefinition
         }
     }
 
-    private static string FormatKindLabel(string kind)
+    private static string FormatKindLabel(GraphData graph, string kind)
     {
-        var parts = kind.Split('/');
-        for (var i = 0; i < parts.Length; i++)
-        {
-            if (parts[i].Length > 0)
-                parts[i] = char.ToUpper(parts[i][0]) + parts[i][1..];
-        }
-        return string.Join(" / ", parts);
+        var first = graph.ItemTypes.Values.FirstOrDefault(x => x.Kind == kind);
+        if (first != null)
+            return first.Name;
+        return kind;
     }
 }

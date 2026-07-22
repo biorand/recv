@@ -241,6 +241,7 @@ def convert_edge(door):
 
 def convert_item(item, key_ids=set()):
     slot = {
+        "id": item["id"],
         "globalId": item["globalId"],
         "type": item["type"],
         "amount": item["amount"],
