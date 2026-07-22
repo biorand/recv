@@ -2,6 +2,14 @@
 using IntelOrca.Biohazard.BioRand;
 using IntelOrca.Biohazard.BioRand.RECV;
 
+#if DEBUG
+if (args.Length > 0 && args[0] == "generate" && System.IO.File.Exists(System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "biorand-recv.slnx")))
+{
+    System.Console.Error.WriteLine("error: generating a randomizer from the solution directory is not allowed. change to a seed output directory first.");
+    return 1;
+}
+#endif
+
 var inputOption = new Option<FileInfo>("-i", ["--input"])
 {
     Description = "Input vanilla ISO file",

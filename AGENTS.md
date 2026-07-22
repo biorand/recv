@@ -24,9 +24,12 @@ Pipeline always runs full cycle: open ISO → extract ELF + AFS → decompress R
 
 ```
 dotnet build
-dotnet run --project src/biorand-recv -- generate -i <input.iso> -o <output.iso> [--seed <s>]
+dotnet run --project src/biorand-recv -- generate -i <input.iso> -c <config.json> -o <output.iso> [-c <config.json>] [--seed <s>]
 dotnet run --project src/biorand-recv -- agent <url> -k <apikey> -i <input.iso>
 ```
+
+- DO: set working directory to `generated_seeds/seed_<n>` **IMPORTANT!**
+- DO: set `-o` to `generated_seeds/seed_<n>` to keep output organized.
 
 ## Tests
 

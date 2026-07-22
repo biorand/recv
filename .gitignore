@@ -6,3 +6,4 @@ obj/
 *.DotSettings
 prs_cache/
 out
+generated_seeds/
