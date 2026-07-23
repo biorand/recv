@@ -50,7 +50,7 @@ backing arrays — varies between process runs.
 
 ## Roadmap
 
-See `docs/FEATURES.md`
+See `docs/FEATURES.md` for feature status and `docs/ISSUES.md` for known issues with current implementations.
 
 ## Old randomizer
 
