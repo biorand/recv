@@ -239,7 +239,7 @@ def convert_edge(door):
     return edge
 
 
-def convert_item(item, key_ids=set()):
+def convert_item(item):
     slot = {
         "id": item["id"],
         "globalId": item["globalId"],
@@ -248,12 +248,11 @@ def convert_item(item, key_ids=set()):
     }
 
     requires = []
-    if item["type"] in key_ids:
-        if "requires" in item:
-            requires.extend(int_reqs_to_strs(item["requires"], "item"))
-        if "requiresRoom" in item:
-            for rr in item["requiresRoom"]:
-                requires.append(f"node({rr})")
+    if "requires" in item:
+        requires.extend(int_reqs_to_strs(item["requires"], "item"))
+    if "requiresRoom" in item:
+        for rr in item["requiresRoom"]:
+            requires.append(f"node({rr})")
     if requires:
         slot["requires"] = requires
 
@@ -275,19 +274,23 @@ def convert_item(item, key_ids=set()):
     return slot
 
 
-def build_rooms(rooms_data, callout_map, key_ids):
+def build_rooms(rooms_data, callout_map):
     no_return_pairs = set()
     for rid, r in rooms_data.items():
         for door in r.get("doors", []):
             if door.get("noReturn"):
                 no_return_pairs.add((rid, door["target"]))
 
-    has_outgoing = set()
-    has_incoming = set()
+    room_requires = {}
     for rid, r in rooms_data.items():
-        for door in r.get("doors", []):
-            has_outgoing.add(rid)
-            has_incoming.add(door["target"])
+        reqs = []
+        if "requires" in r:
+            reqs.extend(int_reqs_to_strs(r["requires"], "item"))
+        if "requiresRoom" in r:
+            for rr in r["requiresRoom"]:
+                reqs.append(f"node({rr})")
+        if reqs:
+            room_requires[rid] = reqs
 
     rooms = []
     for rid, r in rooms_data.items():
@@ -314,15 +317,14 @@ def build_rooms(rooms_data, callout_map, key_ids):
         if edges:
             room["edges"] = edges
 
-        has_room_edges = rid in has_outgoing or rid in has_incoming
-
         items = []
         for it in r.get("items", []):
-            item = convert_item(it, key_ids)
-            if has_room_edges and item.get("requires"):
-                pass
-            elif not has_room_edges:
-                item.pop("requires", None)
+            item = convert_item(it)
+            room_reqs = room_requires.get(rid)
+            if room_reqs:
+                item_reqs = item.get("requires", [])
+                item_reqs.extend(room_reqs)
+                item["requires"] = item_reqs
             items.append(item)
         if items:
             room["items"] = items
@@ -350,8 +352,7 @@ def main():
         start_dr = start
         end_dr = "A1E0"
 
-    key_ids = {k["id"] for k in KEYS}
-    rooms = build_rooms(data["rooms"], callout_map, key_ids)
+    rooms = build_rooms(data["rooms"], callout_map)
 
     output = {
         "start": start,
