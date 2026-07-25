@@ -33,8 +33,8 @@ Known issues and gaps with current implementations are tracked in [ISSUES.md](IS
 - [ ] Initial Key Items — classic starts Claire with Lighter; not implemented
 - [ ] Randomize Non-Key Weapon Placement — weapons currently excluded from loot pool; only 3 weapons (Shotgun, Gold Lugers, M1P) are in the keys array and get placed by routing; all other weapons stay in vanilla positions. Needs Weapon Group Deduplication to avoid placing 6 handgun variants.
 - [ ] Ammo-to-Weapon Matching — exclude ammo types whose weapon was not placed
-- [ ] Include Documents toggle — config item exists but not implemented
-- [ ] Richer Item Pool — `FindItemIdByKind` maps each kind to a single item ID (e.g. heals → always FAidSpray)
+- [x] Include Documents toggle — config item (`items/allow-documents`) filters documents out of kind weights
+- [x] Richer Item Pool — `ReCvItemPool` groups items per kind from graph.json, `Pick()` selects randomly from the pool (multi-item per kind with configurable ratio sliders)
 
 ---
 

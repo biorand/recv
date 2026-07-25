@@ -28,28 +28,16 @@ Missing variants include 4011, 4012, 5011, 6051, 7031, 7051, 7071, 7081, 7181, 7
 
 ---
 
-## 2. `ItemModifier.FindItemIdByKind` Is Too Narrow
+## 2. ~~`ItemModifier.FindItemIdByKind` Is Too Narrow~~ ✅ RESOLVED
 
-**Severity:** Medium
-**File:** `src/BioRand.RECV/Modifiers/ItemModifier.cs`
-
-Each item kind maps to a single specific item ID:
-
-| Kind | Returns | Missing |
-|------|---------|---------|
-| `heal` | Always `FAidSpray` | GreenHerb, RedHerb, BlueHerb, mixed herbs |
-| `gunpowder` | Always `BowGunPowder` | GunPowderArrow, ClementMixture |
-| `special` | Only `SidePack` | Other special items |
-| `quest` | Only `FamilyPicture` | Other quest items |
-
-The classic randomizer uses a richer weighted-item-pool system. The new codebase should support multi-item pools per kind with configurable weights.
+**Resolution:** `FindItemIdByKind` was replaced with `ReCvItemPool` (in `src/BioRand.RECV/ReCvItemPool.cs`). The pool groups all items per kind from `graph.json` and `Pick(kind, rng)` selects randomly within each pool. Kind-level distribution weights are configured via ratio sliders (`items/ratio/{kind}`) in `BuildKindWeights()`. This matches the classic's richer weighted-item-pool system.
 
 ---
 
 ## 3. Weapons Excluded from Non-Key Randomization
 
 **Severity:** Medium
-**Files:** `src/BioRand.RECV/Modifiers/ItemModifier.cs` (`BuildNonKeyItemPool`)
+**Files:** `src/BioRand.RECV/Modifiers/ItemModifier.cs` (`BuildKindWeights`)
 
 Line 212 skips all `weapon/` items: `if (kind.StartsWith("key/") || kind.StartsWith("weapon/")) continue;`. Only 3 weapons (Shotgun, Gold Lugers, M1P) are in the graph.json keys array and get placed by the key routing system. All other weapons remain at their vanilla positions — they are never randomized.
 

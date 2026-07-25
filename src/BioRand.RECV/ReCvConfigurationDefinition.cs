@@ -66,6 +66,14 @@ public static class ReCvConfigurationDefinition
             Type = "switch",
             Default = true
         });
+        itemSettings.Items.Add(new RandomizerConfigurationDefinition.GroupItem
+        {
+            Id = "items/allow-documents",
+            Label = "Allow Documents",
+            Description = "Include document and lore item pickups in randomization",
+            Type = "switch",
+            Default = true
+        });
 
         var graph = LoadGraph();
         if (graph != null)
@@ -74,7 +82,7 @@ public static class ReCvConfigurationDefinition
             var ratioKinds = graph.ItemTypes
                 .Select(x => x.Value.Kind)
                 .Distinct()
-                .Where(k => !k.StartsWith("key/") && !k.StartsWith("weapon/"))
+                .Where(ReCvItemPool.IsNonKeyNonWeaponKind)
                 .OrderBy(k => k);
 
             foreach (var kind in ratioKinds)

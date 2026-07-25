@@ -11,9 +11,10 @@ public sealed class ItemModifier : ICvModifier
     public void Apply(ReCvRandomizerContext context, RandomizerLogger logger)
     {
         var graph = LoadGraph();
+        var itemPool = new ReCvItemPool(graph);
 
         var placements = KeyRouting(graph, context, logger);
-        placements = LootFilling(graph, context, placements, logger);
+        placements = LootFilling(graph, context, itemPool, placements, logger);
         RdtEditing(graph, context, placements, logger);
     }
 
@@ -59,6 +60,7 @@ public sealed class ItemModifier : ICvModifier
 
     private static Dictionary<int, ItemPlacement> LootFilling(
         GraphData graph, ReCvRandomizerContext context,
+        ReCvItemPool itemPool,
         Dictionary<int, ItemPlacement> placements, RandomizerLogger logger)
     {
         var nonKeyRandoEnabled = context.Config.GetValueOrDefault<bool>("items/randomize-non-key-items", true);
@@ -66,10 +68,10 @@ public sealed class ItemModifier : ICvModifier
             return placements;
 
         var rng = context.GetRng("item-apply");
-        var pool = BuildNonKeyItemPool(graph, context.Config);
+        var kindWeights = BuildKindWeights(graph, context.Config);
 
-        var totalWeight = pool.Sum(x => x.Weight);
-        logger.LogLine($"Distribution weights: {string.Join(", ", pool.Select(x => $"{x.Type.Kind}={x.Weight:F2}"))}");
+        var totalWeight = kindWeights.Sum(x => x.Weight);
+        logger.LogLine($"Distribution weights: {string.Join(", ", kindWeights.Select(x => $"{x.Kind}={x.Weight:F2}"))}");
         logger.LogLine($"Total weight sum: {totalWeight:F2}");
 
         var placedKinds = new List<string>();
@@ -85,7 +87,7 @@ public sealed class ItemModifier : ICvModifier
                 if (item.Type == 0)
                     continue;
 
-                var result = PickNonKeyItem(pool, rng);
+                var result = PickNonKeyItem(kindWeights, itemPool, rng, totalWeight);
                 if (result != null)
                 {
                     var (newType, kind) = result.Value;
@@ -201,77 +203,52 @@ public sealed class ItemModifier : ICvModifier
         }) ?? throw new InvalidOperationException("Failed to deserialize graph.json");
     }
 
-    private static List<(GraphDataItemType Type, double Weight)> BuildNonKeyItemPool(
+    private static List<(string Kind, double Weight)> BuildKindWeights(
         GraphData graph, RandomizerConfiguration config)
     {
-        var pool = new List<(GraphDataItemType, double)>();
+        var allowDocuments = config.GetValueOrDefault<bool>("items/allow-documents", true);
+        var weights = new List<(string, double)>();
 
-        foreach (var kvp in graph.ItemTypes)
+        // Group by kind — one entry per kind to avoid weighting bias
+        // when a kind has multiple item types in the graph
+        var kinds = graph.ItemTypes
+            .Select(kvp => kvp.Value.Kind)
+            .Distinct()
+            .Where(ReCvItemPool.IsNonKeyNonWeaponKind)
+            .Where(k => k != "document" || allowDocuments);
+
+        foreach (var kind in kinds)
         {
-            var kind = kvp.Value.Kind;
-            if (kind.StartsWith("key/") || kind.StartsWith("weapon/"))
-                continue;
-
             var weight = config.GetValueOrDefault<double>($"items/ratio/{kind}", 0.5);
             if (weight <= 0)
                 continue;
 
-            pool.Add((kvp.Value, weight));
+            weights.Add((kind, weight));
         }
 
-        return pool;
+        return weights;
     }
 
     private static (byte ItemId, string Kind)? PickNonKeyItem(
-        List<(GraphDataItemType Type, double Weight)> pool, Rng rng)
+        List<(string Kind, double Weight)> kindWeights, ReCvItemPool itemPool, Rng rng, double totalWeight)
     {
-        if (pool.Count == 0)
+        if (kindWeights.Count == 0)
             return null;
 
-        var totalWeight = pool.Sum(x => x.Weight);
         var roll = rng.NextDouble() * totalWeight;
         var cumulative = 0.0;
-        foreach (var (type, weight) in pool)
+        foreach (var (kind, weight) in kindWeights)
         {
             cumulative += weight;
             if (roll <= cumulative)
             {
-                var itemId = FindItemIdByKind(type.Kind);
+                var itemId = itemPool.Pick(kind, rng);
                 if (itemId != null)
-                    return (itemId.Value, type.Kind);
-                var matching = pool.Where(x => x.Type.Kind == type.Kind).ToList();
-                if (matching.Count == 0)
-                    return null;
-                var index = rng.Next(0, matching.Count);
-                itemId = FindItemIdByKind(matching[index].Type.Kind);
-                if (itemId != null)
-                    return (itemId.Value, type.Kind);
+                    return (itemId.Value, kind);
                 return null;
             }
         }
 
         return null;
-    }
-
-    private static byte? FindItemIdByKind(string kind)
-    {
-        return kind switch
-        {
-            "heal" => ReCvItemIds.FAidSpray,
-            "ink-ribbon" => ReCvItemIds.InkRibbon,
-            "ammo/handgun" => ReCvItemIds.HandgunBullets,
-            "ammo/shotgun" => ReCvItemIds.ShotgunShells,
-            "ammo/magnum" => ReCvItemIds.MagnumBullets,
-            "ammo/grenade" => ReCvItemIds.GrenadeRounds,
-            "ammo/bow-gun" => ReCvItemIds.BowGunArrows,
-            "ammo/sub-machine-gun" => ReCvItemIds.MGunBullets,
-            "ammo/sniper-rifle" => ReCvItemIds.RifleBullets,
-            "ammo/assault-rifle" => ReCvItemIds.ARifleBullets,
-            "gunpowder" => ReCvItemIds.BowGunPowder,
-            "special" => ReCvItemIds.SidePack,
-            "document" => ReCvItemIds.File,
-            "quest" => ReCvItemIds.FamilyPicture,
-            _ => null,
-        };
     }
 }

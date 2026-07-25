@@ -1,0 +1,37 @@
+{
+    "start": "1000",
+    "end": "2000",
+    "keys": [],
+    "itemTypes": {
+        "20": { "name": "FAid Spray", "kind": "heal" },
+        "21": { "name": "Green Herb", "kind": "heal" },
+        "22": { "name": "Red Herb", "kind": "heal" },
+        "35": { "name": "Bow Gun Powder", "kind": "gunpowder" },
+        "36": { "name": "Gun Powder Arrow", "kind": "gunpowder" },
+        "144": { "name": "Clement Mixture", "kind": "gunpowder" },
+        "57": { "name": "Side Pack", "kind": "special" },
+        "58": { "name": "Map Roll", "kind": "special" },
+        "74": { "name": "Map", "kind": "special" },
+        "125": { "name": "File", "kind": "special" },
+        "47": { "name": "Prisoner's Diary", "kind": "document" },
+        "12": { "name": "Handgun Bullets", "kind": "ammo/handgun" },
+        "31": { "name": "Ink Ribbon", "kind": "ink-ribbon" },
+        "1": { "name": "Rocket Launcher", "kind": "weapon/explosive" },
+        "39": { "name": "Gas Mask", "kind": "key/reusuable" }
+    },
+    "rooms": [
+        {
+            "id": "1000",
+            "rdts": ["1000"],
+            "edges": [
+                { "target": "2000" }
+            ],
+            "items": []
+        },
+        {
+            "id": "2000",
+            "rdts": ["2000"],
+            "items": []
+        }
+    ]
+}
