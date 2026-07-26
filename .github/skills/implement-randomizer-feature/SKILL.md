@@ -102,3 +102,5 @@ dotnet test test/BioRand.RECV.Tests
 ```
 
 Confirm all tests pass before considering the task complete.
+
+Then generate a seed or multiple seeds in parallel (with specific configs we might need) to ensure the end to end works.
