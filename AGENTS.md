@@ -3,6 +3,7 @@
 ## Project
 
 Randomizer for Resident Evil Code: Veronica (PS2). Outputs full modified ISO.
+Cross-platform .NET project — no Windows or Linux specific code, runs anywhere .NET is supported.
 
 ## Layout
 

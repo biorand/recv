@@ -79,12 +79,20 @@ Launch two review agents in parallel:
 
 Address all blocking/high-confidence issues reported by the review agents. Iterate on build + test as needed.
 
-### 7. Update documentation
+### 7. Behavior verification against original codebase
+
+Review the old randomizer at `M:\git\biorand-classic` to verify the implementation matches the original behavior and intentions:
+- Compare the logic against the original feature implementation (RE 1, 2, 3, or CVX equivalents)
+- Check that no feature behavior was dropped, simplified, or forgotten
+- Confirm the new implementation doesn't use completely different logic that might change gameplay outcomes
+- Flag any discrepancies as issues to resolve before proceeding
+
+### 8. Update documentation
 
 Update `docs/FEATURES.md` to reflect any new, changed, or completed features.
 Update `docs/ISSUES.md` to document any new known issues, or mark fixed issues as resolved.
 
-### 8. Final validation
+### 9. Final validation
 
 Run final build and test pass:
 
