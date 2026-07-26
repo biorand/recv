@@ -89,7 +89,9 @@ public sealed class ReCvRandomizerGenerator
 
     private void OpenIso()
     {
-        _udfEditor = new UdfEditor(_inputPath, _outputPath);
+        // Don't pass _outputPath as copyTo — the copy is wasted because
+        // BuildIso calls Rebuild which writes the entire ISO from scratch.
+        _udfEditor = new UdfEditor(_inputPath);
 
         _rdxAfsFileId = _udfEditor.GetFileByName("RDX_LNK.AFS")
             ?? throw new RandomizerUserException("RDX_LNK.AFS not found in ISO");
@@ -118,14 +120,14 @@ public sealed class ReCvRandomizerGenerator
         _rooms = new RdtCv[roomCount];
         _originalRoomData = new byte[roomCount][];
 
-        for (var i = 0; i < roomCount; i++)
+        Parallel.For(0, roomCount, i =>
         {
             var compressed = _rdxAfs.GetFileData(i);
             var prs = new PrsFile(compressed);
             var uncompressed = prs.Uncompressed;
             _originalRoomData[i] = uncompressed.ToArray();
             _rooms[i] = new RdtCv(uncompressed);
-        }
+        });
     }
 
     private void ApplyPatches(ReCvRandomizerContext context)
@@ -164,23 +166,35 @@ public sealed class ReCvRandomizerGenerator
     private void SaveRooms()
     {
         var builder = _rdxAfs!.ToBuilder();
-        var anyModified = false;
+
+        // Find which rooms were actually modified
+        var modifiedIndices = new List<int>();
         for (var i = 0; i < _rooms!.Length; i++)
         {
-            var room = _rooms[i];
-            var currentData = room.Data.ToArray();
-            var originalData = _originalRoomData![i];
-
-            if (currentData.AsSpan().SequenceEqual(originalData))
-                continue;
-
-            var rebuilt = room.ToBuilder().ToRdt();
-            var compressed = PrsFile.Compress(rebuilt.Data);
-            builder.Replace(i, compressed.Data.ToArray());
-            anyModified = true;
+            var currentData = _rooms[i].Data.ToArray();
+            if (!currentData.AsSpan().SequenceEqual(_originalRoomData![i]))
+                modifiedIndices.Add(i);
         }
-        if (anyModified)
-            _rdxAfs = builder.ToAfsFile();
+
+        if (modifiedIndices.Count == 0)
+            return;
+
+        // PRS-compress modified rooms in parallel
+        // Note: the raw RDT bytes in _rooms[i].Data are already the final form
+        // from patches/modifiers — no need for ToBuilder().ToRdt() round-trip.
+        var compressed = new (int Index, byte[] Data)[modifiedIndices.Count];
+        Parallel.For(0, modifiedIndices.Count, i =>
+        {
+            var roomIndex = modifiedIndices[i];
+            var compressedFile = PrsFile.Compress(_rooms[roomIndex].Data);
+            compressed[i] = (roomIndex, compressedFile.Data.ToArray());
+        });
+
+        // Apply to AFS builder sequentially (not thread-safe)
+        foreach (var (index, data) in compressed)
+            builder.Replace(index, data);
+
+        _rdxAfs = builder.ToAfsFile();
     }
 
     private void BuildIso()
@@ -208,4 +222,5 @@ public sealed class ReCvRandomizerGenerator
         stream.ReadExactly(data);
         return data;
     }
+
 }
