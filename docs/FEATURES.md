@@ -51,19 +51,19 @@ Known issues and gaps with current implementations are tracked in [ISSUES.md](IS
 
 ## Script Patches
 
-SCD patches applied at the RDT level. Fixes softlocks and enables progression when items/doors are randomized. The classic randomizer applies these in `ReCvDoorHelper.Begin()`. **None currently implemented** — this is the highest-priority gap because it unblocks door and inventory randomization.
+SCD patches applied at the RDT level. Fixes softlocks and enables progression when items/doors are randomized. The classic randomizer applies these in `ReCvDoorHelper.Begin()`. Patches now live in `ReCvRdtPatcher` (`src/BioRand.RECV/Patches/ReCvRdtPatcher.cs`) using the `[RdtPatch]` attribute pattern from the classic `Re1RdtPatcher`, with byte-level SCD NOP (0xF4) writes via `ReCvRdtPatcherRoom`.
 
 - [x] Keep Lighter after giving medicine to Rodrigo — `KeepLighterPatch` NOPs RDT 1000 (0x18CD7A, 0x18DB74)
 - [x] Don't put Rodrigo's gift into special slot — `KeepLighterPatch` NOPs RDT 1000 (0x18CD74, 0x18DB7C) + RDT 8170 (0x14D26E, 0x14EB68)
-- [ ] Force RDT 1021 version with briefcase — RDT 1010 (0x3EF2C, 0x3EF38–0x3EF4C, 0x3EF50–0x3EF5A)
-- [ ] Force RDT 1031 version with medal — RDT 1050 (0x1DF2AA–0x1DF2BE, 0x1DF2C2–0x1DF2CC)
-- [ ] Force window cutscene on item interaction — RDT 1070 (0x1819AE)
-- [ ] Skip Steve/Alfred cutscene — RDT 3050 (0x15F288, 0x15F2DA, 0x15EEDC, 0x15EEF6)
-- [ ] Fix ladder/silver key softlock — RDT 3060 (0x70A10+6 → 0x00)
-- [ ] Change 4011 transition condition — RDT 4080 (0x9F86C+2 → 0xC5), RDT 40F0 (0x7241C+2 → 0xC5)
-- [ ] Force Steve at airport — RDT 5000 (0x187778, 0x18777A, 0x187784, 0x18779C)
-- [ ] Prevent forced swap to Chris — RDT 70A0 (0x1F3140)
-- [ ] Door randomization flag sets — RDTs 20E0, 5040, 4080, 6000, 8080, 80A0
+- [x] Force RDT 1021 version with briefcase — `ReCvRdtPatcher.ForceBriefcaseVersion` (gated on `!doors/random`)
+- [x] Force RDT 1031 version with medal — `ReCvRdtPatcher.ForceMedalVersion` (gated on `!doors/random`)
+- [x] Force window cutscene on item interaction — `ReCvRdtPatcher.ForceWindowCutscene`
+- [x] Skip Steve/Alfred cutscene — `ReCvRdtPatcher.SkipSteveAlfredCutscene`
+- [x] Fix ladder/silver key softlock — `ReCvRdtPatcher.FixLadderSilverKeySoftlock` (gated on `!doors/random`)
+- [x] Change 4011 transition condition — `ReCvRdtPatcher.FixTransitionCondition` (gated on `!doors/random`)
+- [x] Force Steve at airport — `ReCvRdtPatcher.ForceSteveAtAirport`
+- [ ] Prevent forced swap to Chris — RDT 70A0 (0x1F3140, gated on `doors/random`; pending door randomization implementation)
+- [ ] Door randomization flag sets — RDTs 20E0, 5040, 4080, 6000, 8080, 80A0 (pending door randomization implementation)
 
 ---
 
