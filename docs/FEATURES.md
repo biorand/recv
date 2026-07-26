@@ -29,7 +29,7 @@ Known issues and gaps with current implementations are tracked in [ISSUES.md](IS
 - [x] Randomize Non-Key Items — `ItemModifier.LootFilling()` with configurable distribution ratios
 - [x] Apply Item Changes to RDTs — `ItemModifier.RdtEditing()` (AOT tables + byte offsets)
 - [x] Item Quantity Multiplier — config slider (`items/quantity-multiplier`, 0–7)
-- [ ] Random Starting Inventory — needs `InventoryModifier` (weapon selection, health/ink, ELF patches)
+- [x] Random Starting Inventory — `InventoryModifier` picks from 4 early-game weapon kinds (handgun, shotgun, bow-gun, knife), writes to ELF 0x2A6CF0, NOPs Steve cutscene in RDT 1030
 - [x] Initial Key Items — classic starts Claire with Lighter; always applied via `InitialLighterPatch`
 - [ ] Randomize Non-Key Weapon Placement — weapons currently excluded from loot pool; only 3 weapons (Shotgun, Gold Lugers, M1P) are in the keys array and get placed by routing; all other weapons stay in vanilla positions. Needs Weapon Group Deduplication to avoid placing 6 handgun variants.
 - [ ] Ammo-to-Weapon Matching — exclude ammo types whose weapon was not placed

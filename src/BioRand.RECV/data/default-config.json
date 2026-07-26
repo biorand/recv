@@ -5,6 +5,7 @@
   "items/quantity-multiplier": 4,
   "items/randomize-keys": true,
   "items/randomize-non-key-items": true,
+  "items/randomize-starting-inventory": false,
   "items/ratio/heal": 0.8,
   "items/ratio/ink-ribbon": 0.3,
   "items/ratio/ammo/handgun": 0.7,

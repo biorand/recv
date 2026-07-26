@@ -74,6 +74,14 @@ public static class ReCvConfigurationDefinition
             Type = "switch",
             Default = true
         });
+        itemSettings.Items.Add(new RandomizerConfigurationDefinition.GroupItem
+        {
+            Id = "items/randomize-starting-inventory",
+            Label = "Random Starting Inventory",
+            Description = "Give Claire a random weapon in the first inventory slot at game start",
+            Type = "switch",
+            Default = false
+        });
 
         var graph = LoadGraph();
         if (graph != null)
