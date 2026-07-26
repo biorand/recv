@@ -86,6 +86,10 @@ public sealed class ItemModifier : ICvModifier
                     continue;
                 if (item.Type == 0)
                     continue;
+                // Skip slots tagged "nokey" — these are starting inventory items
+                // (like the Lighter) that should not be overwritten with random loot
+                if (item.Tags is { Length: > 0 } && item.Tags.Contains("nokey"))
+                    continue;
 
                 var result = PickNonKeyItem(kindWeights, itemPool, rng, totalWeight);
                 if (result != null)

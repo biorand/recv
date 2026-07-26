@@ -54,25 +54,15 @@ The classic randomizer checks which weapons were placed and disables ammo types 
 
 ---
 
-## 5. Missing ELF Patches for Initial Game State
+## 5. ~~Missing ELF Patches for Initial Game State~~ ✅ RESOLVED
 
-**Severity:** Medium
-**Files:** No corresponding code exists yet
-
-The classic randomizer patches the ELF to set:
-- The special-slot item (offsets 0x3340B0, 0x2A6CE8)
-- The first inventory item (offset 0x2A6CF0)
-
-These are needed for correct start-of-game state, especially when starting inventory is randomized. Not implemented in the new codebase.
+**Resolution:** `InitialLighterPatch` (in `src/BioRand.RECV/Patches/InitialLighterPatch.cs`) now patches the ELF at offsets 0x3340B0, 0x2A6CE8 (special slot) and 0x2A6CF0 (first inventory slot) with the Lighter item ID (0x37). `KeepLighterPatch` (in `src/BioRand.RECV/Patches/KeepLighterPatch.cs`) NOPs the Rodrigo scene scripts so the Lighter is preserved after giving medicine.
 
 ---
 
-## 6. No Initial Key Items (Lighter)
+## 6. ~~No Initial Key Items (Lighter)~~ ✅ RESOLVED
 
-**Severity:** Medium
-**Files:** No corresponding code exists yet
-
-The classic randomizer always starts Claire with the Lighter. The new codebase does not place any initial key items. Without the Lighter, the player cannot progress through the first area.
+**Resolution:** The Lighter is now always placed in the starting inventory via `InitialLighterPatch` (ELF patches). The `KeepLighterPatch` prevents it from being removed during the Rodrigo medicine scene. The lighter's slot (globalId 1001) has `tags: ["nokey", "nospecial"]` in graph.json, and both `ReCvKeyRandomizer` and `ItemModifier.LootFilling()` respect the `nokey` tag.
 
 ---
 

@@ -16,8 +16,8 @@ Known issues and gaps with current implementations are tracked in [ISSUES.md](IS
 - [x] Fix Rifle Stacking — `RifleStackingPatch` (0x35B1F4, 0x35B200)
 - [x] Hack Item Pickup — `ItemPickupPatch` (0x266E30 → 0x06)
 - [x] Randomize Item Pickup Quantities — `ItemQuantityModifier` (ammo table at 0x35BCC0)
-- [ ] Patch special-slot item in ELF (0x3340B0, 0x2A6CE8)
-- [ ] Patch first inventory item in ELF (0x2A6CF0)
+- [x] Patch special-slot item in ELF (0x3340B0, 0x2A6CE8)
+- [x] Patch first inventory item in ELF (0x2A6CF0)
 
 ---
 
@@ -30,7 +30,7 @@ Known issues and gaps with current implementations are tracked in [ISSUES.md](IS
 - [x] Apply Item Changes to RDTs — `ItemModifier.RdtEditing()` (AOT tables + byte offsets)
 - [x] Item Quantity Multiplier — config slider (`items/quantity-multiplier`, 0–7)
 - [ ] Random Starting Inventory — needs `InventoryModifier` (weapon selection, health/ink, ELF patches)
-- [ ] Initial Key Items — classic starts Claire with Lighter; not implemented
+- [x] Initial Key Items — classic starts Claire with Lighter; always applied via `InitialLighterPatch`
 - [ ] Randomize Non-Key Weapon Placement — weapons currently excluded from loot pool; only 3 weapons (Shotgun, Gold Lugers, M1P) are in the keys array and get placed by routing; all other weapons stay in vanilla positions. Needs Weapon Group Deduplication to avoid placing 6 handgun variants.
 - [ ] Ammo-to-Weapon Matching — exclude ammo types whose weapon was not placed
 - [x] Include Documents toggle — config item (`items/allow-documents`) filters documents out of kind weights
@@ -53,8 +53,8 @@ Known issues and gaps with current implementations are tracked in [ISSUES.md](IS
 
 SCD patches applied at the RDT level. Fixes softlocks and enables progression when items/doors are randomized. The classic randomizer applies these in `ReCvDoorHelper.Begin()`. **None currently implemented** — this is the highest-priority gap because it unblocks door and inventory randomization.
 
-- [ ] Keep Lighter after giving medicine to Rodrigo — RDT 1000 (0x18CD7A, 0x18DB74)
-- [ ] Don't put Rodrigo's gift into special slot — RDT 1000 (0x18CD74, 0x18DB7C) + RDT 8170 (0x14D26E, 0x14EB68)
+- [x] Keep Lighter after giving medicine to Rodrigo — `KeepLighterPatch` NOPs RDT 1000 (0x18CD7A, 0x18DB74)
+- [x] Don't put Rodrigo's gift into special slot — `KeepLighterPatch` NOPs RDT 1000 (0x18CD74, 0x18DB7C) + RDT 8170 (0x14D26E, 0x14EB68)
 - [ ] Force RDT 1021 version with briefcase — RDT 1010 (0x3EF2C, 0x3EF38–0x3EF4C, 0x3EF50–0x3EF5A)
 - [ ] Force RDT 1031 version with medal — RDT 1050 (0x1DF2AA–0x1DF2BE, 0x1DF2C2–0x1DF2CC)
 - [ ] Force window cutscene on item interaction — RDT 1070 (0x1819AE)

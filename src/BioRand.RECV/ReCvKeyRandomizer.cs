@@ -81,6 +81,11 @@ internal sealed class ReCvKeyRandomizer
 
             foreach (var s in r.Items)
             {
+                // Skip slots tagged "nokey" — these are starting inventory items
+                // (like the Lighter) that should not be placed by the routing system
+                if (s.Tags is { Length: > 0 } && s.Tags.Contains("nokey"))
+                    continue;
+
                 var requirements = ParseRequirements(
                     s.Requires, itemIdToKey, roomNodes, flagNodes, builder);
                 var label = $"{r.Id}|item({s.GlobalId})";
