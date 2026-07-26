@@ -82,6 +82,7 @@ public sealed class ReCvRandomizerContext
     public RandomizerConfiguration Config { get; }
     public RandomizerLogger Logger { get; }
     public string? MermaidGraph { get; set; }
+    public AfsFile? AdvAfs { get; set; }
 
     public ReCvRandomizerContext(
         ElfRegion elf,

@@ -53,12 +53,15 @@ public sealed class ReCvRandomizerGenerator
 
         var context = new ReCvRandomizerContext(
             _elf!, _rooms!, _input.Seed, _input.Configuration, logger);
+        context.AdvAfs = _advAfs;
 
         logger.LogHeader("Applying patches");
         ApplyPatches(context);
 
         logger.LogHeader("Applying modifiers");
         ApplyModifiers(context);
+
+        _advAfs = context.AdvAfs ?? _advAfs;
 
         _progress.RunTask("Saving rooms", SaveRooms);
         _progress.RunTask("Building ISO", BuildIso);
