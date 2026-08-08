@@ -86,10 +86,6 @@ public sealed class ItemModifier : ICvModifier
                     continue;
                 if (item.Type == 0)
                     continue;
-                // Skip slots tagged "nokey" — these are starting inventory items
-                // (like the Lighter) that should not be overwritten with random loot
-                if (item.Tags is { Length: > 0 } && item.Tags.Contains("nokey"))
-                    continue;
 
                 var result = PickNonKeyItem(kindWeights, itemPool, rng, totalWeight);
                 if (result != null)
@@ -132,22 +128,27 @@ public sealed class ItemModifier : ICvModifier
                 var builder = context.Rooms[roomIndex].ToBuilder();
                 var hasItemTableChanges = false;
 
+                // Write the item type to byte 6 of every item-table slot. The item
+                // pickup hack (ELF 0x266E30) changes the game to read the item type
+                // from byte 6 (the high 16 bits of Type), so slots that are not
+                // given a random placement must still have their vanilla type copied
+                // there — otherwise the game reads 0 and freezes on pickup.
                 foreach (var item in room.Items)
                 {
-                    if (!placements.TryGetValue(item.GlobalId, out var placement))
+                    if (item.Offsets.Length > 0 || item.Id >= builder.Aots.Count)
                         continue;
 
-                    if (item.Offsets.Length == 0 && item.Id < builder.Aots.Count)
-                    {
-                        var stage = builder.Aots[item.Id].Stage;
-                        if (stage < builder.Items.Count)
-                        {
-                            var rdtItem = builder.Items[stage];
-                            rdtItem.Type = placement.Type;
-                            builder.Items[stage] = rdtItem;
-                            hasItemTableChanges = true;
-                        }
-                    }
+                    var stage = builder.Aots[item.Id].Stage;
+                    if (stage >= builder.Items.Count)
+                        continue;
+
+                    var rdtItem = builder.Items[stage];
+                    var type = placements.TryGetValue(item.GlobalId, out var placement)
+                        ? placement.Type
+                        : (byte)(rdtItem.Type & 0xFF);
+                    rdtItem.Type = (rdtItem.Type & 0xFFFF) | (type << 16);
+                    builder.Items[stage] = rdtItem;
+                    hasItemTableChanges = true;
                 }
 
                 if (!hasItemTableChanges)

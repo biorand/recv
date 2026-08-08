@@ -62,7 +62,7 @@ The classic randomizer checks which weapons were placed and disables ammo types 
 
 ## 6. ~~No Initial Key Items (Lighter)~~ ✅ RESOLVED
 
-**Resolution:** The Lighter is now always placed in the starting inventory via `InitialLighterPatch` (ELF patches). The `KeepLighterPatch` prevents it from being removed during the Rodrigo medicine scene. The lighter's slot (globalId 1001) has `tags: ["nokey", "nospecial"]` in graph.json, and both `ReCvKeyRandomizer` and `ItemModifier.LootFilling()` respect the `nokey` tag.
+**Resolution:** The Lighter is now always placed in the starting inventory via `InitialLighterPatch` (ELF patches). The `KeepLighterPatch` prevents it from being removed during the Rodrigo medicine scene. The lighter's slot (globalId 1001) has `tags: ["nokey", "nospecial"]` in graph.json. `ReCvKeyRandomizer` respects the `nokey` tag (low-priority slots are never used as key placement targets), but `ItemModifier.LootFilling()` randomizes loot into these slots like classic (priority `low` means "shuffled last", not "left vanilla").
 
 ---
 
