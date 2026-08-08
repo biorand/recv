@@ -132,9 +132,7 @@ public sealed class TitleScreenModifier : ICvModifier
         var verStr = assemblyVersion is not null
             ? $"{assemblyVersion.Major}.{assemblyVersion.Minor}.{assemblyVersion.Build}"
             : "";
-        var gitHash = assembly
-            .GetCustomAttribute<AssemblyInformationalVersionAttribute>()
-            ?.InformationalVersion ?? "";
+        var gitHash = VersionHelper.GetGitHashShort(assembly);
 
         if (!string.IsNullOrEmpty(verStr) && !string.IsNullOrEmpty(gitHash))
             return $"BIORAND {verStr} ({gitHash})";

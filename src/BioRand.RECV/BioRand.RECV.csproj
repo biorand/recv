@@ -9,8 +9,8 @@
   <ItemGroup>
     <InternalsVisibleTo Include="BioRand.RECV.Tests" />
   </ItemGroup>
-  <Target Name="SetInformationalVersion" BeforeTargets="CoreGenerateAssemblyInfo">
-    <Exec Command="git rev-parse --short HEAD" ConsoleToMSBuild="true" WorkingDirectory="$(MSBuildProjectDirectory)/../..">
+  <Target Name="SetInformationalVersion" BeforeTargets="GetAssemblyVersion">
+    <Exec Command="git rev-parse --short HEAD" ConsoleToMSBuild="true" WorkingDirectory="$(MSBuildProjectDirectory)/../.." IgnoreExitCode="true">
       <Output TaskParameter="ConsoleOutput" PropertyName="GitCommitHash" />
     </Exec>
     <PropertyGroup>

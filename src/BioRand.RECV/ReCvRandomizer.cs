@@ -12,10 +12,7 @@ public sealed class ReCvRandomizer : IRandomizerAgentHandler
     }
 
     public string BuildVersion =>
-        Assembly.GetExecutingAssembly()
-            .GetCustomAttribute<AssemblyInformationalVersionAttribute>()
-            ?.InformationalVersion
-            ?? "0.0.0";
+        VersionHelper.GetGitHashShort(Assembly.GetExecutingAssembly());
 
     public RandomizerConfigurationDefinition ConfigurationDefinition =>
         ReCvConfigurationDefinition.Create();
