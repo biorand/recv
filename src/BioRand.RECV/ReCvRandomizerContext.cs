@@ -11,66 +11,54 @@ public sealed class ReCvRandomizerContext
         "RM_0030.RDX", "RM_0031.RDX", "RM_0040.RDX", "RM_0050.RDX",
         "RM_0060.RDX", "RM_0070.RDX", "RM_0080.RDX", "RM_0090.RDX",
         "RM_0100.RDX", "RM_0110.RDX", "RM_0120.RDX", "RM_0130.RDX",
-        "RM_0140.RDX", "RM_0150.RDX", "RM_0160.RDX",
-        "RM_1000.RDX", "RM_1001.RDX", "RM_1002.RDX",
-        "RM_1020.RDX", "RM_1021.RDX", "RM_1030.RDX",
-        "RM_1040.RDX", "RM_1050.RDX", "RM_1060.RDX",
-        "RM_1070.RDX", "RM_1080.RDX", "RM_1090.RDX",
-        "RM_1100.RDX", "RM_1110.RDX", "RM_1120.RDX",
-        "RM_1121.RDX", "RM_1122.RDX", "RM_1130.RDX", "RM_1140.RDX",
-        "RM_2000.RDX", "RM_2010.RDX", "RM_2011.RDX",
-        "RM_2020.RDX", "RM_2030.RDX", "RM_2031.RDX",
+        "RM_0140.RDX", "RM_0150.RDX", "RM_0160.RDX", "RM_1000.RDX",
+        "RM_1001.RDX", "RM_1002.RDX", "RM_1020.RDX", "RM_1021.RDX",
+        "RM_1030.RDX", "RM_1040.RDX", "RM_1050.RDX", "RM_1060.RDX",
+        "RM_1070.RDX", "RM_1080.RDX", "RM_1090.RDX", "RM_1100.RDX",
+        "RM_1110.RDX", "RM_1120.RDX", "RM_1121.RDX", "RM_1122.RDX",
+        "RM_1130.RDX", "RM_1140.RDX", "RM_2000.RDX", "RM_2010.RDX",
+        "RM_2011.RDX", "RM_2020.RDX", "RM_2030.RDX", "RM_2031.RDX",
         "RM_2040.RDX", "RM_2050.RDX", "RM_2060.RDX", "RM_2070.RDX",
-        "RM_3000.RDX", "RM_3010.RDX", "RM_3011.RDX",
-        "RM_3020.RDX", "RM_3030.RDX", "RM_3040.RDX",
-        "RM_3050.RDX", "RM_3060.RDX", "RM_3070.RDX",
-        "RM_3080.RDX", "RM_3090.RDX", "RM_3091.RDX",
-        "RM_3100.RDX", "RM_3110.RDX", "RM_3120.RDX",
-        "RM_3130.RDX", "RM_3140.RDX", "RM_3150.RDX",
-        "RM_3160.RDX", "RM_3170.RDX", "RM_3180.RDX",
-        "RM_3190.RDX", "RM_3200.RDX", "RM_3210.RDX",
-        "RM_3220.RDX", "RM_3230.RDX", "RM_3240.RDX",
-        "RM_4000.RDX", "RM_4001.RDX", "RM_4010.RDX",
-        "RM_4020.RDX", "RM_4030.RDX", "RM_4040.RDX",
-        "RM_4050.RDX", "RM_4060.RDX", "RM_4070.RDX",
-        "RM_4080.RDX", "RM_4090.RDX", "RM_4100.RDX",
-        "RM_4110.RDX", "RM_4120.RDX", "RM_4130.RDX",
-        "RM_4140.RDX", "RM_4150.RDX", "RM_4160.RDX",
-        "RM_4170.RDX", "RM_4180.RDX", "RM_4190.RDX",
-        "RM_5000.RDX", "RM_5001.RDX", "RM_5010.RDX",
-        "RM_5011.RDX", "RM_5020.RDX", "RM_5030.RDX",
-        "RM_5040.RDX", "RM_5050.RDX",
-        "RM_6000.RDX",
-        "RM_7000.RDX", "RM_7010.RDX", "RM_7020.RDX",
-        "RM_7030.RDX", "RM_7040.RDX", "RM_7050.RDX",
-        "RM_7051.RDX", "RM_7060.RDX", "RM_7070.RDX",
-        "RM_70A0.RDX",
-        "RM_8000.RDX", "RM_8010.RDX", "RM_8020.RDX",
-        "RM_8030.RDX", "RM_8031.RDX", "RM_8040.RDX",
-        "RM_8050.RDX", "RM_8060.RDX", "RM_8070.RDX",
-        "RM_8080.RDX", "RM_8090.RDX", "RM_80A0.RDX",
-        "RM_80B0.RDX", "RM_80C0.RDX", "RM_80D0.RDX",
-        "RM_80E0.RDX", "RM_80F0.RDX", "RM_8100.RDX",
-        "RM_8110.RDX", "RM_8120.RDX", "RM_8130.RDX",
-        "RM_8140.RDX", "RM_8150.RDX", "RM_8160.RDX",
-        "RM_8170.RDX", "RM_8180.RDX", "RM_8190.RDX",
-        "RM_8200.RDX", "RM_8210.RDX",
-        "RM_9000.RDX", "RM_9010.RDX",
-        "RM_9100.RDX", "RM_9101.RDX", "RM_9102.RDX",
-        "RM_9103.RDX", "RM_9110.RDX",
-        "RM_9200.RDX",
-        "RM_9300.RDX", "RM_9301.RDX", "RM_9302.RDX",
-        "RM_A000.RDX", "RM_A010.RDX", "RM_A020.RDX",
-        "RM_A030.RDX", "RM_A040.RDX", "RM_A050.RDX",
-        "RM_A060.RDX", "RM_A070.RDX", "RM_A080.RDX",
-        "RM_A090.RDX", "RM_A0A0.RDX", "RM_A0B0.RDX",
-        "RM_A0C0.RDX", "RM_A0D0.RDX", "RM_A0E0.RDX",
-        "RM_A0F0.RDX", "RM_A100.RDX", "RM_A110.RDX",
-        "RM_A120.RDX", "RM_A130.RDX", "RM_A140.RDX",
-        "RM_A150.RDX", "RM_A160.RDX", "RM_A170.RDX",
-        "RM_A180.RDX", "RM_A190.RDX", "RM_A1A0.RDX",
-        "RM_A1B0.RDX", "RM_A1C0.RDX", "RM_A1D0.RDX",
-        "RM_A1E0.RDX", "RM_A1F0.RDX", "RM_A200.RDX",
+        "RM_3000.RDX", "RM_3010.RDX", "RM_3011.RDX", "RM_3020.RDX",
+        "RM_3030.RDX", "RM_3040.RDX", "RM_3050.RDX", "RM_3060.RDX",
+        "RM_3070.RDX", "RM_3080.RDX", "RM_3090.RDX", "RM_3091.RDX",
+        "RM_3100.RDX", "RM_3110.RDX", "RM_3120.RDX", "RM_3130.RDX",
+        "RM_3140.RDX", "RM_3150.RDX", "RM_3160.RDX", "RM_3170.RDX",
+        "RM_3180.RDX", "RM_3190.RDX", "RM_3200.RDX", "RM_3210.RDX",
+        "RM_3220.RDX", "RM_3230.RDX", "RM_3240.RDX", "RM_4000.RDX",
+        "RM_4001.RDX", "RM_4010.RDX", "RM_4011.RDX", "RM_4012.RDX",
+        "RM_4020.RDX", "RM_4030.RDX", "RM_4040.RDX", "RM_4050.RDX",
+        "RM_5000.RDX", "RM_5001.RDX", "RM_5010.RDX", "RM_5500.RDX",
+        "RM_5510.RDX", "RM_5520.RDX", "RM_5530.RDX", "RM_5540.RDX",
+        "RM_5550.RDX", "RM_5580.RDX", "RM_5590.RDX", "RM_5600.RDX",
+        "RM_5610.RDX", "RM_5620.RDX", "RM_5630.RDX", "RM_5640.RDX",
+        "RM_5650.RDX", "RM_5660.RDX", "RM_5670.RDX", "RM_5680.RDX",
+        "RM_5690.RDX", "RM_5700.RDX", "RM_5710.RDX", "RM_5800.RDX",
+        "RM_5810.RDX", "RM_5820.RDX", "RM_5830.RDX", "RM_5840.RDX",
+        "RM_6000.RDX", "RM_6010.RDX", "RM_6020.RDX", "RM_6030.RDX",
+        "RM_6040.RDX", "RM_6050.RDX", "RM_6051.RDX", "RM_6060.RDX",
+        "RM_6070.RDX", "RM_6080.RDX", "RM_6090.RDX", "RM_6100.RDX",
+        "RM_7000.RDX", "RM_7010.RDX", "RM_7020.RDX", "RM_7030.RDX",
+        "RM_7031.RDX", "RM_7040.RDX", "RM_7050.RDX", "RM_7060.RDX",
+        "RM_7070.RDX", "RM_7071.RDX", "RM_7080.RDX", "RM_7081.RDX",
+        "RM_7090.RDX", "RM_7100.RDX", "RM_7110.RDX", "RM_7120.RDX",
+        "RM_7130.RDX", "RM_7140.RDX", "RM_7150.RDX", "RM_7160.RDX",
+        "RM_7170.RDX", "RM_7180.RDX", "RM_7181.RDX", "RM_7190.RDX",
+        "RM_7191.RDX", "RM_7200.RDX", "RM_7210.RDX", "RM_7220.RDX",
+        "RM_7221.RDX", "RM_7230.RDX", "RM_7231.RDX", "RM_7240.RDX",
+        "RM_7250.RDX", "RM_8000.RDX", "RM_8001.RDX", "RM_8010.RDX",
+        "RM_8020.RDX", "RM_8030.RDX", "RM_8040.RDX", "RM_8050.RDX",
+        "RM_9000.RDX", "RM_9010.RDX", "RM_9020.RDX", "RM_9030.RDX",
+        "RM_9040.RDX", "RM_9050.RDX", "RM_9060.RDX", "RM_9070.RDX",
+        "RM_9080.RDX", "RM_9090.RDX", "RM_9091.RDX", "RM_9100.RDX",
+        "RM_9110.RDX", "RM_9120.RDX", "RM_9130.RDX", "RM_9140.RDX",
+        "RM_9150.RDX", "RM_9160.RDX", "RM_9170.RDX", "RM_9180.RDX",
+        "RM_9190.RDX", "RM_9200.RDX", "RM_9210.RDX", "RM_9220.RDX",
+        "RM_9230.RDX", "RM_9240.RDX", "RM_9250.RDX", "RM_9260.RDX",
+        "RM_9270.RDX", "RM_9280.RDX", "RM_9290.RDX", "RM_9300.RDX",
+        "RM_9301.RDX", "RM_9302.RDX", "RM_9310.RDX", "RM_9320.RDX",
+        "RM_9321.RDX", "RM_9340.RDX", "RM_9350.RDX", "RM_9360.RDX",
+        "RM_9370.RDX",
     ];
 
     private readonly Dictionary<string, Rng> _rngCache = [];
@@ -107,6 +95,12 @@ public sealed class ReCvRandomizerContext
         RoomIndexById = lookup;
     }
 
+    /// <summary>
+    /// Returns the classic RdtId string (e.g. "1070") for an AFS RDT file
+    /// index, following the same conversion as the classic randomizer's
+    /// <c>GetRdtId</c>/<c>RdtId.ToString</c>. The RdtId stage is one higher
+    /// than the file name's first digit (e.g. RM_0070.RDX is RdtId "1070").
+    /// </summary>
     public string? GetRdtId(int fileIndex)
     {
         if (fileIndex < 0 || fileIndex >= RdxFileNames.Length)
@@ -114,7 +108,11 @@ public sealed class ReCvRandomizerContext
         var name = RdxFileNames[fileIndex];
         if (name.Length < 10 || !name.StartsWith("RM_"))
             return null;
-        return name.Substring(3, 4);
+
+        var stage = name[3] - '0';
+        var room = int.Parse(name.Substring(4, 2));
+        var variant = name[6] - '0';
+        return $"{stage + 1:X}{room:X2}{variant}";
     }
 
     public Rng GetRng(params string[] keys)
