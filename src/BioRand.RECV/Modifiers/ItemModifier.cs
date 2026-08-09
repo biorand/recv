@@ -118,24 +118,38 @@ public sealed class ItemModifier : ICvModifier
     {
         logger.LogLine("Applying item modifications to rooms...");
 
+        // Index graph items by RDT id so they can be looked up per room.
+        var itemsByRdt = new Dictionary<string, List<GraphDataItem>>();
         foreach (var room in graph.Rooms)
         {
             foreach (var rdtId in room.Rdts)
             {
-                if (!context.RoomIndexById.TryGetValue(rdtId, out var roomIndex))
-                    continue;
+                if (!itemsByRdt.TryGetValue(rdtId, out var list))
+                    itemsByRdt[rdtId] = list = [];
+                list.AddRange(room.Items);
+            }
+        }
 
-                var builder = context.Rooms[roomIndex].ToBuilder();
-                var hasItemTableChanges = false;
+        for (var roomIndex = 0; roomIndex < context.Rooms.Length; roomIndex++)
+        {
+            var builder = context.Rooms[roomIndex].ToBuilder();
+            var hasItemTableChanges = false;
 
-                // Write the item type to byte 6 of every item-table slot. The item
-                // pickup hack (ELF 0x266E30) changes the game to read the item type
-                // from byte 6 (the high 16 bits of Type), so slots that are not
-                // given a random placement must still have their vanilla type copied
-                // there — otherwise the game reads 0 and freezes on pickup.
-                foreach (var item in room.Items)
+            var rdtId = context.GetRdtId(roomIndex);
+            var graphItems = rdtId != null && itemsByRdt.TryGetValue(rdtId, out var gi)
+                ? gi
+                : null;
+
+            // Write the item type to byte 6 of every item-table slot. The item
+            // pickup hack (ELF 0x266E30) changes the game to read the item type
+            // from byte 6 (the high 16 bits of Type), so slots that are not
+            // given a random placement must still have their vanilla type copied
+            // there — otherwise the game reads 0 and freezes on pickup.
+            if (graphItems != null)
+            {
+                foreach (var item in graphItems)
                 {
-                    if (item.Offsets.Length > 0 || item.Id >= builder.Aots.Count)
+                    if (item.Id >= builder.Aots.Count)
                         continue;
 
                     var stage = builder.Aots[item.Id].Stage;
@@ -150,13 +164,40 @@ public sealed class ItemModifier : ICvModifier
                     builder.Items[stage] = rdtItem;
                     hasItemTableChanges = true;
                 }
+            }
 
-                if (!hasItemTableChanges)
+            // Safety net: every item slot reachable via any AOT must have a
+            // non-zero byte 6. graph.json only covers a fraction of the item
+            // slots in the game (many RDT variants are not in the graph), so
+            // copy the vanilla type from byte 4 to byte 6 for any slot that was
+            // not given a placement. Those slots keep their vanilla script
+            // byte, so the copied type matches what the script gives.
+            foreach (var aot in builder.Aots)
+            {
+                if (aot.Stage >= builder.Items.Count)
                     continue;
 
-                var rdtBytes = builder.ToRdt().Data.ToArray();
+                var rdtItem = builder.Items[aot.Stage];
+                if (((rdtItem.Type >> 16) & 0xFF) != 0)
+                    continue;
 
-                foreach (var item in room.Items)
+                var vanillaType = (byte)(rdtItem.Type & 0xFF);
+                if (vanillaType == 0)
+                    continue;
+
+                rdtItem.Type = (rdtItem.Type & 0xFFFF) | (vanillaType << 16);
+                builder.Items[aot.Stage] = rdtItem;
+                hasItemTableChanges = true;
+            }
+
+            if (!hasItemTableChanges)
+                continue;
+
+            var rdtBytes = builder.ToRdt().Data.ToArray();
+
+            if (graphItems != null)
+            {
+                foreach (var item in graphItems)
                 {
                     if (!placements.TryGetValue(item.GlobalId, out var placement))
                         continue;
@@ -185,9 +226,9 @@ public sealed class ItemModifier : ICvModifier
                             rdtBytes[typeOff] = placement.Type;
                     }
                 }
-
-                context.Rooms[roomIndex] = new RdtCv(rdtBytes);
             }
+
+            context.Rooms[roomIndex] = new RdtCv(rdtBytes);
         }
 
         logger.LogLine("Item modifications applied");

@@ -107,7 +107,7 @@ public sealed class ReCvRandomizerContext
         RoomIndexById = lookup;
     }
 
-    private static string? GetRdtId(int fileIndex)
+    public string? GetRdtId(int fileIndex)
     {
         if (fileIndex < 0 || fileIndex >= RdxFileNames.Length)
             return null;
