@@ -1,6 +1,4 @@
-using System.Linq;
 using IntelOrca.Biohazard.BioRand.RECV;
-using IntelOrca.Biohazard.Room;
 
 namespace IntelOrca.Biohazard.BioRand.RECV.Patches;
 
@@ -16,13 +14,12 @@ namespace IntelOrca.Biohazard.BioRand.RECV.Patches;
 /// NOP (0x00000000) used by ElfRegion.Nop(). Always applied — the Rodrigo
 /// scene runs regardless of other settings.
 /// 
-/// Offsets match the classic biorand-classic randomizer.
+/// NOPs are applied at opcode granularity via <see cref="ReCvRdtPatcherRoom"/>,
+/// filling each target instruction's full byte span with 0xF4. Offsets match
+/// the classic biorand-classic randomizer.
 /// </summary>
 public sealed class KeepLighterPatch : ICvPatch
 {
-    // CV SCD NOP byte (0xF4 = SH-2 NOP), NOT MIPS NOP (0x00000000)
-    private const byte ScdNop = 0xF4;
-
     // RDT 1000 (Prison cell / Rodrigo medicine scene)
     private const string Rdt1000 = "1000";
     private static readonly int[] Rdt1000Offsets =
@@ -59,27 +56,9 @@ public sealed class KeepLighterPatch : ICvPatch
             return;
         }
 
-        var data = context.Rooms[roomIndex].Data.ToArray();
-        var patched = false;
-
+        var room = new ReCvRdtPatcherRoom(context, roomIndex, rdtId);
         foreach (var offset in offsets)
-        {
-            if (offset < 0 || offset + 4 > data.Length)
-            {
-                context.Logger.LogLine($"WARNING: RDT {rdtId} offset 0x{offset:X} out of bounds, skipping");
-                continue;
-            }
-
-            // Write 4 bytes of SCD NOP to fully replace the instruction
-            for (var i = 0; i < 4; i++)
-                data[offset + i] = ScdNop;
-            patched = true;
-        }
-
-        if (patched)
-        {
-            context.Rooms[roomIndex] = new RdtCv(data);
-            context.Logger.LogLine($"  Patched RDT {rdtId}: {string.Join(", ", offsets.Select(o => $"0x{o:X}"))}");
-        }
+            room.Nop(offset);
+        room.Flush();
     }
 }

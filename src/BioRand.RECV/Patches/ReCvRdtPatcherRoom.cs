@@ -1,5 +1,6 @@
-using System.Linq;
+using IntelOrca.Biohazard.Extensions;
 using IntelOrca.Biohazard.Room;
+using IntelOrca.Biohazard.Script;
 
 namespace IntelOrca.Biohazard.BioRand.RECV.Patches;
 
@@ -35,17 +36,75 @@ internal sealed class ReCvRdtPatcherRoom
     }
 
     /// <summary>
-    /// Writes 4 bytes of SCD NOP (0xF4) at the given offset to replace one instruction.
+    /// Writes SCD NOP (0xF4) over the entire opcode that starts at the given
+    /// offset. The opcode length is determined by parsing the room's CV script,
+    /// so adjacent instructions are never corrupted. A fixed-width write would
+    /// corrupt 2-byte opcodes (e.g. <c>player_item_lost</c>) and 6-byte opcodes
+    /// (e.g. <c>set</c>/<c>ck</c>), leaving dangling bytes that decode as <c>end</c>
+    /// and truncate the script mid-cutscene.
     /// </summary>
     public void Nop(int offset)
     {
-        if (offset < 0 || offset + 4 > Data.Length)
+        if (offset < 0 || offset >= Data.Length)
         {
             _context.Logger.LogLine($"  WARNING: RDT {_rdtId} offset 0x{offset:X} out of bounds, skipping NOP");
             return;
         }
-        for (var i = 0; i < 4; i++)
+
+        var length = GetOpcodeLength(offset);
+        if (length <= 0)
+        {
+            _context.Logger.LogLine($"  WARNING: RDT {_rdtId} offset 0x{offset:X} is not the start of an opcode, skipping NOP");
+            return;
+        }
+
+        if (offset + length > Data.Length)
+        {
+            _context.Logger.LogLine($"  WARNING: RDT {_rdtId} offset 0x{offset:X} opcode spans past end of file, skipping NOP");
+            return;
+        }
+
+        for (var i = 0; i < length; i++)
             Data[offset + i] = ScdNop;
+
+        _context.Logger.LogLine($"  NOP RDT {_rdtId} 0x{offset:X} ({length} bytes)");
+    }
+
+    /// <summary>
+    /// Determines the byte length of the CV script opcode that starts at the
+    /// given absolute file offset, or 0 if the offset is not an opcode start.
+    /// </summary>
+    private int GetOpcodeLength(int offset)
+    {
+        var collector = new OpcodeSpanCollector();
+        try
+        {
+            new RdtCv(Data).ReadScript(collector);
+        }
+        catch (Exception ex)
+        {
+            _context.Logger.LogLine($"  WARNING: RDT {_rdtId} failed to parse script: {ex.Message}");
+            return 0;
+        }
+        return collector.GetLengthAt(offset);
+    }
+
+    /// <summary>
+    /// Collects the absolute file offset and byte length of every opcode in a
+    /// CV room script so a target instruction can be NOPped at opcode granularity.
+    /// </summary>
+    private sealed class OpcodeSpanCollector : BioScriptVisitor
+    {
+        private readonly Dictionary<int, int> _opcodeLengths = new();
+
+        public override void VisitOpcode(int offset, Span<byte> opcodeBytes)
+        {
+            if (!_opcodeLengths.ContainsKey(offset))
+                _opcodeLengths[offset] = opcodeBytes.Length;
+        }
+
+        public int GetLengthAt(int offset) =>
+            _opcodeLengths.TryGetValue(offset, out var length) ? length : 0;
     }
 
     /// <summary>
