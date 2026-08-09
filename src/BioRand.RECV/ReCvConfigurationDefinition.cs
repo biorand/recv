@@ -68,14 +68,6 @@ public static class ReCvConfigurationDefinition
         });
         itemSettings.Items.Add(new RandomizerConfigurationDefinition.GroupItem
         {
-            Id = "items/allow-documents",
-            Label = "Allow Documents",
-            Description = "Include document and lore item pickups in randomization",
-            Type = "switch",
-            Default = true
-        });
-        itemSettings.Items.Add(new RandomizerConfigurationDefinition.GroupItem
-        {
             Id = "items/randomize-starting-inventory",
             Label = "Random Starting Inventory",
             Description = "Give Claire a random weapon in the first inventory slot at game start",
@@ -90,7 +82,7 @@ public static class ReCvConfigurationDefinition
             var ratioKinds = graph.ItemTypes
                 .Select(x => x.Value.Kind)
                 .Distinct()
-                .Where(ReCvItemPool.IsNonKeyNonWeaponKind)
+                .Where(ReCvItemPool.IsLootKind)
                 .OrderBy(k => k);
 
             foreach (var kind in ratioKinds)

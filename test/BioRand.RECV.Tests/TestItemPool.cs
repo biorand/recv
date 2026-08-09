@@ -8,18 +8,20 @@ namespace IntelOrca.Biohazard.BioRand.RECV.Tests;
 public class TestItemPool
 {
     [Fact]
-    public void Constructor_LoadsAllNonKeyNonWeaponKinds()
+    public void Constructor_LoadsAllLootKinds()
     {
         var pool = CreatePool("test_itempool");
         var pools = pool.GetPools();
 
-        // Should have pools for heal, gunpowder, special, document, ammo/handgun, ink-ribbon
+        // Should have pools for heal, gunpowder, special, ammo/handgun, ink-ribbon
         Assert.Contains("heal", pools.Keys);
         Assert.Contains("gunpowder", pools.Keys);
         Assert.Contains("special", pools.Keys);
-        Assert.Contains("document", pools.Keys);
         Assert.Contains("ammo/handgun", pools.Keys);
         Assert.Contains("ink-ribbon", pools.Keys);
+
+        // Documents (Prisoner's Diary etc.) are never placed as loot
+        Assert.DoesNotContain("document", pools.Keys);
     }
 
     [Fact]

@@ -12,7 +12,7 @@ public sealed class ReCvItemPool
 
     /// <summary>
     /// Build pools from graph data, grouping items by kind.
-    /// Key items (key/*) and weapons (weapon/*) are excluded.
+    /// Key items (key/*), weapons (weapon/*) and documents are excluded.
     /// </summary>
     public ReCvItemPool(GraphData graph)
     {
@@ -22,7 +22,7 @@ public sealed class ReCvItemPool
         {
             var kind = kvp.Value.Kind;
 
-            if (!IsNonKeyNonWeaponKind(kind))
+            if (!IsLootKind(kind))
                 continue;
 
             if (!pools.TryGetValue(kind, out var list))
@@ -38,8 +38,15 @@ public sealed class ReCvItemPool
     }
 
     /// <summary>
-    /// Returns true if the kind should be included in the item pool.
-    /// Key items and weapons are handled by the key randomizer and are excluded.
+    /// Returns true if the kind can be placed as random loot.
+    /// Key items and weapons are handled by the key randomizer and are excluded,
+    /// and documents are never placed as loot.
+    /// </summary>
+    internal static bool IsLootKind(string kind) =>
+        IsNonKeyNonWeaponKind(kind) && kind != "document";
+
+    /// <summary>
+    /// Returns true if the kind is neither a key item nor a weapon.
     /// </summary>
     internal static bool IsNonKeyNonWeaponKind(string kind) =>
         !kind.StartsWith("key/") && !kind.StartsWith("weapon/");

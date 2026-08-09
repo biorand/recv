@@ -252,16 +252,15 @@ public sealed class ItemModifier : ICvModifier
     private static List<(string Kind, double Weight)> BuildKindWeights(
         GraphData graph, RandomizerConfiguration config)
     {
-        var allowDocuments = config.GetValueOrDefault<bool>("items/allow-documents", true);
         var weights = new List<(string, double)>();
 
         // Group by kind — one entry per kind to avoid weighting bias
-        // when a kind has multiple item types in the graph
+        // when a kind has multiple item types in the graph.
+        // Documents are never placed as loot.
         var kinds = graph.ItemTypes
             .Select(kvp => kvp.Value.Kind)
             .Distinct()
-            .Where(ReCvItemPool.IsNonKeyNonWeaponKind)
-            .Where(k => k != "document" || allowDocuments);
+            .Where(ReCvItemPool.IsLootKind);
 
         foreach (var kind in kinds)
         {
