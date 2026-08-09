@@ -70,6 +70,8 @@ public sealed class ReCvRandomizerContext
     public RandomizerConfiguration Config { get; }
     public RandomizerLogger Logger { get; }
     public string? MermaidGraph { get; set; }
+    public IReadOnlyDictionary<int, ItemPlacement>? KeyPlacements { get; set; }
+    public string? HintSheetHtml { get; set; }
     public AfsFile? AdvAfs { get; set; }
 
     public ReCvRandomizerContext(

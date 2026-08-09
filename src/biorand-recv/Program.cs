@@ -95,6 +95,18 @@ generateCommand.SetAction(parseResult =>
         Console.WriteLine($"Graph: {mmdPath}");
     }
 
+    foreach (var asset in result.Assets)
+    {
+        if (asset.Key == "iso")
+            continue;
+
+        var assetPath = Path.Combine(
+            Path.GetDirectoryName(output!.FullName)!,
+            $"{Path.GetFileNameWithoutExtension(output.FullName)}.{asset.FileName}");
+        File.WriteAllBytes(assetPath, asset.Data);
+        Console.WriteLine($"{asset.Title}: {assetPath}");
+    }
+
     Console.WriteLine($"Generated: {output.FullName}");
     return 0;
 });

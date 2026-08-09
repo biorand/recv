@@ -38,6 +38,14 @@ Known issues and gaps with current implementations are tracked in [ISSUES.md](IS
 
 ---
 
+## Seed Output
+
+Assets emitted alongside the randomized ISO.
+
+- [x] Key Hints HTML — `KeyHintsModifier` builds a `hints.html` asset listing every randomized key placement, ordered by the depth of its room (BFS) from the start room. Columns: Depth, Item, Room Id, Room Name, Global Item Id, Local Item Id. Rooms unreachable in the graph render `—` and sort last. Emitted as a `hints` output asset; the CLI writes it next to the ISO as `*.hints.html`.
+
+---
+
 ## Door Randomization
 
 `ICvModifier` class + room connection graph logic. Most complex feature — requires lock mapping, segmented generation, and fixed-link constraints. The classic randomizer has a full `DoorRandomizer` with `LockRandomizer`.

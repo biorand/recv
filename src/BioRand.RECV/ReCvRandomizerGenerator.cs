@@ -1,4 +1,5 @@
 using System.Collections.Immutable;
+using System.Text;
 using IntelOrca.Biohazard;
 using IntelOrca.Biohazard.Room;
 using Ps2IsoTools.UDF;
@@ -67,12 +68,18 @@ public sealed class ReCvRandomizerGenerator
         _progress.RunTask("Building ISO", BuildIso);
 
         var isoData = await File.ReadAllBytesAsync(_outputPath);
-        var asset = new RandomizerOutputAsset(
-            "iso",
-            "BioRand RECV",
-            "Randomized Resident Evil Code: Veronica ISO",
-            "recvx_biorand.iso",
-            isoData);
+        var assets = new List<RandomizerOutputAsset>
+        {
+            new("iso", "BioRand RECV", "Randomized Resident Evil Code: Veronica ISO",
+                "recvx_biorand.iso", isoData),
+        };
+
+        if (context.HintSheetHtml != null)
+        {
+            assets.Add(new RandomizerOutputAsset(
+                "hints", "Key Hints", "Where every key was placed in this seed",
+                "hints.html", Encoding.UTF8.GetBytes(context.HintSheetHtml)));
+        }
 
         var instructions = "<p>Door skip has been applied.</p>";
 
@@ -84,7 +91,7 @@ public sealed class ReCvRandomizerGenerator
         if (context.MermaidGraph != null)
             OnMermaid?.Invoke(context.MermaidGraph);
 
-        return new RandomizerOutput(ImmutableArray.Create(asset), instructions);
+        return new RandomizerOutput(ImmutableArray.CreateRange(assets), instructions);
     }
 
     private void OpenIso()

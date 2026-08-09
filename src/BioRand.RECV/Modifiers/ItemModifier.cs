@@ -1,5 +1,3 @@
-using System.Reflection;
-using System.Text.Json;
 using IntelOrca.Biohazard;
 using IntelOrca.Biohazard.Room;
 
@@ -10,7 +8,7 @@ public sealed class ItemModifier : ICvModifier
 {
     public void Apply(ReCvRandomizerContext context, RandomizerLogger logger)
     {
-        var graph = LoadGraph();
+        var graph = GraphDataLoader.Load();
         var itemPool = new ReCvItemPool(graph);
 
         var placements = KeyRouting(graph, context, logger);
@@ -30,6 +28,7 @@ public sealed class ItemModifier : ICvModifier
         var keyRandomizer = new ReCvKeyRandomizer();
         var result = keyRandomizer.Randomize(graph, rng);
         var placements = new Dictionary<int, ItemPlacement>(result.Placements);
+        context.KeyPlacements = result.Placements;
         context.MermaidGraph = result.Route.Graph.ToMermaid(useLabels: true, includeItems: false);
 
         logger.LogLine($"Key route found: {result.Route.AllNodesVisited}, {placements.Count} placements");
@@ -232,21 +231,6 @@ public sealed class ItemModifier : ICvModifier
         }
 
         logger.LogLine("Item modifications applied");
-    }
-
-    private static GraphData LoadGraph()
-    {
-        var assembly = Assembly.GetExecutingAssembly();
-        using var stream = assembly.GetManifestResourceStream(
-            "IntelOrca.Biohazard.BioRand.RECV.data.graph.json");
-        if (stream == null)
-            throw new InvalidOperationException("Embedded resource data/graph.json not found");
-
-        return JsonSerializer.Deserialize<GraphData>(stream, new JsonSerializerOptions
-        {
-            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-            ReadCommentHandling = JsonCommentHandling.Skip,
-        }) ?? throw new InvalidOperationException("Failed to deserialize graph.json");
     }
 
     private static List<(string Kind, double Weight)> BuildKindWeights(

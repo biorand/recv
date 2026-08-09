@@ -6,4 +6,5 @@ public static class ModifierOrders
     public const int Item = 2;
     public const int TitleScreen = 3;
     public const int StartingInventory = 4;
+    public const int KeyHints = 5;
 }
