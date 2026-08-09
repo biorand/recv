@@ -120,10 +120,39 @@ public sealed class ReCvRandomizerContext
         var key = string.Join("/", keys);
         if (!_rngCache.TryGetValue(key, out var rng))
         {
-            var hash = HashCode.Combine(Seed, key.GetHashCode());
-            rng = new Rng(hash);
+            rng = new Rng(GetSeed(Seed, key));
             _rngCache[key] = rng;
         }
         return rng;
+    }
+
+    /// <summary>
+    /// Derives a deterministic RNG seed from the user seed and a key string.
+    /// </summary>
+    /// <remarks>
+    /// string.GetHashCode() and HashCode.Combine are randomized per process in
+    /// .NET Core, so they cannot be used for reproducible seeding. FNV-1a over
+    /// the UTF-16 code units is stable across runtime versions and platforms.
+    /// </remarks>
+    private static int GetSeed(int seed, string key)
+    {
+        var keyHash = Fnv1a(key);
+        unchecked
+        {
+            return (seed * 397) ^ (int)keyHash;
+        }
+    }
+
+    private static uint Fnv1a(string value)
+    {
+        unchecked
+        {
+            var hash = 2166136261u;
+            foreach (var c in value)
+            {
+                hash = (hash ^ c) * 16777619u;
+            }
+            return hash;
+        }
     }
 }
